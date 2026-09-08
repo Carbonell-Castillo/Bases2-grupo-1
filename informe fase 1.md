@@ -273,8 +273,73 @@ Table participacion {
   `bios.csv` (columna `Affiliations`, que trae varias afiliaciones separadas
   por `/`).
 
-## 6. Pendientes
+## 6. Carga de datos (ETL)
 
-1. Definir reglas de duplicación de atletas entre fuentes.  
-2. Escribir los scripts ETL de carga por fuente, mapeando cada CSV, el inciso c).  
-3. Implementar los stored procedures d) y e).  
+El script [`etl/build_load.py`](../etl/build_load.py) lee las 7 fuentes de la sección 1,
+resuelve el mapeo de columnas repetidas entre fuentes (`Sport`/`Discipline`/`sport`,
+`Team`/`NOC`/`noc`, `Pos`, etc.) y genera un CSV por tabla en `etl-csvs/`
+(carpeta ignorada por git, se regenera con el script). `etl/load.sql` carga
+esos CSVs a PostgreSQL respetando el orden de llaves foráneas y sincroniza
+las secuencias de los `IDENTITY` para que los próximos `INSERT` (p. ej. desde
+los stored procedures) no choquen con los ids ya cargados.
+
+Para levantar todo en Docker:
+
+```bash
+python3 etl/build_load.py   # genera etl-csvs/*.csv
+bash etl/run_load.sh        # levanta docker-compose (postgres:16), aplica src/schema.sql y carga los CSVs
+```
+
+### 6.1 Regla de deduplicación de atletas
+
+Un atleta se identifica por su nombre. Al procesar un nuevo renglón:
+
+- Si ya existe un atleta con ese nombre y **ningún** atributo comparable
+  (sexo, país) difiere del nuevo registro, es el mismo atleta: se reutiliza
+  su `atleta_id` y se completan los campos que le faltaban (fecha de
+  nacimiento, medidas, etc.) con los datos de la fuente nueva.
+- Si algún atributo comparable varía —aunque sea solo el país de origen—
+  no es el mismo atleta: se crea un registro nuevo con el mismo nombre
+  (homónimo legítimo).
+- Los nombres se comparan sin distinguir mayúsculas/minúsculas ni
+  acentos/diacríticos (p. ej. "Cenk İldem" y "Cenk Ildem" —transliterado en
+  una de las fuentes— resuelven al mismo `atleta_id`).
+
+`bios.csv` y `results.csv` comparten `athlete_id` (ambos vienen de
+olympedia.org), así que para `results.csv` no se vuelve a resolver
+identidad: sus participaciones se enlazan directamente al `atleta_id` ya
+creado a partir de `bios.csv`.
+
+Con esta regla, sobre las ~950 mil filas de las 7 fuentes se obtuvieron
+**242,021 atletas** (0 duplicados exactos por nombre+sexo+país, verificado
+en la base ya cargada) y **693,327 participaciones**, también deduplicadas
+por la llave natural (atleta, evento, país representado): si la misma
+participación aparece en más de una fuente, se conserva un solo renglón y
+se completan `posición`/`medalla` con lo que aporte cada fuente.
+
+### 6.2 Supuestos adicionales de la carga
+
+- **`equipo` queda vacío en esta carga.** Ninguna fuente distingue de forma
+  confiable qué eventos son de equipo; se deja la tabla creada y
+  `participacion.equipo_id` nulo (ya es opcional, ver sección 5) para no
+  adivinar con datos poco fiables.
+- **Sede de la edición (`edicion.pais_sede_id`)** se resuelve con un
+  diccionario ciudad→país de las sedes olímpicas conocidas; ediciones que
+  solo llegan por `results.csv` (sin ciudad) usan un diccionario equivalente
+  por nombre de edición. Juegos Olímpicos de la Juventud, Intercalados, etc.
+  quedan sin sede si no están en ese diccionario.
+- **`poblacion`** mapea el código ISO-3166 de `populations.csv` al código
+  NOC/IOC del catálogo de `pais` (difieren en ~20 países, p. ej. `DEU`→`GER`,
+  `CHE`→`SUI`); los códigos que son agregados regionales del Banco Mundial
+  (`AFE`, `ARB`, `OED`, etc.) no tienen país real y se descartan (127 de los
+  ~267 códigos de la fuente).
+- **Nacionalidad en `bios.csv`.** La columna `NOC` de esa fuente trae texto
+  libre (a veces varios países concatenados) y no un código; se usa en su
+  lugar el código entre paréntesis al final de `Born` (p. ej. "... (FRA)").
+
+## 7. Pendientes
+
+1. ~~Definir reglas de duplicación de atletas entre fuentes.~~ Ver 6.1.
+2. ~~Escribir los scripts ETL de carga por fuente, mapeando cada CSV, el inciso c).~~ Ver 6.
+3. Implementar los stored procedures d) y e).
+4. Detectar/derivar equipos (`equipo`) para eventos de conjunto (relevos, dobles, deportes de equipo).
