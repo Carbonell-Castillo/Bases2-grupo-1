@@ -19,6 +19,7 @@ OUT.mkdir(exist_ok=True)
 # utilidades varias
 # ==================================
 
+
 def norm_name(s):
     if not s:
         return ""
@@ -60,7 +61,9 @@ def parse_when(raw):
     m = BORN_FULL.match(raw)
     if m:
         try:
-            d = datetime.strptime(f"{m['day']} {m['month']} {m['year']}", "%d %B %Y").date()
+            d = datetime.strptime(
+                f"{m['day']} {m['month']} {m['year']}", "%d %B %Y"
+            ).date()
         except ValueError:
             d = None
         return d, m["place"], m["code"]
@@ -86,8 +89,7 @@ def parse_measurements(raw):
         return None, None
     cm_m = CM_PAT.search(raw)
     kg_m = KG_PAT.search(raw)
-    return (int(cm_m.group(1)) if cm_m else None,
-            int(kg_m.group(1)) if kg_m else None)
+    return (int(cm_m.group(1)) if cm_m else None, int(kg_m.group(1)) if kg_m else None)
 
 
 def to_int(raw):
@@ -172,18 +174,48 @@ def get_deporte_id(raw_name):
 # ==================================
 
 HOST_COUNTRY_BY_CITY = {
-    "Athina": "GRE", "Paris": "FRA", "St. Louis": "USA", "London": "GBR",
-    "Stockholm": "SWE", "Antwerpen": "BEL", "Chamonix": "FRA", "Amsterdam": "NED",
-    "Sankt Moritz": "SUI", "Los Angeles": "USA", "Berlin": "GER",
-    "Garmisch-Partenkirchen": "GER", "Helsinki": "FIN", "Oslo": "NOR",
-    "Melbourne": "AUS", "Cortina d'Ampezzo": "ITA", "Roma": "ITA",
-    "Squaw Valley": "USA", "Tokyo": "JPN", "Innsbruck": "AUT",
-    "Mexico City": "MEX", "Grenoble": "FRA", "Munich": "GER", "Sapporo": "JPN",
-    "Montreal": "CAN", "Moskva": "URS", "Lake Placid": "USA", "Sarajevo": "YUG",
-    "Seoul": "KOR", "Calgary": "CAN", "Barcelona": "ESP", "Albertville": "FRA",
-    "Lillehammer": "NOR", "Atlanta": "USA", "Nagano": "JPN", "Sydney": "AUS",
-    "Salt Lake City": "USA", "Torino": "ITA", "Beijing": "CHN", "Vancouver": "CAN",
-    "Sochi": "RUS", "Rio de Janeiro": "BRA",
+    "Athina": "GRE",
+    "Paris": "FRA",
+    "St. Louis": "USA",
+    "London": "GBR",
+    "Stockholm": "SWE",
+    "Antwerpen": "BEL",
+    "Chamonix": "FRA",
+    "Amsterdam": "NED",
+    "Sankt Moritz": "SUI",
+    "Los Angeles": "USA",
+    "Berlin": "GER",
+    "Garmisch-Partenkirchen": "GER",
+    "Helsinki": "FIN",
+    "Oslo": "NOR",
+    "Melbourne": "AUS",
+    "Cortina d'Ampezzo": "ITA",
+    "Roma": "ITA",
+    "Squaw Valley": "USA",
+    "Tokyo": "JPN",
+    "Innsbruck": "AUT",
+    "Mexico City": "MEX",
+    "Grenoble": "FRA",
+    "Munich": "GER",
+    "Sapporo": "JPN",
+    "Montreal": "CAN",
+    "Moskva": "URS",
+    "Lake Placid": "USA",
+    "Sarajevo": "YUG",
+    "Seoul": "KOR",
+    "Calgary": "CAN",
+    "Barcelona": "ESP",
+    "Albertville": "FRA",
+    "Lillehammer": "NOR",
+    "Atlanta": "USA",
+    "Nagano": "JPN",
+    "Sydney": "AUS",
+    "Salt Lake City": "USA",
+    "Torino": "ITA",
+    "Beijing": "CHN",
+    "Vancouver": "CAN",
+    "Sochi": "RUS",
+    "Rio de Janeiro": "BRA",
 }
 
 # Estas ediciones vienen incompletas en results.csv (falta la ciudad)
@@ -342,9 +374,15 @@ participaciones = {}
 _next_participacion_id = [1]
 
 
-def add_participacion(atleta_id, evento_id, pais_representado_id,
-                       nombre_en_competencia=None, posicion=None, medalla=None,
-                       equipo_id=None):
+def add_participacion(
+    atleta_id,
+    evento_id,
+    pais_representado_id,
+    nombre_en_competencia=None,
+    posicion=None,
+    medalla=None,
+    equipo_id=None,
+):
     if atleta_id is None or evento_id is None:
         return
     key = (atleta_id, evento_id, pais_representado_id)
@@ -409,11 +447,15 @@ def process_bios():
             if full_name and full_name.casefold() != primary_name.casefold():
                 register_alias(full_name, rec)
 
+            if rec is None:
+                continue
+
             bios_id_to_atleta[row["athlete_id"]] = rec["id"]
             process_affiliations(row["Affiliations"], rec["id"])
 
 
 # mapeo para los otros csvs que vienen parecido
+
 
 def process_flat_source(filename, colmap, has_height_weight):
     path = DATASETS / filename
@@ -458,26 +500,50 @@ def process_flat_source(filename, colmap, has_height_weight):
             evento_id = get_evento(edicion_id, deporte_id, row.get(colmap["event"]))
 
             medalla = normalize_medal(row.get(colmap["medal"]))
-            add_participacion(atleta_id, evento_id, noc,
-                               nombre_en_competencia=name, medalla=medalla)
+            add_participacion(
+                atleta_id, evento_id, noc, nombre_en_competencia=name, medalla=medalla
+            )
 
 
 ATHLETE_EVENTS_COLMAP = {
-    "id": "ID", "name": "Name", "sex": "Sex", "noc": "NOC",
-    "year": "Year", "season": "Season", "city": "City",
-    "sport": "Sport", "event": "Event", "medal": "Medal",
-    "height": "Height", "weight": "Weight",
+    "id": "ID",
+    "name": "Name",
+    "sex": "Sex",
+    "noc": "NOC",
+    "year": "Year",
+    "season": "Season",
+    "city": "City",
+    "sport": "Sport",
+    "event": "Event",
+    "medal": "Medal",
+    "height": "Height",
+    "weight": "Weight",
 }
 OLYMPICS_DATASET_COLMAP = {
-    "id": "player_id", "name": "Name", "sex": "Sex", "noc": "NOC",
-    "year": "Year", "season": "Season", "city": "City",
-    "sport": "Sport", "event": "Event", "medal": "Medal",
+    "id": "player_id",
+    "name": "Name",
+    "sex": "Sex",
+    "noc": "NOC",
+    "year": "Year",
+    "season": "Season",
+    "city": "City",
+    "sport": "Sport",
+    "event": "Event",
+    "medal": "Medal",
 }
 DATALAB_COLMAP = {
-    "id": "id", "name": "name", "sex": "sex", "noc": "noc",
-    "year": "year", "season": "season", "city": "city",
-    "sport": "sport", "event": "event", "medal": "medal",
-    "height": "height", "weight": "weight",
+    "id": "id",
+    "name": "name",
+    "sex": "sex",
+    "noc": "noc",
+    "year": "year",
+    "season": "season",
+    "city": "city",
+    "sport": "sport",
+    "event": "event",
+    "medal": "medal",
+    "height": "height",
+    "weight": "weight",
 }
 
 
@@ -512,9 +578,14 @@ def process_results():
             medalla = normalize_medal(row["Medal"])
             posicion = clean(row["Pos"])
             nombre_comp = norm_name(row["As"])
-            add_participacion(atleta_id, evento_id, noc,
-                               nombre_en_competencia=nombre_comp,
-                               posicion=posicion, medalla=medalla)
+            add_participacion(
+                atleta_id,
+                evento_id,
+                noc,
+                nombre_en_competencia=nombre_comp,
+                posicion=posicion,
+                medalla=medalla,
+            )
 
 
 # ==================================
@@ -523,10 +594,26 @@ def process_results():
 
 # arreglos para codigos raros del banco mundial
 ISO_TO_IOC = {
-    "DEU": "GER", "CHE": "SUI", "NLD": "NED", "GRC": "GRE", "DNK": "DEN",
-    "PRT": "POR", "HRV": "CRO", "ZAF": "RSA", "LBN": "LIB", "VNM": "VIE",
-    "MMR": "MYA", "PHL": "PHI", "IDN": "INA", "TCD": "CHA", "COG": "CGO",
-    "NER": "NIG", "BRN": "BRU", "ARE": "UAE", "SAU": "KSA", "TWN": "TPE",
+    "DEU": "GER",
+    "CHE": "SUI",
+    "NLD": "NED",
+    "GRC": "GRE",
+    "DNK": "DEN",
+    "PRT": "POR",
+    "HRV": "CRO",
+    "ZAF": "RSA",
+    "LBN": "LIB",
+    "VNM": "VIE",
+    "MMR": "MYA",
+    "PHL": "PHI",
+    "IDN": "INA",
+    "TCD": "CHA",
+    "COG": "CGO",
+    "NER": "NIG",
+    "BRN": "BRU",
+    "ARE": "UAE",
+    "SAU": "KSA",
+    "TWN": "TPE",
 }
 
 
@@ -537,7 +624,9 @@ def process_population():
     with open(path, encoding="utf-8-sig", errors="replace") as f:
         reader = csv.reader(f)
         header = next(reader)
-        year_cols = [(i, h.strip()) for i, h in enumerate(header) if h.strip().isdigit()]
+        year_cols = [
+            (i, h.strip()) for i, h in enumerate(header) if h.strip().isdigit()
+        ]
         for row in reader:
             if len(row) < 3:
                 continue
@@ -558,6 +647,7 @@ def process_population():
 
 # generar los archivos de salida
 
+
 def write_csv(name, header, rows):
     path = OUT / name
     with open(path, "w", newline="", encoding="utf-8") as f:
@@ -571,75 +661,150 @@ def write_csv(name, header, rows):
 def main():
     load_pais()
     process_bios()
-    process_flat_source("athlete_events.csv", ATHLETE_EVENTS_COLMAP, has_height_weight=True)
-    process_flat_source("olympics_dataset.csv", OLYMPICS_DATASET_COLMAP, has_height_weight=False)
+    process_flat_source(
+        "athlete_events.csv", ATHLETE_EVENTS_COLMAP, has_height_weight=True
+    )
+    process_flat_source(
+        "olympics_dataset.csv", OLYMPICS_DATASET_COLMAP, has_height_weight=False
+    )
     process_flat_source("datalab_export.csv", DATALAB_COLMAP, has_height_weight=True)
     process_results()
     pop_map, skipped_pop_codes = process_population()
 
-    write_csv("pais.csv", ["pais_id", "nombre_pais", "region"],
-              [(pid, d["nombre_pais"], d["region"]) for pid, d in sorted(pais.items())])
+    write_csv(
+        "pais.csv",
+        ["pais_id", "nombre_pais", "region"],
+        [(pid, d["nombre_pais"], d["region"]) for pid, d in sorted(pais.items())],
+    )
 
-    write_csv("poblacion.csv", ["pais_id", "anio", "poblacion"],
-              [(pid, anio, pop) for (pid, anio), pop in sorted(pop_map.items())])
+    write_csv(
+        "poblacion.csv",
+        ["pais_id", "anio", "poblacion"],
+        [(pid, anio, pop) for (pid, anio), pop in sorted(pop_map.items())],
+    )
 
     all_atletas = [rec for bucket in atleta_by_name.values() for rec in bucket]
     all_atletas = list({r["id"]: r for r in all_atletas}.values())
     all_atletas.sort(key=lambda r: r["id"])
     write_csv(
         "atleta.csv",
-        ["atleta_id", "nombre_completo", "nombre_usado", "sexo", "fecha_nacimiento",
-         "lugar_nacimiento", "fecha_fallecimiento", "lugar_fallecimiento",
-         "estatura_cm", "peso_kg", "pais_id"],
-        [(r["id"], r["nombre_completo"], r["nombre_usado"], r["sexo"],
-          r["fecha_nacimiento"], r["lugar_nacimiento"], r["fecha_fallecimiento"],
-          r["lugar_fallecimiento"], r["estatura_cm"], r["peso_kg"], r["pais_id"])
-         for r in all_atletas],
+        [
+            "atleta_id",
+            "nombre_completo",
+            "nombre_usado",
+            "sexo",
+            "fecha_nacimiento",
+            "lugar_nacimiento",
+            "fecha_fallecimiento",
+            "lugar_fallecimiento",
+            "estatura_cm",
+            "peso_kg",
+            "pais_id",
+        ],
+        [
+            (
+                r["id"],
+                r["nombre_completo"],
+                r["nombre_usado"],
+                r["sexo"],
+                r["fecha_nacimiento"],
+                r["lugar_nacimiento"],
+                r["fecha_fallecimiento"],
+                r["lugar_fallecimiento"],
+                r["estatura_cm"],
+                r["peso_kg"],
+                r["pais_id"],
+            )
+            for r in all_atletas
+        ],
     )
 
     write_csv(
         "edicion.csv",
         ["edicion_id", "nombre_edicion", "anio", "temporada", "ciudad", "pais_sede_id"],
-        [(r["id"], r["nombre_edicion"], r["anio"], r["temporada"], r["ciudad"], r["pais_sede_id"])
-         for r in sorted(edicion_by_name.values(), key=lambda r: r["id"])],
+        [
+            (
+                r["id"],
+                r["nombre_edicion"],
+                r["anio"],
+                r["temporada"],
+                r["ciudad"],
+                r["pais_sede_id"],
+            )
+            for r in sorted(edicion_by_name.values(), key=lambda r: r["id"])
+        ],
     )
 
     write_csv(
-        "deporte.csv", ["deporte_id", "nombre_deporte"],
-        [(r["id"], r["nombre_deporte"]) for r in sorted(deporte_by_key.values(), key=lambda r: r["id"])],
+        "deporte.csv",
+        ["deporte_id", "nombre_deporte"],
+        [
+            (r["id"], r["nombre_deporte"])
+            for r in sorted(deporte_by_key.values(), key=lambda r: r["id"])
+        ],
     )
 
     write_csv(
-        "evento.csv", ["evento_id", "edicion_id", "deporte_id", "nombre_evento"],
-        [(r["id"], r["edicion_id"], r["deporte_id"], r["nombre_evento"])
-         for r in sorted(evento_by_key.values(), key=lambda r: r["id"])],
+        "evento.csv",
+        ["evento_id", "edicion_id", "deporte_id", "nombre_evento"],
+        [
+            (r["id"], r["edicion_id"], r["deporte_id"], r["nombre_evento"])
+            for r in sorted(evento_by_key.values(), key=lambda r: r["id"])
+        ],
     )
 
     write_csv("equipo.csv", ["equipo_id", "evento_id", "pais_id", "nombre_equipo"], [])
 
     write_csv(
-        "club.csv", ["club_id", "nombre_club", "pais_id"],
-        [(r["id"], r["nombre_club"], r["pais_id"]) for r in sorted(club_by_key.values(), key=lambda r: r["id"])],
+        "club.csv",
+        ["club_id", "nombre_club", "pais_id"],
+        [
+            (r["id"], r["nombre_club"], r["pais_id"])
+            for r in sorted(club_by_key.values(), key=lambda r: r["id"])
+        ],
     )
 
     write_csv("atleta_club.csv", ["atleta_id", "club_id"], sorted(atleta_club_pairs))
 
     write_csv(
         "participacion.csv",
-        ["participacion_id", "atleta_id", "evento_id", "equipo_id", "pais_representado_id",
-         "nombre_en_competencia", "posicion", "medalla"],
-        [(r["id"], r["atleta_id"], r["evento_id"], r["equipo_id"], r["pais_representado_id"],
-          r["nombre_en_competencia"], r["posicion"], r["medalla"])
-         for r in sorted(participaciones.values(), key=lambda r: r["id"])],
+        [
+            "participacion_id",
+            "atleta_id",
+            "evento_id",
+            "equipo_id",
+            "pais_representado_id",
+            "nombre_en_competencia",
+            "posicion",
+            "medalla",
+        ],
+        [
+            (
+                r["id"],
+                r["atleta_id"],
+                r["evento_id"],
+                r["equipo_id"],
+                r["pais_representado_id"],
+                r["nombre_en_competencia"],
+                r["posicion"],
+                r["medalla"],
+            )
+            for r in sorted(participaciones.values(), key=lambda r: r["id"])
+        ],
     )
 
-    homonimos = sum(1 for bucket in atleta_by_name.values()
-                     if len({r["id"] for r in bucket}) > 1)
+    homonimos = sum(
+        1 for bucket in atleta_by_name.values() if len({r["id"] for r in bucket}) > 1
+    )
 
     print("=== resumen de carga ===")
     print(f"pais:            {len(pais)}")
-    print(f"poblacion:       {len(pop_map)} (codigos de pais sin match: {len(skipped_pop_codes)})")
-    print(f"atleta:          {len(all_atletas)}  (nombres con homonimos detectados: {homonimos})")
+    print(
+        f"poblacion:       {len(pop_map)} (codigos de pais sin match: {len(skipped_pop_codes)})"
+    )
+    print(
+        f"atleta:          {len(all_atletas)}  (nombres con homonimos detectados: {homonimos})"
+    )
     print(f"edicion:         {len(edicion_by_name)}")
     print(f"deporte:         {len(deporte_by_key)}")
     print(f"evento:          {len(evento_by_key)}")
