@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-# Levanta Postgres en Docker, aplica src/schema.sql y carga los CSVs
+# Levanta Postgres en Docker desde cero, aplica src/schema.sql, carga los
+# CSVs, deriva los equipos de eventos de conjunto, crea los stored procedures
+# y deja abierta una sesión interactiva de psql para hacer consultas.
 
 set -euo pipefail
 
@@ -31,4 +33,12 @@ echo "Cargando datos (etl/load.sql)..."
 docker cp etl/load.sql "$CONTAINER":/load.sql
 docker exec -e PGPASSWORD=postgres "$CONTAINER" psql -U postgres -d olimpiadas -v ON_ERROR_STOP=1 -f /load.sql
 
-echo "Listo."
+echo "Derivando equipos de eventos de conjunto (etl/derivar_equipos.sql)..."
+docker cp etl/derivar_equipos.sql "$CONTAINER":/derivar_equipos.sql
+docker exec -e PGPASSWORD=postgres "$CONTAINER" psql -U postgres -d olimpiadas -v ON_ERROR_STOP=1 -f /derivar_equipos.sql
+
+echo "Creando stored procedures (src/stored_procedures.sql)..."
+docker cp src/stored_procedures.sql "$CONTAINER":/stored_procedures.sql
+docker exec -e PGPASSWORD=postgres "$CONTAINER" psql -U postgres -d olimpiadas -v ON_ERROR_STOP=1 -f /stored_procedures.sql
+
+docker exec -it -e PGPASSWORD=postgres "$CONTAINER" psql -U postgres -d olimpiadas
