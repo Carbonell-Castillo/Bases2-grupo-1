@@ -288,7 +288,8 @@ Table participacion {
 El script [`etl/build_load.py`](../etl/build_load.py) lee las 7 fuentes de la sección 1,
 resuelve el mapeo de columnas repetidas entre fuentes (`Sport`/`Discipline`/`sport`,
 `Team`/`NOC`/`noc`, `Pos`, etc.) y genera un CSV por tabla en `etl-csvs/`
-(carpeta ignorada por git, se regenera con el script). `etl/load.sql` carga
+(archivos auxiliares versionados en el repositorio; se regeneran con el script
+si hace falta). `etl/load.sql` carga
 esos CSVs a PostgreSQL respetando el orden de llaves foráneas y sincroniza
 las secuencias de los `IDENTITY` para que los próximos `INSERT` (p. ej. desde
 los stored procedures) no choquen con los ids ya cargados.
@@ -402,3 +403,9 @@ elimina los equipos derivados con `DELETE` para conservar la FK sin borrar
 participaciones, vuelve a insertar los equipos y enlaza nuevamente sus
 participaciones. Las consultas de [`ejemplos.md`](./ejemplos.md) verifican
 la cantidad de equipos y que no existan referencias huérfanas.
+
+## 9. Evidencia de ejecución
+
+Capturas con fecha de una corrida completa del pipeline (esquema, carga,
+derivación de equipos y los dos stored procedures) en
+[`docs/evidencia.md`](./docs/evidencia.md).
