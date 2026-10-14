@@ -1,0 +1,11 @@
+# Artefactos regenerables de Python
+**/__pycache__/
+*.py[cod]
+
+# Los respaldos fisicos de PostgreSQL son artefactos locales regenerables
+# (cientos de MB y miles de archivos). Se conservan logs, capturas y scripts.
+Fase2/backups/*
+!Fase2/backups/.gitkeep
+
+# HTML intermedio usado para imprimir los PDF entregables
+Fase2/docs/*.html
