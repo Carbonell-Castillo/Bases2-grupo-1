@@ -1,0 +1,10 @@
+services:
+  db:
+    image: postgres:16
+    container_name: proyecto-bases-db
+    environment:
+      POSTGRES_DB: olimpiadas
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"

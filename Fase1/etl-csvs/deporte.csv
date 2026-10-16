@@ -1,0 +1,148 @@
+deporte_id,nombre_deporte
+1,Basketball
+2,Judo
+3,Football
+4,Tug-Of-War
+5,Speed Skating
+6,Cross Country Skiing
+7,Athletics
+8,Ice Hockey
+9,Swimming
+10,Badminton
+11,Sailing
+12,Biathlon
+13,Gymnastics
+14,Art Competitions
+15,Alpine Skiing
+16,Handball
+17,Weightlifting
+18,Wrestling
+19,Luge
+20,Water Polo
+21,Hockey
+22,Rowing
+23,Bobsleigh
+24,Fencing
+25,Equestrianism
+26,Shooting
+27,Boxing
+28,Taekwondo
+29,Cycling
+30,Diving
+31,Canoeing
+32,Tennis
+33,Modern Pentathlon
+34,Figure Skating
+35,Golf
+36,Softball
+37,Archery
+38,Volleyball
+39,Synchronized Swimming
+40,Table Tennis
+41,Nordic Combined
+42,Baseball
+43,Rhythmic Gymnastics
+44,Freestyle Skiing
+45,Rugby Sevens
+46,Trampolining
+47,Beach Volleyball
+48,Triathlon
+49,Ski Jumping
+50,Curling
+51,Snowboarding
+52,Rugby
+53,Short Track Speed Skating
+54,Skeleton
+55,Lacrosse
+56,Polo
+57,Cricket
+58,Racquets
+59,Motorboating
+60,Military Ski Patrol
+61,Croquet
+62,Jeu De Paume
+63,Roque
+64,Alpinism
+65,Basque Pelota
+66,Aeronautics
+67,Cycling Road
+68,Artistic Gymnastics
+69,Karate
+70,Baseball/Softball
+71,Trampoline Gymnastics
+72,Marathon Swimming
+73,Canoe Slalom
+74,Surfing
+75,Canoe Sprint
+76,Cycling BMX Racing
+77,Equestrian
+78,Artistic Swimming
+79,Cycling Track
+80,Skateboarding
+81,Cycling Mountain Bike
+82,3x3 Basketball
+83,Cycling BMX Freestyle
+84,Sport Climbing
+85,"Marathon Swimming, Swimming"
+86,Breaking
+87,"Cycling Road, Cycling Track"
+88,"Cycling Road, Cycling Mountain Bike"
+89,"Cycling Road, Triathlon"
+90,"3x3 Basketball, Basketball"
+91,Softball (Baseball/Softball)
+92,Baseball (Baseball/Softball)
+93,Basketball (Basketball)
+94,Cycling Road (Cycling)
+95,Australian Rules Football
+96,Bobsleigh (Bobsleigh)
+97,Canoe Sprint (Canoeing)
+98,Canoe Slalom (Canoeing)
+99,Canoe Marathon (Canoeing)
+100,Cycling Track (Cycling)
+101,Rugby (Rugby)
+102,Equestrian Dressage (Equestrian)
+103,Equestrian Eventing (Equestrian)
+104,Equestrian Jumping (Equestrian)
+105,Diving (Aquatics)
+106,Winter Pentathlon
+107,Equestrian Vaulting (Equestrian)
+108,Equestrian Driving (Equestrian)
+109,Cycling Mountain Bike (Cycling)
+110,Speed Skating (Skating)
+111,Football (Football)
+112,Bicycle Polo (Cycling)
+113,Cross Country Skiing (Skiing)
+114,Swimming (Aquatics)
+115,Ice Hockey (Ice Hockey)
+116,Bandy
+117,Artistic Gymnastics (Gymnastics)
+118,Rhythmic Gymnastics (Gymnastics)
+119,Alpine Skiing (Skiing)
+120,Military Ski Patrol (Skiing)
+121,Nordic Combined (Skiing)
+122,Water Polo (Aquatics)
+123,Savate
+124,Skeleton (Bobsleigh)
+125,Artistic Swimming (Aquatics)
+126,Beach Volleyball (Volleyball)
+127,Volleyball (Volleyball)
+128,Glíma
+129,Figure Skating (Skating)
+130,Short Track Speed Skating (Skating)
+131,Freestyle Skiing (Skiing)
+132,Speed Skiing (Skiing)
+133,Ski Jumping (Skiing)
+134,Cycling BMX Racing (Cycling)
+135,Trampolining (Gymnastics)
+136,Marathon Swimming (Aquatics)
+137,Snowboarding (Skiing)
+138,3x3 Basketball (Basketball)
+139,Skateboarding (Roller Sports)
+140,Mixed Sports
+141,Rugby Sevens (Rugby)
+142,Hockey 5s
+143,Ballooning (Air Sports)
+144,Ski Mountaineering
+145,3-on-3 Ice Hockey (Ice Hockey)
+146,Cycling BMX Freestyle (Cycling)
+147,Roller Skating (Roller Sports)
