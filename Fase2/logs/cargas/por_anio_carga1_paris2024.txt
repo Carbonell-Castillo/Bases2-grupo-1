@@ -1,0 +1,92 @@
+﻿Evidencia generada: 2026-10-16T14:23:30.3491077-06:00
+     fecha_hora_servidor      |    base_datos    |                                         version                                          
+------------------------------+------------------+------------------------------------------------------------------------------------------
+ 2026-10-16 20:23:30.77832+00 | olimpiadas_fase2 | PostgreSQL 17.10 on x86_64-pc-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit
+(1 row)
+
+     tabla     | total 
+---------------+-------
+ atleta        | 11100
+ atleta_club   |     0
+ club          |     0
+ deporte       |    50
+ edicion       |     1
+ equipo        |     0
+ evento        |   361
+ pais          |   206
+ participacion | 14891
+ poblacion     |     0
+(10 rows)
+
+ pais_id |          nombre_pais           | region 
+---------+--------------------------------+--------
+ AFG     | Afghanistan                    | 
+ AIN     | Atletas Individuales Neutrales | 
+ ALB     | Albania                        | 
+ ALG     | Algeria                        | 
+ AND     | Andorra                        | 
+(5 rows)
+
+ pais_id | anio | poblacion 
+---------+------+-----------
+(0 rows)
+
+ atleta_id |       nombre_completo        |   nombre_usado    | sexo | fecha_nacimiento |         lugar_nacimiento         | fecha_fallecimiento |        lugar_fallecimiento         | estatura_cm | peso_kg | pais_id 
+-----------+------------------------------+-------------------+------+------------------+----------------------------------+---------------------+------------------------------------+-------------+---------+---------
+      2850 | Rafael Lozano Muñoz          | Rafael Lozano     | M    | 1970-01-25       | Córdoba, Córdoba                 |                     |                                    |         150 |      48 | ESP
+      5435 | Adriana Aparecida dos Santos | Adriana           | F    | 1971-01-18       | São Bernardo do Campo, São Paulo |                     |                                    |         180 |      61 | BRA
+      6065 | Alberto Fernández Calderón   | Alberto Fernández | M    | 1983-06-16       | Madrid, Madrid                   |                     |                                    |         180 |     115 | ESP
+      6274 | Adel Ibrahim Ismail          | Adel Ibrahim      | M    | 1951-03-28       |                                  |                     |                                    |         198 |      97 | EGY
+      8210 | Miloslav Příhoda             | Miloslav Příhoda  | M    | 1923-02-16       |                                  |                     | Praha (Prague), Hlavní město Praha |             |         | CZE
+(5 rows)
+
+ edicion_id |    nombre_edicion    | anio | temporada | ciudad | pais_sede_id 
+------------+----------------------+------+-----------+--------+--------------
+         53 | 2024 Summer Olympics | 2024 | Verano    | Paris  | FRA
+(1 row)
+
+ deporte_id | nombre_deporte 
+------------+----------------
+          1 | Basketball
+          2 | Judo
+          3 | Football
+          7 | Athletics
+          9 | Swimming
+(5 rows)
+
+ evento_id | edicion_id | deporte_id |     nombre_evento      
+-----------+------------+------------+------------------------
+      6538 |         53 |         18 | Men's Greco-Roman 97kg
+      6539 |         53 |         18 | Men's Greco-Roman 77kg
+      6540 |         53 |         18 | Men's Greco-Roman 67kg
+      6541 |         53 |         18 | Men's Freestyle 57kg
+      6542 |         53 |         18 | Men's Freestyle 65kg
+(5 rows)
+
+ equipo_id | evento_id | pais_id | nombre_equipo 
+-----------+-----------+---------+---------------
+(0 rows)
+
+ club_id | nombre_club | pais_id 
+---------+-------------+---------
+(0 rows)
+
+ atleta_id | club_id 
+-----------+---------
+(0 rows)
+
+ participacion_id | atleta_id | evento_id | equipo_id | pais_representado_id | nombre_en_competencia | posicion | medalla 
+------------------+-----------+-----------+-----------+----------------------+-----------------------+----------+---------
+           370554 |    117634 |      6538 |           | ARM                  | Artur Aleksanyan      |          | Plata
+           370555 |    234216 |      6539 |           | ARM                  | Malkhas Amoyan        |          | Bronce
+           370556 |    234217 |      6540 |           | ARM                  | Slavik Galstyan       |          | 
+           370557 |     97507 |      6541 |           | ARM                  | Arsen Harutyunyan     |          | 
+           370558 |    135396 |      6542 |           | ARM                  | Vazgen Tevanyan       |          | 
+(5 rows)
+
+DO
+            resultado             
+----------------------------------
+ VALIDACION OK: 0 filas huerfanas
+(1 row)
+

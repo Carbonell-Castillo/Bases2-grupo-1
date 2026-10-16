@@ -1,0 +1,7 @@
+﻿backup,tipo,inicio,fin,duracion_s
+por_deportista/full_carga1,RESTORE_FULL,2026-10-16T13:31:06.0507114-06:00,2026-10-16T13:32:16.7010648-06:00,70.65
+por_deportista/full_carga1 + por_deportista/incr1_carga2 + por_deportista/incr2_carga3,RESTORE_INCREMENTAL,2026-10-16T13:32:19.7353811-06:00,2026-10-16T13:35:23.2931930-06:00,183.56
+por_deporte/full_carga1,RESTORE_FULL,2026-10-16T13:35:27.0004537-06:00,2026-10-16T13:36:36.4470255-06:00,69.45
+por_deporte/full_carga1 + por_deporte/incr1_carga2 + por_deporte/incr2_carga3,RESTORE_INCREMENTAL,2026-10-16T13:36:38.5195920-06:00,2026-10-16T13:39:10.4600117-06:00,151.94
+por_anio/full_carga1,RESTORE_FULL,2026-10-16T13:39:13.9559826-06:00,2026-10-16T13:40:14.5299875-06:00,60.57
+por_anio/full_carga1 + por_anio/incr1_carga2 + por_anio/incr2_carga3,RESTORE_INCREMENTAL,2026-10-16T13:40:16.5718431-06:00,2026-10-16T13:43:01.3708380-06:00,164.8

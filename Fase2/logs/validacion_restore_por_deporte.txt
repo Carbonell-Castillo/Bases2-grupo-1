@@ -1,0 +1,85 @@
+﻿      fecha_hora_servidor      |    base_datos    |                                         version                                          
+-------------------------------+------------------+------------------------------------------------------------------------------------------
+ 2026-10-16 19:39:12.587542+00 | olimpiadas_fase2 | PostgreSQL 17.10 on x86_64-pc-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit
+(1 row)
+
+     tabla     | total 
+---------------+-------
+ atleta        |   311
+ atleta_club   |     0
+ club          |     0
+ deporte       |     1
+ edicion       |     3
+ equipo        |     0
+ evento        |     5
+ pais          |   134
+ participacion |   410
+ poblacion     |     0
+(10 rows)
+
+ pais_id |  nombre_pais   | region 
+---------+----------------+--------
+ AFG     | Afghanistan    | 
+ ANG     | Angola         | 
+ ANT     | Antigua        | 
+ ASA     | American Samoa | 
+ AUS     | Australia      | 
+(5 rows)
+
+ pais_id | anio | poblacion 
+---------+------+-----------
+(0 rows)
+
+ atleta_id |    nombre_completo    |     nombre_usado     | sexo | fecha_nacimiento |    lugar_nacimiento    | fecha_fallecimiento | lugar_fallecimiento | estatura_cm | peso_kg | pais_id 
+-----------+-----------------------+----------------------+------+------------------+------------------------+---------------------+---------------------+-------------+---------+---------
+      5538 | Youssef Mohamed Abbas | Youssef Abbas        | M    | 1920-12-02       | Abu Za'bal, Qalyubiyah | 1956-10-28          | Mediterranean Sea   |             |         | EGY
+     11130 | Toshiro Akamatsu      | Toshiro Akamatsu     | M    | 1941-08-28       |                        |                     |                     |         162 |      56 | JPN
+     11485 | Kamal Bahamdan        | Kamal Bahamdan       | M    | 1970-02-12       | Ar-Riyad, Ar-Riyad     |                     |                     |         172 |      69 | KSA
+     19496 | Willemien Aardenburg  | Willemien Aardenburg | F    | 1966-08-30       | Laren, Noord-Holland   |                     |                     |             |         | NED
+     25964 | Hussein Al-Sadiq      | Hussein Al-Sadiq     | M    | 1973-10-15       |                        |                     |                     |         183 |      80 | KSA
+(5 rows)
+
+ edicion_id |    nombre_edicion    | anio | temporada |     ciudad     | pais_sede_id 
+------------+----------------------+------+-----------+----------------+--------------
+         21 | 2016 Summer Olympics | 2016 | Verano    | Rio de Janeiro | BRA
+         52 | 2020 Summer Olympics | 2020 | Verano    | Tokyo          | JPN
+         53 | 2024 Summer Olympics | 2024 | Verano    | Paris          | FRA
+(3 rows)
+
+ deporte_id | nombre_deporte 
+------------+----------------
+          7 | Athletics
+(1 row)
+
+ evento_id | edicion_id | deporte_id |        nombre_evento         
+-----------+------------+------------+------------------------------
+       872 |         21 |          7 | Athletics Women's 100 metres
+      6258 |         52 |          7 | Women's 100m
+      6546 |         53 |          7 | Women's 100m
+     14092 |         21 |          7 | 100 metres, Women (Olympic)
+     14204 |         52 |          7 | 100 metres, Women (Olympic)
+(5 rows)
+
+ equipo_id | evento_id | pais_id | nombre_equipo 
+-----------+-----------+---------+---------------
+(0 rows)
+
+ club_id | nombre_club | pais_id 
+---------+-------------+---------
+(0 rows)
+
+ atleta_id | club_id 
+-----------+---------
+(0 rows)
+
+ participacion_id | atleta_id | evento_id | equipo_id | pais_representado_id |     nombre_en_competencia     | posicion | medalla 
+------------------+-----------+-----------+-----------+----------------------+-------------------------------+----------+---------
+             1097 |    126791 |       872 |           | KSA                  | Kariman Abuljadayel           |          | 
+             2572 |    144037 |       872 |           | CIV                  | Murielle Ahour                |          | 
+             2608 |    122134 |       872 |           | TTO                  | Michelle-Lee Raquel Ahye      |          | 
+             3135 |    125107 |       872 |           | BAN                  | Shirin Akter                  |          | 
+             3179 |    127104 |       872 |           | OMA                  | Mazoon Khalfan Saleh Al-Alawi |          | 
+(5 rows)
+
+DO
+
