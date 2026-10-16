@@ -1,0 +1,80 @@
+﻿      fecha_hora_servidor      |    base_datos    |                                         version                                          
+-------------------------------+------------------+------------------------------------------------------------------------------------------
+ 2026-10-16 19:35:25.324307+00 | olimpiadas_fase2 | PostgreSQL 17.10 on x86_64-pc-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit
+(1 row)
+
+     tabla     | total 
+---------------+-------
+ atleta        |     1
+ atleta_club   |     0
+ club          |     0
+ deporte       |     1
+ edicion       |     3
+ equipo        |     0
+ evento        |    14
+ pais          |     4
+ participacion |    14
+ poblacion     |     0
+(10 rows)
+
+ pais_id | nombre_pais | region 
+---------+-------------+--------
+ CHN     | China       | 
+ GBR     | UK          | 
+ GRE     | Greece      | 
+ JAM     | Jamaica     | 
+(4 rows)
+
+ pais_id | anio | poblacion 
+---------+------+-----------
+(0 rows)
+
+ atleta_id |  nombre_completo   | nombre_usado | sexo | fecha_nacimiento |      lugar_nacimiento      | fecha_fallecimiento | lugar_fallecimiento | estatura_cm | peso_kg | pais_id 
+-----------+--------------------+--------------+------+------------------+----------------------------+---------------------+---------------------+-------------+---------+---------
+    103192 | Usain St. Leo Bolt | Usain Bolt   | M    | 1986-08-21       | Sherwood Content, Trelawny |                     |                     |         196 |      95 | JAM
+(1 row)
+
+ edicion_id |    nombre_edicion    | anio | temporada | ciudad  | pais_sede_id 
+------------+----------------------+------+-----------+---------+--------------
+          2 | 2012 Summer Olympics | 2012 | Verano    | London  | GBR
+         20 | 2008 Summer Olympics | 2008 | Verano    | Beijing | CHN
+         22 | 2004 Summer Olympics | 2004 | Verano    | Athina  | GRE
+(3 rows)
+
+ deporte_id | nombre_deporte 
+------------+----------------
+          7 | Athletics
+(1 row)
+
+ evento_id | edicion_id | deporte_id |            nombre_evento             
+-----------+------------+------------+--------------------------------------
+       236 |         20 |          7 | Athletics Men's 100 metres
+       793 |         20 |          7 | Athletics Men's 200 metres
+       794 |          2 |          7 | Athletics Men's 200 metres
+      1046 |          2 |          7 | Athletics Men's 100 metres
+      1116 |          2 |          7 | Athletics Men's 4 x 100 metres Relay
+(5 rows)
+
+ equipo_id | evento_id | pais_id | nombre_equipo 
+-----------+-----------+---------+---------------
+(0 rows)
+
+ club_id | nombre_club | pais_id 
+---------+-------------+---------
+(0 rows)
+
+ atleta_id | club_id 
+-----------+---------
+(0 rows)
+
+ participacion_id | atleta_id | evento_id | equipo_id | pais_representado_id | nombre_en_competencia | posicion | medalla 
+------------------+-----------+-----------+-----------+----------------------+-----------------------+----------+---------
+            24747 |    103192 |      2133 |           | JAM                  | Usain St. Leo Bolt    |          | 
+            24748 |    103192 |       236 |           | JAM                  | Usain St. Leo Bolt    |          | Oro
+            24749 |    103192 |       793 |           | JAM                  | Usain St. Leo Bolt    |          | Oro
+            24750 |    103192 |      4012 |           | JAM                  | Usain St. Leo Bolt    |          | 
+            24751 |    103192 |      1046 |           | JAM                  | Usain St. Leo Bolt    |          | Oro
+(5 rows)
+
+DO
+

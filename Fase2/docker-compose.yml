@@ -1,0 +1,20 @@
+services:
+  db:
+    image: postgres:17-alpine
+    container_name: fase2-pg
+    environment:
+      POSTGRES_DB: olimpiadas_fase2
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    # Se habilita summarize_wal para poder tomar respaldos incrementales con pg_basebackup --incremental
+    command: ["postgres", "-c", "summarize_wal=on"]
+    ports:
+      - "5433:5432"
+    volumes:
+      - fase2_pgdata:/var/lib/postgresql/data
+      - ./backups:/backups
+
+volumes:
+  # Almacenamiento persistente requerido por el enunciado (seccion 8.3)
+  fase2_pgdata:
+    name: fase2_pgdata

@@ -1,0 +1,65 @@
+edicion_id,nombre_edicion,anio,temporada,ciudad,pais_sede_id
+1,1992 Summer Olympics,1992,Verano,Barcelona,ESP
+2,2012 Summer Olympics,2012,Verano,London,GBR
+3,1920 Summer Olympics,1920,Verano,Antwerpen,BEL
+4,1900 Summer Olympics,1900,Verano,Paris,FRA
+5,1988 Winter Olympics,1988,Invierno,Calgary,CAN
+6,1992 Winter Olympics,1992,Invierno,Albertville,FRA
+7,1994 Winter Olympics,1994,Invierno,Lillehammer,NOR
+8,1932 Summer Olympics,1932,Verano,Los Angeles,USA
+9,2002 Winter Olympics,2002,Invierno,Salt Lake City,USA
+10,1952 Summer Olympics,1952,Verano,Helsinki,FIN
+11,1980 Winter Olympics,1980,Invierno,Lake Placid,USA
+12,2000 Summer Olympics,2000,Verano,Sydney,AUS
+13,1996 Summer Olympics,1996,Verano,Atlanta,USA
+14,1912 Summer Olympics,1912,Verano,Stockholm,SWE
+15,1924 Summer Olympics,1924,Verano,Paris,FRA
+16,2014 Winter Olympics,2014,Invierno,Sochi,RUS
+17,1948 Summer Olympics,1948,Verano,London,GBR
+18,1998 Winter Olympics,1998,Invierno,Nagano,JPN
+19,2006 Winter Olympics,2006,Invierno,Torino,ITA
+20,2008 Summer Olympics,2008,Verano,Beijing,CHN
+21,2016 Summer Olympics,2016,Verano,Rio de Janeiro,BRA
+22,2004 Summer Olympics,2004,Verano,Athina,GRE
+23,1960 Winter Olympics,1960,Invierno,Squaw Valley,USA
+24,1964 Winter Olympics,1964,Invierno,Innsbruck,AUT
+25,1984 Winter Olympics,1984,Invierno,Sarajevo,YUG
+26,1984 Summer Olympics,1984,Verano,Los Angeles,USA
+27,1968 Summer Olympics,1968,Verano,Mexico City,MEX
+28,1972 Summer Olympics,1972,Verano,Munich,GER
+29,1988 Summer Olympics,1988,Verano,Seoul,KOR
+30,1936 Summer Olympics,1936,Verano,Berlin,GER
+31,1952 Winter Olympics,1952,Invierno,Oslo,NOR
+32,1956 Winter Olympics,1956,Invierno,Cortina d'Ampezzo,ITA
+33,1956 Summer Olympics,1956,Verano,Melbourne,AUS
+34,1960 Summer Olympics,1960,Verano,Roma,ITA
+35,1928 Summer Olympics,1928,Verano,Amsterdam,NED
+36,1976 Summer Olympics,1976,Verano,Montreal,CAN
+37,1980 Summer Olympics,1980,Verano,Moskva,URS
+38,1964 Summer Olympics,1964,Verano,Tokyo,JPN
+39,2010 Winter Olympics,2010,Invierno,Vancouver,CAN
+40,1968 Winter Olympics,1968,Invierno,Grenoble,FRA
+41,1906 Summer Olympics,1906,Verano,Athina,GRE
+42,1972 Winter Olympics,1972,Invierno,Sapporo,JPN
+43,1976 Winter Olympics,1976,Invierno,Innsbruck,AUT
+44,1924 Winter Olympics,1924,Invierno,Chamonix,FRA
+45,1904 Summer Olympics,1904,Verano,St. Louis,USA
+46,1928 Winter Olympics,1928,Invierno,Sankt Moritz,SUI
+47,1908 Summer Olympics,1908,Verano,London,GBR
+48,1948 Winter Olympics,1948,Invierno,Sankt Moritz,SUI
+49,1932 Winter Olympics,1932,Invierno,Lake Placid,USA
+50,1936 Winter Olympics,1936,Invierno,Garmisch-Partenkirchen,GER
+51,1896 Summer Olympics,1896,Verano,Athina,GRE
+52,2020 Summer Olympics,2020,Verano,Tokyo,JPN
+53,2024 Summer Olympics,2024,Verano,Paris,FRA
+54,1906 Intercalated Games,1906,Verano,,
+55,1956 Equestrian Olympics,1956,Verano,,
+56,1888-89 Zappas Olympic Games,1888,Verano,,
+57,2018 Winter Olympics,2018,Invierno,,KOR
+58,2022 Winter Olympics,2022,Invierno,,CHN
+59,2010 Summer Youth Olympics,2010,Verano,,
+60,2014 Summer Youth Olympics,2014,Verano,,
+61,2012 Winter Youth Olympics,2012,Invierno,,
+62,2016 Winter Youth Olympics,2016,Invierno,,
+63,2018 Summer Youth Olympics,2018,Verano,,
+64,2020 Winter Youth Olympics,2020,Invierno,,

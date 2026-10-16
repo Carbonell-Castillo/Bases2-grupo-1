@@ -1,0 +1,624 @@
+evento_id,edicion_id,deporte_id,nombre_evento
+2083,21,9,Swimming Women's 50 metres Freestyle
+9778,21,26,"Trap, Women (Olympic)"
+4294,21,30,Diving Men's Platform
+802,21,46,Trampolining Men's Individual
+14544,21,17,"Heavyweight, Men (Olympic)"
+2353,21,32,Tennis Men's Singles
+2041,21,7,Athletics Women's 800 metres
+636,21,3,Football Women's Football
+2769,21,9,Swimming Men's 200 metres Breaststroke
+2948,21,7,Athletics Men's Long Jump
+872,21,7,Athletics Women's 100 metres
+5166,21,13,Gymnastics Women's Horse Vault
+3979,21,27,Boxing Men's Light-Flyweight
+14094,21,7,"800 metres, Women (Olympic)"
+1260,21,45,Rugby Sevens Men's Rugby Sevens
+2872,21,13,Gymnastics Women's Balance Beam
+4106,21,26,"Shooting Women's Sporting Pistol, 25 metres"
+2974,21,13,Gymnastics Women's Floor Exercise
+14066,21,22,"Lightweight Double Sculls, Women (Olympic)"
+1506,21,2,Judo Women's Half-Middleweight
+7602,21,97,"Canadian Singles, 1,000 metres, Men (Olympic)"
+821,21,7,Athletics Women's Marathon
+14580,21,18,"Featherweight, Freestyle, Men (Olympic)"
+14443,21,27,"Welterweight, Men (Olympic)"
+14208,21,117,"Team All-Around, Men (Olympic)"
+589,21,7,Athletics Men's Marathon
+561,21,30,Diving Women's Springboard
+10557,21,105,"Springboard, Men (Olympic)"
+14049,21,94,"Individual Time Trial, Women (Olympic)"
+3158,21,9,Swimming Women's 100 metres Butterfly
+361,21,3,Football Men's Football
+5883,21,2,Judo Women's Half-Heavyweight
+699,21,24,"Fencing Men's Foil, Individual"
+4934,21,28,Taekwondo Women's Welterweight
+5870,21,2,Judo Women's Extra-Lightweight
+2042,21,7,"Athletics Women's 1,500 metres"
+5667,21,17,Weightlifting Men's Bantamweight
+4154,21,28,Taekwondo Men's Flyweight
+2306,21,28,Taekwondo Men's Heavyweight
+4515,21,26,Shooting Women's Skeet
+14277,21,21,"Hockey, Men (Olympic)"
+3534,21,9,Swimming Women's 4 x 100 metres Freestyle Relay
+4255,21,9,Swimming Women's 100 metres Breaststroke
+1789,21,10,Badminton Men's Doubles
+14119,21,7,"400 metres Hurdles, Men (Olympic)"
+14137,21,24,"Sabre, Individual, Men (Olympic)"
+13457,21,7,"Shot Put, Men (Olympic)"
+14437,21,2,"Half-Heavyweight, Men (Olympic)"
+14862,21,94,Cycling Mountain Bike (Cycling)
+1267,21,18,"Wrestling Women's Lightweight, Freestyle"
+7332,21,32,"Doubles, Women (Olympic)"
+1713,21,25,"Equestrianism Mixed Jumping, Individual"
+959,21,22,Rowing Women's Quadruple Sculls
+14550,21,98,"Canadian Singles, Slalom, Men (Olympic)"
+14595,21,18,"Heavyweight, Greco-Roman, Men (Olympic)"
+14233,21,18,"Light-Heavyweight, Greco-Roman, Men (Olympic)"
+14606,21,117,"Individual All-Around, Women (Olympic)"
+2942,21,37,Archery Men's Team
+5639,21,30,Diving Men's Synchronized Platform
+4336,21,17,Weightlifting Women's Light-Heavyweight
+2290,21,29,Cycling Men's Individual Time Trial
+4202,21,7,Athletics Women's Triple Jump
+13701,21,28,"Welterweight, Men (Olympic)"
+249,21,25,"Equestrianism Mixed Three-Day Event, Individual"
+2810,21,9,Swimming Men's 400 metres Individual Medley
+14435,21,2,"Half-Lightweight, Women (Olympic)"
+14045,21,114,"200 metres Breaststroke, Men (Olympic)"
+14007,21,114,"400 metres Freestyle, Men (Olympic)"
+11415,21,11,"Multihull, Mixed (Olympic)"
+14453,21,100,"Omnium, Women (Olympic)"
+576,21,7,Athletics Men's Decathlon
+376,21,18,"Wrestling Men's Middleweight, Greco-Roman"
+2259,21,11,Sailing Women's Windsurfer
+2973,21,13,Gymnastics Women's Individual All-Around
+13719,21,122,"Water Polo, Men (Olympic)"
+3698,21,29,Cycling Women's Team Pursuit
+13591,21,11,"Two Person Dinghy, Men (Olympic)"
+14245,21,105,"Platform, Women (Olympic)"
+4299,21,18,"Wrestling Women's Flyweight, Freestyle"
+4152,21,35,Golf Women's Individual
+2731,21,7,Athletics Men's 4 x 400 metres Relay
+2941,21,37,Archery Men's Individual
+14593,21,18,"Middleweight, Greco-Roman, Men (Olympic)"
+2980,21,7,Athletics Men's 800 metres
+616,21,27,Boxing Men's Flyweight
+13598,21,11,"Two Person Dinghy, Women (Olympic)"
+481,21,27,Boxing Men's Heavyweight
+14478,21,7,"3,000 metres Steeplechase, Women (Olympic)"
+8628,21,24,"Épée, Team, Men (Olympic)"
+14257,21,18,"Welterweight, Freestyle, Men (Olympic)"
+14096,21,7,"400 metres, Women (Olympic)"
+3873,21,2,Judo Men's Half-Heavyweight
+13411,21,7,"Long Jump, Women (Olympic)"
+14014,21,114,"100 metres Freestyle, Women (Olympic)"
+9801,21,26,"Small-Bore Rifle, Prone, 50 metres, Men (Olympic)"
+2640,21,47,Beach Volleyball Men's Beach Volleyball
+14603,21,28,"Heavyweight, Men (Olympic)"
+4455,21,26,"Shooting Men's Air Rifle, 10 metres"
+13540,21,117,"Floor Exercise, Women (Olympic)"
+2297,21,48,Triathlon Men's Olympic Distance
+14226,21,18,"Heavyweight, Freestyle, Women (Olympic)"
+13530,21,24,"Épée, Individual, Women (Olympic)"
+14010,21,114,"4 × 200 metres Freestyle Relay, Women (Olympic)"
+2816,21,9,Swimming Men's 200 metres Butterfly
+14068,21,22,"Quadruple Sculls, Women (Olympic)"
+2870,21,13,Gymnastics Women's Team All-Around
+14248,21,105,"Platform, Men (Olympic)"
+3186,21,7,Athletics Women's Discus Throw
+14434,21,2,"Half-Middleweight, Women (Olympic)"
+487,21,18,"Wrestling Men's Super-Heavyweight, Greco-Roman"
+14187,21,100,"Sprint, Women (Olympic)"
+9589,21,26,"Small-Bore Rifle, Three Positions, 50 metres, Women (Olympic)"
+1117,21,7,Athletics Men's 200 metres
+14065,21,11,"Skiff, Men (Olympic)"
+14082,21,17,"Heavyweight, Women (Olympic)"
+3061,21,7,Athletics Women's 4 x 400 metres Relay
+13742,21,126,"Beach Volleyball, Men (Olympic)"
+14009,21,114,"400 metres Freestyle, Women (Olympic)"
+7110,21,40,"Singles, Men (Olympic)"
+5109,21,31,"Canoeing Men's Kayak Doubles, 200 metres"
+1196,21,18,"Wrestling Women's Heavyweight, Freestyle"
+1640,21,21,Hockey Women's Hockey
+162,21,16,Handball Men's Handball
+7046,21,32,"Doubles, Men (Olympic)"
+268,21,38,Volleyball Men's Volleyball
+562,21,30,Diving Women's Synchronized Springboard
+14415,21,22,"Coxless Fours, Men (Olympic)"
+14439,21,2,"Half-Middleweight, Men (Olympic)"
+5108,21,31,"Canoeing Men's Kayak Singles, 200 metres"
+1296,21,2,Judo Women's Half-Lightweight
+14179,21,7,"Triple Jump, Women (Olympic)"
+13661,21,114,"200 metres Individual Medley, Men (Olympic)"
+14015,21,114,"200 metres Freestyle, Women (Olympic)"
+14602,21,28,"Featherweight, Men (Olympic)"
+13551,21,117,"Floor Exercise, Men (Olympic)"
+14070,21,22,"Quadruple Sculls, Men (Olympic)"
+3072,21,18,"Wrestling Men's Light-Heavyweight, Freestyle"
+1008,21,18,"Wrestling Women's Light-Heavyweight, Freestyle"
+241,21,16,Handball Women's Handball
+3015,21,7,Athletics Women's High Jump
+14147,21,48,"Olympic Distance, Women (Olympic)"
+13516,21,109,"Cross-Country, Men (Olympic)"
+2675,21,11,Sailing Women's One Person Dinghy
+14044,21,114,"100 metres Breaststroke, Men (Olympic)"
+7741,21,102,"Team, Open (Olympic)"
+3763,21,31,"Canoeing Men's Canadian Doubles, Slalom"
+1286,21,33,Modern Pentathlon Women's Individual
+3718,21,24,"Fencing Men's epee, Team"
+12862,21,7,"4 × 400 metres Relay, Women (Olympic)"
+9576,21,26,"Air Pistol, 10 metres, Women (Olympic)"
+14220,21,18,"Featherweight, Freestyle, Women (Olympic)"
+2491,21,27,Boxing Women's Lightweight
+13498,21,97,"Kayak Singles, 200 metres, Women (Olympic)"
+4098,21,17,Weightlifting Women's Heavyweight
+2189,21,27,Boxing Men's Light-Welterweight
+13654,21,114,"10 kilometres Open Water, Men (Olympic)"
+13653,21,114,"1,500 metres Freestyle, Men (Olympic)"
+5144,21,29,"Cycling Men's Team Pursuit, 4,000 metres"
+4423,21,30,Diving Men's Springboard
+14247,21,105,"Synchronized Springboard, Men (Olympic)"
+14073,21,22,"Lightweight Double Sculls, Men (Olympic)"
+999,21,17,Weightlifting Men's Featherweight
+1733,21,17,Weightlifting Women's Middleweight
+14543,21,17,"Middle-Heavyweight, Men (Olympic)"
+14476,21,7,"Heptathlon, Women (Olympic)"
+3946,21,27,Boxing Men's Welterweight
+2490,21,17,Weightlifting Men's Super-Heavyweight
+3926,21,7,Athletics Men's 20 kilometres Walk
+13468,21,10,"Doubles, Mixed (Olympic)"
+14142,21,24,"Foil, Team, Men (Olympic)"
+14599,21,28,"Featherweight, Women (Olympic)"
+13658,21,114,"4 × 200 metres Freestyle Relay, Men (Olympic)"
+12870,21,7,"Hammer Throw, Men (Olympic)"
+9127,21,16,"Handball, Women (Olympic)"
+13634,21,136,"10 kilometres Open Water, Men (Olympic)"
+3961,21,7,Athletics Men's Pole Vault
+15065,21,141,"Rugby Sevens, Men (Olympic)"
+5113,21,9,Swimming Men's 200 metres Backstroke
+131,21,13,Gymnastics Men's Parallel Bars
+12357,21,7,"100 metres, Men (Olympic)"
+1243,21,18,"Wrestling Women's Featherweight, Freestyle"
+1782,21,26,Shooting Women's Trap
+13664,21,125,"Duet, Women (Olympic)"
+3531,21,9,Swimming Women's 200 metres Breaststroke
+4150,21,43,Rhythmic Gymnastics Women's Individual
+13717,21,127,"Volleyball, Women (Olympic)"
+14445,21,27,"Light-Welterweight, Men (Olympic)"
+4736,21,27,Boxing Women's Middleweight
+13555,21,135,"Individual, Women (Olympic)"
+2489,21,18,"Wrestling Men's Heavyweight, Greco-Roman"
+9880,21,26,"Skeet, Women (Olympic)"
+927,21,40,Table Tennis Men's Singles
+5332,21,29,Cycling Women's Omnium
+506,21,2,Judo Men's Heavyweight
+14583,21,18,"Middleweight, Freestyle, Men (Olympic)"
+14134,21,24,"Sabre, Team, Women (Olympic)"
+917,21,9,Swimming Men's 4 x 100 metres Medley Relay
+13464,21,22,"Double Sculls, Women (Olympic)"
+10663,21,127,"Volleyball, Men (Olympic)"
+14118,21,7,"High Jump, Men (Olympic)"
+623,21,10,Badminton Men's Singles
+13665,21,40,"Team, Women (Olympic)"
+14005,21,114,"100 metres Freestyle, Men (Olympic)"
+15075,21,94,"Cross-Country, Men (Olympic)"
+7682,21,103,"Team, Open (Olympic)"
+2945,21,2,Judo Women's Middleweight
+129,21,13,Gymnastics Men's Individual All-Around
+14600,21,28,"Welterweight, Women (Olympic)"
+3535,21,9,Swimming Women's 200 metres Individual Medley
+1489,21,22,Rowing Men's Coxed Eights
+9503,21,22,"Eights, Women (Olympic)"
+4425,21,22,Rowing Men's Lightweight Double Sculls
+14196,21,100,"Sprint, Men (Olympic)"
+14607,21,117,"Uneven Bars, Women (Olympic)"
+14105,21,97,"Canadian Singles, 200 metres, Men (Olympic)"
+3007,21,2,Judo Women's Lightweight
+9865,21,26,"Air Pistol, 10 metres, Men (Olympic)"
+14481,21,7,"800 metres, Men (Olympic)"
+2871,21,13,Gymnastics Women's Uneven Bars
+2567,21,7,Athletics Women's Long Jump
+377,21,7,"Athletics Men's 10,000 metres"
+13572,21,2,"Middleweight, Men (Olympic)"
+1588,21,47,Beach Volleyball Women's Beach Volleyball
+6147,21,18,"Wrestling Women's Middleweight, Freestyle"
+3197,21,7,Athletics Men's Hammer Throw
+14110,21,7,"20 kilometres Race Walk, Women (Olympic)"
+14173,21,2,"Heavyweight, Women (Olympic)"
+7681,21,103,"Individual, Open (Olympic)"
+14431,21,2,"Half-Heavyweight, Women (Olympic)"
+14596,21,28,"Flyweight, Women (Olympic)"
+541,21,24,"Fencing Men's Sabre, Individual"
+14534,21,17,"Light-Heavyweight, Women (Olympic)"
+1201,21,10,Badminton Mixed Doubles
+14236,21,18,"Welterweight, Greco-Roman, Men (Olympic)"
+13521,21,105,"Springboard, Women (Olympic)"
+14092,21,7,"100 metres, Women (Olympic)"
+823,21,1,Basketball Men's Basketball
+7740,21,102,"Individual, Open (Olympic)"
+9851,21,26,"Double Trap, Men (Olympic)"
+132,21,13,Gymnastics Men's Horizontal Bar
+14116,21,7,"1,500 metres, Men (Olympic)"
+14058,21,7,"Shot Put, Women (Olympic)"
+12192,21,7,"Marathon, Women (Olympic)"
+14585,21,18,"Heavyweight, Freestyle, Men (Olympic)"
+2125,21,26,"Shooting Women's Air Pistol, 10 metres"
+4160,21,9,Swimming Women's 400 metres Freestyle
+350,21,2,Judo Men's Half-Middleweight
+14617,21,22,"Lightweight Coxless Fours, Men (Olympic)"
+3597,21,9,Swimming Men's 4 x 200 metres Freestyle Relay
+13672,21,114,"100 metres Backstroke, Women (Olympic)"
+2692,21,40,Table Tennis Women's Singles
+9883,21,26,"Small-Bore Rifle, Three Positions, 50 metres, Men (Olympic)"
+861,21,28,Taekwondo Men's Featherweight
+11409,21,11,"Windsurfer, Men (Olympic)"
+5213,21,31,"Canoeing Men's Canadian Singles, 200 metres"
+13503,21,97,"Kayak Singles, 200 metres, Men (Olympic)"
+14108,21,7,"100 metres Hurdles, Women (Olympic)"
+14536,21,17,"Super-Heavyweight, Women (Olympic)"
+14097,21,7,"Pole Vault, Women (Olympic)"
+14184,21,2,"Lightweight, Men (Olympic)"
+14446,21,27,"Middleweight, Men (Olympic)"
+14548,21,33,"Individual, Men (Olympic)"
+1807,21,31,"Canoeing Men's Kayak Singles, Slalom"
+12856,21,37,"Individual, Men (Olympic)"
+1637,21,37,Archery Women's Team
+4617,21,2,Judo Men's Middleweight
+2608,21,7,Athletics Men's 110 metres Hurdles
+3025,21,7,Athletics Men's Javelin Throw
+3524,21,7,"Athletics Women's 10,000 metres"
+14178,21,7,"400 metres Hurdles, Women (Olympic)"
+951,21,1,Basketball Women's Basketball
+13552,21,117,"Horse Vault, Men (Olympic)"
+13507,21,97,"Kayak Doubles, 1,000 metres, Men (Olympic)"
+8854,21,117,"Balance Beam, Women (Olympic)"
+13431,21,7,"4 × 100 metres Relay, Women (Olympic)"
+14740,21,27,"Middleweight, Women (Olympic)"
+870,21,7,Athletics Men's 100 metres
+4276,21,9,Swimming Women's 4 x 100 metres Medley Relay
+13582,21,2,"Heavyweight, Men (Olympic)"
+4139,21,9,Swimming Men's 200 metres Individual Medley
+723,21,22,Rowing Women's Lightweight Double Sculls
+14578,21,18,"Light-Heavyweight, Freestyle, Women (Olympic)"
+1714,21,25,"Equestrianism Mixed Jumping, Team"
+14158,21,27,"Light-Heavyweight, Men (Olympic)"
+2058,21,24,"Fencing Women's Sabre, Team"
+14171,21,2,"Middleweight, Women (Olympic)"
+14071,21,22,"Single Sculls, Men (Olympic)"
+14202,21,7,"Javelin Throw, Men (Olympic)"
+8853,21,117,"Horse Vault, Women (Olympic)"
+826,21,48,Triathlon Women's Olympic Distance
+7119,21,40,"Singles, Women (Olympic)"
+14121,21,7,"10,000 metres, Men (Olympic)"
+1804,21,7,Athletics Women's 20 kilometres Walk
+12865,21,7,"400 metres, Men (Olympic)"
+14161,21,27,"Heavyweight, Men (Olympic)"
+1613,21,35,Golf Men's Individual
+12804,21,93,"Basketball, Women (Olympic)"
+5329,21,7,Athletics Women's Hammer Throw
+1636,21,37,Archery Women's Individual
+13454,21,7,"5,000 metres, Men (Olympic)"
+14537,21,17,"Bantamweight, Men (Olympic)"
+2150,21,17,Weightlifting Men's Lightweight
+5832,21,29,Cycling Women's Team Sprint
+13629,21,114,"4 × 100 metres Medley Relay, Women (Olympic)"
+9775,21,26,"Rapid-Fire Pistol, 25 metres, Men (Olympic)"
+5917,21,40,Table Tennis Women's Team
+14463,21,94,"Team Sprint, Men (Olympic)"
+9734,21,26,"Skeet, Men (Olympic)"
+13630,21,114,"50 metres Freestyle, Men (Olympic)"
+14072,21,22,"Coxless Pairs, Men (Olympic)"
+13549,21,16,"Handball, Men (Olympic)"
+14849,21,111,"Football, Men (Olympic)"
+4641,21,9,Swimming Men's 100 metres Breaststroke
+3675,21,9,Swimming Men's 100 metres Butterfly
+14249,21,105,"Synchronized Platform, Men (Olympic)"
+2350,21,18,"Wrestling Men's Welterweight, Greco-Roman"
+14558,21,98,"Kayak Singles, Slalom, Women (Olympic)"
+14224,21,18,"Lightweight, Freestyle, Women (Olympic)"
+11290,21,11,"Windsurfer, Women (Olympic)"
+10584,21,114,"50 metres Freestyle, Women (Olympic)"
+2364,21,11,Sailing Mixed Multihull
+13415,21,7,"Discus Throw, Women (Olympic)"
+14532,21,17,"Middleweight, Women (Olympic)"
+14457,21,100,"Team Pursuit, Women (Olympic)"
+759,21,7,Athletics Women's Shot Put
+14570,21,118,"Group, Women (Olympic)"
+14577,21,18,"Middleweight, Freestyle, Women (Olympic)"
+1463,21,9,Swimming Women's 100 metres Backstroke
+3817,21,31,"Canoeing Women's Kayak Doubles, 500 metres"
+14047,21,94,"Individual Time Trial, Men (Olympic)"
+2454,21,21,Hockey Men's Hockey
+4989,21,29,"Cycling Women's Mountainbike, Cross-Country"
+2464,21,7,Athletics Men's 400 metres Hurdles
+14006,21,114,"200 metres Freestyle, Men (Olympic)"
+214,21,7,Athletics Men's 400 metres
+4821,21,9,Swimming Women's 400 metres Individual Medley
+14113,21,7,"20 kilometres Race Walk, Men (Olympic)"
+4471,21,32,Tennis Women's Singles
+14539,21,17,"Lightweight, Men (Olympic)"
+3722,21,31,"Canoeing Men's Kayak Fours, 1,000 metres"
+2238,21,24,"Fencing Men's epee, Individual"
+1127,21,9,Swimming Women's 200 metres Butterfly
+12873,21,7,"10,000 metres, Women (Olympic)"
+14041,21,17,"Lightweight, Women (Olympic)"
+138,21,7,"Athletics Men's 5,000 metres"
+14967,21,35,"Individual, Women (Olympic)"
+14568,21,135,"Individual, Men (Olympic)"
+2154,21,26,Shooting Men's Trap
+5067,21,29,Cycling Women's Keirin
+7603,21,97,"Canadian Doubles, 1,000 metres, Men (Olympic)"
+14451,21,27,"Flyweight, Men (Olympic)"
+9588,21,26,"Air Rifle, 10 metres, Women (Olympic)"
+13999,21,37,"Team, Men (Olympic)"
+13509,21,97,"Kayak Singles, 500 metres, Women (Olympic)"
+348,21,26,"Shooting Women's Air Rifle, 10 metres"
+409,21,38,Volleyball Women's Volleyball
+11417,21,11,"One Person Dinghy, Men (Olympic)"
+14098,21,98,"Canadian Doubles, Slalom, Men (Olympic)"
+12874,21,7,"High Jump, Women (Olympic)"
+5175,21,24,"Fencing Women's epee, Team"
+73,21,17,Weightlifting Women's Super-Heavyweight
+1043,21,22,Rowing Men's Coxless Fours
+14573,21,18,"Flyweight, Freestyle, Women (Olympic)"
+5069,21,18,"Wrestling Men's Featherweight, Greco-Roman"
+14449,21,27,"Bantamweight, Men (Olympic)"
+14099,21,97,"Kayak Doubles, 500 metres, Women (Olympic)"
+3245,21,22,Rowing Women's Coxless Pairs
+14969,21,141,"Rugby Sevens, Women (Olympic)"
+1005,21,9,Swimming Men's 200 metres Freestyle
+9789,21,26,"Trap, Men (Olympic)"
+14238,21,125,"Team, Women (Olympic)"
+353,21,17,Weightlifting Men's Middleweight
+2447,21,22,Rowing Men's Lightweight Coxless Fours
+13606,21,26,"Free Pistol, 50 metres, Men (Olympic)"
+14124,21,7,"3,000 metres Steeplechase, Men (Olympic)"
+13556,21,21,"Hockey, Women (Olympic)"
+4161,21,9,Swimming Women's 800 metres Freestyle
+14189,21,100,"Team Sprint, Women (Olympic)"
+1629,21,7,Athletics Women's Javelin Throw
+1671,21,7,Athletics Women's Pole Vault
+932,21,7,Athletics Women's 4 x 100 metres Relay
+13659,21,114,"100 metres Butterfly, Men (Olympic)"
+12466,21,37,"Individual, Women (Olympic)"
+643,21,20,Water Polo Women's Water Polo
+5783,21,17,Weightlifting Women's Featherweight
+1056,21,46,Trampolining Women's Individual
+14183,21,2,"Extra-Lightweight, Men (Olympic)"
+14464,21,100,"Omnium, Men (Olympic)"
+1164,21,26,Shooting Men's Skeet
+14510,21,114,"200 metres Breaststroke, Women (Olympic)"
+14552,21,98,"Kayak Singles, Slalom, Men (Olympic)"
+13481,21,93,"Basketball, Men (Olympic)"
+202,21,27,Boxing Men's Middleweight
+3093,21,17,Weightlifting Men's Light-Heavyweight
+13657,21,114,"4 × 100 metres Freestyle Relay, Men (Olympic)"
+1612,21,7,Athletics Women's Heptathlon
+4973,21,18,"Wrestling Men's Welterweight, Freestyle"
+1943,21,7,"Athletics Men's 3,000 metres Steeplechase"
+14198,21,100,"Team Sprint, Men (Olympic)"
+14241,21,118,"Individual, Women (Olympic)"
+14126,21,10,"Doubles, Men (Olympic)"
+5158,21,28,Taekwondo Men's Welterweight
+3192,21,31,"Canoeing Women's Kayak Singles, 500 metres"
+2194,21,26,"Shooting Men's Small-Bore Rifle, Three Positions, 50 metres"
+13638,21,114,"800 metres Freestyle, Women (Olympic)"
+11412,21,11,"One Person Heavyweight Dinghy, Men (Olympic)"
+13662,21,114,"4 × 100 metres Medley Relay, Men (Olympic)"
+14039,21,17,"Flyweight, Women (Olympic)"
+670,21,9,Swimming Men's 4 x 100 metres Freestyle Relay
+285,21,30,Diving Women's Platform
+12223,21,7,"50 kilometres Race Walk, Men (Olympic)"
+14399,21,117,"Pommelled Horse, Men (Olympic)"
+2216,21,24,"Fencing Women's Foil, Individual"
+14022,21,114,"100 metres Breaststroke, Women (Olympic)"
+1118,21,7,Athletics Men's 4 x 100 metres Relay
+7121,21,40,"Team, Men (Olympic)"
+14776,21,17,"Middleweight, Men (Olympic)"
+1861,21,29,"Cycling Men's Road Race, Individual"
+14028,21,114,"100 metres Backstroke, Men (Olympic)"
+505,21,18,"Wrestling Men's Middleweight, Freestyle"
+5565,21,29,Cycling Women's BMX
+9577,21,26,"Sporting Pistol, 25 metres, Women (Olympic)"
+5831,21,29,Cycling Women's Sprint
+14177,21,48,"Olympic Distance, Men (Olympic)"
+13522,21,105,"Synchronized Springboard, Women (Olympic)"
+14069,21,22,"Eights, Men (Olympic)"
+3580,21,18,"Wrestling Men's Heavyweight, Freestyle"
+7702,21,104,"Individual, Open (Olympic)"
+916,21,9,Swimming Men's 100 metres Backstroke
+656,21,13,Gymnastics Men's Team All-Around
+362,21,39,Synchronized Swimming Women's Team
+1154,21,22,Rowing Women's Double Sculls
+5844,21,30,Diving Men's Synchronized Springboard
+4472,21,32,Tennis Women's Doubles
+245,21,17,Weightlifting Men's Heavyweight
+3143,21,2,Judo Men's Lightweight
+657,21,13,Gymnastics Men's Horse Vault
+2035,21,26,"Shooting Men's Rapid-Fire Pistol, 25 metres"
+13714,21,32,"Doubles, Mixed (Olympic)"
+13596,21,11,"One Person Dinghy, Women (Olympic)"
+13539,21,117,"Team All-Around, Women (Olympic)"
+1628,21,43,Rhythmic Gymnastics Women's Group
+15064,21,35,"Individual, Men (Olympic)"
+2247,21,7,"Athletics Men's 1,500 metres"
+147,21,22,Rowing Men's Coxless Pairs
+14530,21,17,"Featherweight, Women (Olympic)"
+1006,21,9,Swimming Men's 400 metres Freestyle
+2503,21,31,"Canoeing Men's Kayak Doubles, 1,000 metres"
+3724,21,18,"Wrestling Men's Featherweight, Freestyle"
+14462,21,94,"Keirin, Men (Olympic)"
+615,21,9,Swimming Men's 100 metres Freestyle
+13469,21,10,"Singles, Men (Olympic)"
+14012,21,114,"400 metres Individual Medley, Women (Olympic)"
+5169,21,33,Modern Pentathlon Men's Individual
+4367,21,29,Cycling Men's Keirin
+1942,21,7,"Athletics Women's 3,000 metres Steeplechase"
+4094,21,26,"Shooting Women's Small-Bore Rifle, Three Positions, 50 metres"
+13553,21,117,"Horizontal Bar, Men (Olympic)"
+364,21,2,Judo Men's Extra-Lightweight
+7703,21,104,"Team, Open (Olympic)"
+349,21,27,Boxing Men's Lightweight
+14491,21,7,"110 metres Hurdles, Men (Olympic)"
+1534,21,7,Athletics Men's Triple Jump
+13510,21,94,"Road Race, Individual, Men (Olympic)"
+14188,21,100,"Keirin, Women (Olympic)"
+13673,21,114,"200 metres Backstroke, Women (Olympic)"
+339,21,26,"Shooting Men's Free Pistol, 50 metres"
+14398,21,117,"Rings, Men (Olympic)"
+2883,21,2,Judo Women's Heavyweight
+4022,21,29,Cycling Women's Individual Time Trial
+14540,21,17,"Light-Heavyweight, Men (Olympic)"
+14111,21,7,"200 metres, Men (Olympic)"
+1035,21,20,Water Polo Men's Water Polo
+1989,21,18,"Wrestling Men's Light-Heavyweight, Greco-Roman"
+5691,21,26,"Shooting Men's Small-Bore Rifle, Prone, 50 metres"
+2190,21,22,Rowing Men's Single Sculls
+13466,21,7,"Marathon, Men (Olympic)"
+14863,21,94,"Cross-Country, Women (Olympic)"
+5904,21,10,Badminton Women's Doubles
+9546,21,22,"Double Sculls, Men (Olympic)"
+2621,21,7,"Athletics Women's 5,000 metres"
+5936,21,31,"Canoeing Women's Kayak Singles, Slalom"
+2328,21,22,Rowing Women's Coxed Eights
+1859,21,22,Rowing Women's Single Sculls
+2612,21,7,Athletics Women's 100 metres Hurdles
+14102,21,97,"Kayak Singles, 1,000 metres, Men (Olympic)"
+5695,21,29,Cycling Men's BMX
+13453,21,7,"5,000 metres, Women (Olympic)"
+14062,21,11,"Skiff, Women (Olympic)"
+14133,21,24,"Sabre, Individual, Women (Olympic)"
+14180,21,7,"Pole Vault, Men (Olympic)"
+700,21,24,"Fencing Men's Foil, Team"
+1795,21,9,Swimming Women's 200 metres Freestyle
+13660,21,114,"200 metres Butterfly, Men (Olympic)"
+14051,21,94,Cycling Track (Cycling)
+14456,21,134,"BMX, Women (Olympic)"
+12866,21,7,"4 × 400 metres Relay, Men (Olympic)"
+632,21,45,Rugby Sevens Women's Rugby Sevens
+1302,21,7,Athletics Men's High Jump
+1467,21,25,"Equestrianism Mixed Dressage, Individual"
+14447,21,27,"Lightweight, Men (Olympic)"
+14588,21,18,"Super-Heavyweight, Freestyle, Men (Olympic)"
+3184,21,7,Athletics Women's 400 metres Hurdles
+14284,21,7,"Long Jump, Men (Olympic)"
+2657,21,9,Swimming Women's 100 metres Freestyle
+4385,21,9,Swimming Men's 10 kilometres Open Water
+14162,21,27,"Super-Heavyweight, Men (Olympic)"
+14055,21,114,"200 metres Backstroke, Men (Olympic)"
+14027,21,136,"10 kilometres Open Water, Women (Olympic)"
+13713,21,32,"Singles, Women (Olympic)"
+14495,21,7,"Decathlon, Men (Olympic)"
+14100,21,97,"Kayak Fours, 500 metres, Women (Olympic)"
+14011,21,114,"200 metres Butterfly, Women (Olympic)"
+14601,21,28,"Flyweight, Men (Olympic)"
+14770,21,27,"Lightweight, Women (Olympic)"
+1416,21,27,Boxing Men's Light-Heavyweight
+2648,21,28,Taekwondo Women's Featherweight
+14479,21,7,"1,500 metres, Women (Olympic)"
+7945,21,109,"Cross-Country, Women (Olympic)"
+14818,21,27,"Flyweight, Women (Olympic)"
+357,21,17,Weightlifting Men's Middle-Heavyweight
+13531,21,24,"Épée, Team, Women (Olympic)"
+3721,21,31,"Canoeing Men's Kayak Singles, 1,000 metres"
+5321,21,11,Sailing Men's Windsurfer
+2853,21,28,Taekwondo Women's Heavyweight
+257,21,29,"Cycling Women's Road Race, Individual"
+1466,21,11,Sailing Men's Two Person Dinghy
+12467,21,37,"Team, Women (Olympic)"
+14246,21,105,"Synchronized Platform, Women (Olympic)"
+14016,21,114,"4 × 100 metres Freestyle Relay, Women (Olympic)"
+5255,21,31,"Canoeing Men's Canadian Singles, Slalom"
+4615,21,32,Tennis Men's Doubles
+5223,21,30,Diving Women's Synchronized Platform
+9461,21,22,"Single Sculls, Women (Olympic)"
+134,21,13,Gymnastics Men's Pommelled Horse
+1657,21,17,Weightlifting Women's Flyweight
+14229,21,18,"Super-Heavyweight, Greco-Roman, Men (Olympic)"
+130,21,13,Gymnastics Men's Floor Exercise
+250,21,25,"Equestrianism Mixed Three-Day Event, Team"
+338,21,26,"Shooting Men's Air Pistol, 10 metres"
+1976,21,31,"Canoeing Women's Kayak Fours, 500 metres"
+14423,21,10,"Singles, Women (Olympic)"
+5022,21,29,Cycling Men's Sprint
+14584,21,18,"Light-Heavyweight, Freestyle, Men (Olympic)"
+13639,21,114,Marathon Swimming (Aquatics)
+14461,21,94,"Sprint, Men (Olympic)"
+5260,21,11,Sailing Men's One Person Heavyweight Dinghy
+1896,21,27,Boxing Men's Super-Heavyweight
+1372,21,22,Rowing Men's Quadruple Sculls
+2095,21,26,Shooting Men's Double Trap
+13718,21,126,"Beach Volleyball, Women (Olympic)"
+669,21,9,Swimming Men's 50 metres Freestyle
+13600,21,26,"Air Rifle, 10 metres, Men (Olympic)"
+13640,21,114,"10 kilometres Open Water, Women (Olympic)"
+3820,21,24,"Fencing Women's Sabre, Individual"
+13508,21,97,"Kayak Fours, 1,000 metres, Men (Olympic)"
+3892,21,7,Athletics Men's 50 kilometres Walk
+4900,21,11,Sailing Men's Skiff
+5693,21,31,"Canoeing Men's Canadian Doubles, 1,000 metres"
+13429,21,7,"Triple Jump, Men (Olympic)"
+5150,21,32,Tennis Mixed Doubles
+839,21,29,"Cycling Men's Mountainbike, Cross-Country"
+14471,21,134,"BMX, Men (Olympic)"
+8403,21,24,"Foil, Individual, Women (Olympic)"
+133,21,13,Gymnastics Men's Rings
+1007,21,9,"Swimming Men's 1,500 metres Freestyle"
+12358,21,7,"4 × 100 metres Relay, Men (Olympic)"
+1796,21,9,Swimming Women's 4 x 200 metres Freestyle Relay
+14590,21,18,"Featherweight, Greco-Roman, Men (Olympic)"
+14141,21,24,"Foil, Individual, Men (Olympic)"
+13644,21,114,"200 metres Individual Medley, Women (Olympic)"
+8677,21,111,"Football, Women (Olympic)"
+14396,21,117,"Individual All-Around, Men (Olympic)"
+1974,21,18,"Wrestling Men's Super-Heavyweight, Freestyle"
+3053,21,31,"Canoeing Women's Kayak Singles, 200 metres"
+8627,21,24,"Épée, Individual, Men (Olympic)"
+14545,21,17,"Super-Heavyweight, Men (Olympic)"
+2462,21,11,Sailing Women's Two Person Dinghy
+922,21,39,Synchronized Swimming Women's Duet
+411,21,7,Athletics Women's 200 metres
+13430,21,7,"200 metres, Women (Olympic)"
+788,21,7,Athletics Women's 400 metres
+14168,21,2,"Lightweight, Women (Olympic)"
+14109,21,7,"Hammer Throw, Women (Olympic)"
+14264,21,28,"Heavyweight, Women (Olympic)"
+14397,21,117,"Parallel Bars, Men (Olympic)"
+14797,21,22,"Coxless Pairs, Women (Olympic)"
+14212,21,32,"Singles, Men (Olympic)"
+790,21,7,Athletics Men's Shot Put
+14036,21,114,"100 metres Butterfly, Women (Olympic)"
+150,21,28,Taekwondo Women's Flyweight
+4358,21,9,Swimming Women's 200 metres Backstroke
+2136,21,7,Athletics Men's Discus Throw
+14427,21,2,"Extra-Lightweight, Women (Olympic)"
+14002,21,114,"400 metres Individual Medley, Men (Olympic)"
+14197,21,100,"Keirin, Men (Olympic)"
+5638,21,29,Cycling Men's Omnium
+4547,21,10,Badminton Women's Singles
+5023,21,29,Cycling Men's Team Sprint
+1990,21,27,Boxing Men's Bantamweight
+1454,21,11,Sailing Men's One Person Dinghy
+1162,21,27,Boxing Women's Flyweight
+13519,21,100,"Team Pursuit, 4,000 metres, Men (Olympic)"
+638,21,40,Table Tennis Men's Team
+14440,21,2,"Half-Lightweight, Men (Olympic)"
+3142,21,2,Judo Men's Half-Lightweight
+2890,21,31,"Canoeing Men's Canadian Singles, 1,000 metres"
+14048,21,94,"Road Race, Individual, Women (Olympic)"
+14546,21,33,"Individual, Women (Olympic)"
+14424,21,10,"Doubles, Women (Olympic)"
+14175,21,7,"Javelin Throw, Women (Olympic)"
+2123,21,17,Weightlifting Women's Lightweight
+12876,21,7,"Discus Throw, Men (Olympic)"
+1520,21,11,Sailing Women's Skiff
+14043,21,17,"Featherweight, Men (Olympic)"
+3312,21,9,Swimming Women's 10 kilometres Open Water
+2819,21,25,"Equestrianism Mixed Dressage, Team"
+13504,21,97,"Kayak Doubles, 200 metres, Men (Olympic)"
+2470,21,22,Rowing Men's Double Sculls
+14052,21,94,"Team Pursuit, Women (Olympic)"
+14281,21,122,"Water Polo, Women (Olympic)"
+5174,21,24,"Fencing Women's epee, Individual"
+14450,21,27,"Light-Flyweight, Men (Olympic)"
