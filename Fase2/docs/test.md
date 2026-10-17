@@ -287,18 +287,22 @@ confirma que no existan filas huérfanas.
 
 ## 2.1 Crear una base nueva
 
-```powershell
-Reset-Fase2Database
-```
-
 Crear identificadores únicos para que los nuevos respaldos no sobrescriban ni
-se mezclen con ejecuciones anteriores:
+se mezclen con ejecuciones anteriores, y los archivos de log de esta corrida
+(`$BackupLog`/`$RestoreLog`, usados por los `-LogCsv` de las secciones
+siguientes — si se omite este bloque, esas variables quedan vacías y
+`respaldo_full.ps1`/`respaldo_incremental.ps1` fallan al intentar escribir el
+log con `-FilePath ""`):
 
 ```powershell
 Reset-Fase2Database
 $RunId = 'demostracion_' + (Get-Date -Format 'yyyyMMdd_HHmmss')
 $BackupRoot = "pruebas/$RunId"
 New-Item -ItemType Directory -Path .\logs\pruebas -Force | Out-Null
+$BackupLog = ".\logs\pruebas\test_backups_$RunId.csv"
+$RestoreLog = ".\logs\pruebas\test_restores_$RunId.csv"
+'backup,tipo,base,inicio,fin,duracion_s' | Set-Content $BackupLog -Encoding utf8
+'backup,tipo,inicio,fin,duracion_s' | Set-Content $RestoreLog -Encoding utf8
 ```
 
 ## 2.2 Carga 1 — París 2024
