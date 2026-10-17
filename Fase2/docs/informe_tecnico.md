@@ -34,16 +34,19 @@ sección 4 para el diagrama y [`../../Fase1/img/ER.png`](../../Fase1/img/ER.png)
 
 ![Modelo entidad-relación de Olimpiadas](../../Fase1/img/ER.png)
 
-Para Fase 2 se cargan `pais`, `edicion`, `deporte`, `evento`, `atleta` y
-`participacion`. `poblacion`, `club` y `atleta_club` quedan vacías porque no
-son relevantes para las 3 rondas de carga pedidas. `equipo` también queda en
-0 filas siempre: en Fase 1, los equipos se derivan *después* de cargar todas
-las participaciones (`etl/derivar_equipos.sql` agrupa por evento+país
-directamente en la base de datos), por lo que el CSV fuente
-(`etl-csvs/equipo.csv`) nunca tuvo filas que Fase 2 pudiera reutilizar —
-`cargar_paso.ps1` detecta el CSV vacío y simplemente omite esa tabla en cada
-carga (ver [`evidencia.md`](evidencia.md), donde las cargas muestran
-`equipo: 0` de forma consistente).
+El generador de Fase 2 recorre las relaciones del subconjunto y produce deltas
+para `pais`, `poblacion`, `edicion`, `deporte`, `evento`, `atleta`, `club`,
+`atleta_club` y `participacion`. En Fase 1, `equipo` se construía después de
+importar los CSV mediante `etl/derivar_equipos.sql`; por eso el archivo
+`etl-csvs/equipo.csv` no contiene el resultado derivado. Para mantener el
+mismo comportamiento, `cargar_paso.ps1` ejecuta
+[`sql/derivar_equipos.sql`](../sql/derivar_equipos.sql) después de cada delta,
+reconstruye los equipos sobre todas las participaciones acumuladas y vuelve a
+enlazar `participacion.equipo_id` antes de validar y respaldar. En el estado
+final por año se obtuvieron 5,108 equipos y 28,647 participaciones enlazadas;
+los escenarios de 100 metros y un solo deportista conservan cero equipos de
+forma correcta porque sus subconjuntos no contienen grupos de dos o más
+atletas del mismo país en un evento colectivo.
 
 ## 3. Plan de respaldo
 
@@ -71,7 +74,7 @@ seguido se respalda), mientras que un diferencial siempre compara contra el
 full y crece con cada carga. No se implementó la variante diferencial para
 comparar ambas empíricamente — queda como trabajo futuro; lo que sí se midió
 (sección 2 de [`analisis_comparativo.md`](analisis_comparativo.md)) es que
-los incrementales pesan 20-40% menos que el full.
+los incrementales pesan aproximadamente 19-41% menos que el full.
 
 **Almacenamiento:** los respaldos se escriben en `./backups` (carpeta del
 host, montada en el contenedor), no en el volumen de datos de Postgres —
@@ -80,13 +83,13 @@ así sobreviven a un `docker compose down -v` (ver sección 8.3 del enunciado,
 
 ## 4. Especificaciones técnicas del servidor
 
-- Motor: PostgreSQL 17.10 (imagen `postgres:17-alpine`), vía Docker Desktop
+- Motor: PostgreSQL 17.11 (imagen `postgres:17-alpine`), vía Docker Desktop
   en Windows.
 - Contenedor principal: `fase2-pg`, puerto 5433 (host) → 5432.
 - Volumen de datos: volumen Docker nombrado `fase2_pgdata` (persistente).
 - Backups: bind-mount `./backups` del host.
-- Restauración de prueba: contenedores efímeros (`fase2-restore`, puerto
-  5434) con `postgres:17-alpine`, sin recursos dedicados adicionales a los
+- Restauración de prueba: contenedores efímeros (`fase2-prueba`, puerto
+  5544) con `postgres:17-alpine`, sin recursos dedicados adicionales a los
   límites por defecto de Docker Desktop.
 
 ## 5. Fragmentación de las tablas
@@ -101,15 +104,19 @@ docker cp sql\verificar_fragmentacion.sql fase2-pg:/verificar_fragmentacion.sql
 docker exec fase2-pg psql -U postgres -d olimpiadas_fase2 -f /verificar_fragmentacion.sql
 ```
 
-**Resultado (estado final, 75,533 filas en `participacion`): 0% de tuplas
-muertas y 0.37% de espacio libre en todas las tablas** — ver
-[`evidencia.md`](evidencia.md) sección 4. Es el resultado esperado: las
-cargas de Fase 2 son `COPY` puro (solo `INSERT`), y la fragmentación en
-Postgres la generan `UPDATE`/`DELETE` (que dejan tuplas muertas hasta que
-`VACUUM` las limpia) — un flujo de solo-inserción no tiene nada que
-fragmentar. Esta es una diferencia relevante frente a Fase 1, donde
-`etl/derivar_equipos.sql` sí hace `UPDATE`/`DELETE` sobre `participacion` y
-por lo tanto sí genera tuplas muertas hasta el siguiente `VACUUM`.
+Las inserciones se realizan con `COPY`, pero después de cada paso la
+derivación idempotente actualiza `participacion.equipo_id`, elimina los equipos
+anteriores y los reconstruye. Por tanto, `pg_stat_user_tables` puede mostrar
+tuplas muertas en `participacion` y `equipo` hasta que `autovacuum` las limpie;
+esto es comportamiento MVCC esperado, no pérdida de integridad. La medición
+reproducible y el detalle con `pgstattuple` se obtienen con el comando anterior
+y se contrastan con la validación de cero filas huérfanas. En la medición final,
+las estadísticas estimaron 46,526 tuplas muertas en `participacion` (38.12%) y
+3,367 en `equipo` (39.73%); ambas tablas ya registraban una ejecución de
+`autovacuum`. La inspección física exacta de `participacion` mediante
+`pgstattuple`, realizada inmediatamente después, encontró 0 tuplas muertas y
+35.85% de espacio libre, mostrando que la estimación estadística todavía no se
+había actualizado después de la limpieza.
 
 ![Fragmentación medida en las tablas](evidencia/fragmentacion_tablas.png)
 
@@ -137,7 +144,7 @@ fecha de cada paso).
    datos — la ventaja del incremental se ve en el **tamaño** en disco, no en
    la velocidad de toma del respaldo.
 3. La restauración incremental es consistentemente más lenta que la
-   restauración de solo el full (87%-154% más tiempo en las pruebas), porque
+   restauración de solo el full (91%-111% más tiempo en las pruebas nuevas), porque
    `pg_combinebackup` debe reconstruir el directorio completo antes de poder
    arrancar el servidor.
 4. Restaurar solo el full backup es más rápido pero **incompleto** — en las
@@ -148,11 +155,10 @@ fecha de cada paso).
    frecuentes, priorizando RPO bajo (minimizar pérdida de datos) sobre RTO
    (tiempo de restauración), dado que el costo de *tomar* un incremental es
    similar al de un full pero pesa menos en disco.
-6. La fragmentación se mantuvo en 0% durante toda la Fase 2 porque la carga
-   es estrictamente `INSERT` (vía `COPY`) — no hay `UPDATE`/`DELETE` que
-   dejen tuplas muertas. Un plan de mantenimiento (`VACUUM`/`autovacuum`)
-   solo se vuelve relevante cuando el flujo de carga incluye actualizaciones
-   o borrados, como el paso de derivación de equipos de Fase 1.
+6. La derivación de equipos reproduce correctamente el paso de Fase 1 y hace
+   que las diez tablas participen en la validación. Como emplea `UPDATE` y
+   `DELETE`, `autovacuum` sigue siendo necesario para recuperar espacio de
+   tuplas muertas; esto no afecta la consistencia de los respaldos físicos.
 
 ## 8. Validación final de entrega
 

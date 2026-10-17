@@ -38,6 +38,10 @@ BEGIN
         UNION ALL SELECT 1 FROM evento x LEFT JOIN edicion e ON e.edicion_id=x.edicion_id WHERE e.edicion_id IS NULL
         UNION ALL SELECT 1 FROM evento x LEFT JOIN deporte d ON d.deporte_id=x.deporte_id WHERE d.deporte_id IS NULL
         UNION ALL SELECT 1 FROM equipo x LEFT JOIN evento e ON e.evento_id=x.evento_id WHERE e.evento_id IS NULL
+        UNION ALL SELECT 1 FROM equipo x LEFT JOIN pais p ON p.pais_id=x.pais_id WHERE x.pais_id IS NOT NULL AND p.pais_id IS NULL
+        UNION ALL SELECT 1 FROM club x LEFT JOIN pais p ON p.pais_id=x.pais_id WHERE x.pais_id IS NOT NULL AND p.pais_id IS NULL
+        UNION ALL SELECT 1 FROM atleta_club x LEFT JOIN atleta a ON a.atleta_id=x.atleta_id WHERE a.atleta_id IS NULL
+        UNION ALL SELECT 1 FROM atleta_club x LEFT JOIN club c ON c.club_id=x.club_id WHERE c.club_id IS NULL
         UNION ALL SELECT 1 FROM participacion x LEFT JOIN atleta a ON a.atleta_id=x.atleta_id WHERE a.atleta_id IS NULL
         UNION ALL SELECT 1 FROM participacion x LEFT JOIN evento e ON e.evento_id=x.evento_id WHERE e.evento_id IS NULL
         UNION ALL SELECT 1 FROM participacion x LEFT JOIN equipo e ON e.equipo_id=x.equipo_id WHERE x.equipo_id IS NOT NULL AND e.equipo_id IS NULL

@@ -10,7 +10,7 @@ datos de Olimpiadas, con respaldo físico completo + incremental (Postgres 17,
 ```
 Fase2/
 ├── docker-compose.yml       Postgres 17 con summarize_wal=on y almacenamiento persistente
-├── sql/                     Esquema y stored procedures (reutilizados de Fase 1)
+├── sql/                     Esquema, procedimientos, derivación y validaciones
 ├── carga/                   Generador de subconjuntos + script de carga incremental
 ├── backup/                  Scripts de respaldo full/incremental
 ├── restore/                 Scripts de restauración full y full+incremental
@@ -35,6 +35,10 @@ vía el protocolo de replicación.
   implementación de `sp_info_atleta` / `sp_info_pais`, sin cambios.
 - `../Fase1/etl-csvs/*.csv`: fuente de datos para los 3 subconjuntos de carga
   (no se repitió el ETL de las 7 fuentes originales).
+- `sql/derivar_equipos.sql`: adaptación del paso posterior a `load.sql` de
+  Fase 1; se ejecuta después de cada delta para reconstruir y enlazar equipos.
+- Los subconjuntos incluyen población, clubes y relaciones atleta–club para
+  que las diez tablas del modelo participen en las validaciones.
 - El enfoque de evidencia con capturas con fecha (`docs/evidencia.md`).
 
 ## Guía rápida

@@ -1,21 +1,21 @@
-﻿Evidencia generada: 2026-10-16T14:24:24.1199165-06:00
+﻿Evidencia generada: 2026-10-16T21:53:48.1312873-06:00
       fecha_hora_servidor      |    base_datos    |                                         version                                          
 -------------------------------+------------------+------------------------------------------------------------------------------------------
- 2026-10-16 20:24:24.413957+00 | olimpiadas_fase2 | PostgreSQL 17.10 on x86_64-pc-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit
+ 2026-10-17 03:53:48.402601+00 | olimpiadas_fase2 | PostgreSQL 17.11 on x86_64-pc-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit
 (1 row)
 
      tabla     | total 
 ---------------+-------
  atleta        |     1
- atleta_club   |     0
- club          |     0
+ atleta_club   |     1
+ club          |     1
  deporte       |     1
  edicion       |     2
  equipo        |     0
  evento        |     8
  pais          |     3
  participacion |     8
- poblacion     |     0
+ poblacion     |   192
 (10 rows)
 
  pais_id | nombre_pais | region 
@@ -27,7 +27,12 @@
 
  pais_id | anio | poblacion 
 ---------+------+-----------
-(0 rows)
+ CHN     | 1960 | 667070000
+ CHN     | 1961 | 660330000
+ CHN     | 1962 | 665770000
+ CHN     | 1963 | 682335000
+ CHN     | 1964 | 698355000
+(5 rows)
 
  atleta_id |  nombre_completo   | nombre_usado | sexo | fecha_nacimiento |      lugar_nacimiento      | fecha_fallecimiento | lugar_fallecimiento | estatura_cm | peso_kg | pais_id 
 -----------+--------------------+--------------+------+------------------+----------------------------+---------------------+---------------------+-------------+---------+---------
@@ -58,13 +63,15 @@
 -----------+-----------+---------+---------------
 (0 rows)
 
- club_id | nombre_club | pais_id 
----------+-------------+---------
-(0 rows)
+ club_id |    nombre_club    | pais_id 
+---------+-------------------+---------
+   23954 | Racers Track Club | JAM
+(1 row)
 
  atleta_id | club_id 
 -----------+---------
-(0 rows)
+    103192 |   23954
+(1 row)
 
  participacion_id | atleta_id | evento_id | equipo_id | pais_representado_id | nombre_en_competencia | posicion  | medalla 
 ------------------+-----------+-----------+-----------+----------------------+-----------------------+-----------+---------
