@@ -1,0 +1,3522 @@
+club_id,nombre_club,pais_id
+6,Royal Villette Charleroi,BEL
+33,University of Oxford,GBR
+34,Falkenbergs BTK,SWE
+47,RTHC Bayer Leverkusen,GER
+67,1. BC Bischmisheim,GER
+89,BSE,HUN
+95,MAC,HUN
+100,Postás SE,HUN
+263,AIS,AUS
+274,SVS Niederösterreich,AUT
+377,Dynamo Lviv,UKR
+387,TTC FVT de Keij,
+396,SKT Sopot,POL
+397,MKT Łódź,POL
+517,Santiago de Cuba,CUB
+532,Fortitudo Bologna,ITA
+552,Tokai University,
+646,Fredrikstad Bueskyttere,NOR
+714,Kansas State Wildcats,USA
+727,Gentofte BK,DEN
+740,RCT Barcelona,ESP
+789,Malmö BMK,SWE
+831,I. ČLTK Praha,CZE
+847,Dynamo Kaliningrad,RUS
+861,SV VERU Pluderhausen,
+901,MC Alger,ALG
+916,PUC,FRA
+944,Yonsei University,KOR
+946,Dankook University,KOR
+966,Miami Hurricanes,USA
+998,Jiangsu,
+1034,Golden Gloves ABC,GBR
+1145,Karlsruher SC,GER
+1168,SSV Gera,GER
+1172,FC Schalke 04,GER
+1245,Holy Family Boxing Club,GBR
+1254,St. John Bosco,GBR
+1408,CUBA,ARG
+1452,Adelaide Lightning,AUS
+1456,Maryland Terrapins,USA
+1508,Arkansas Razorbacks,USA
+1534,Parma Sports Club,
+1540,Woori Bank Hansae,KOR
+1549,University of Queensland,AUS
+1550,Holguin,
+1556,Real Canoe NC,ESP
+1644,De La Salle University,PHI
+1691,AS Monaco,MON
+1692,Le Mans Sarthe Basket,FRA
+1708,Capitanes de Arecibo,PUR
+1755,Wybrzeże Gdańsk,POL
+1774,Birmingham Dolobran,GBR
+1793,Wisła Kraków,POL
+1821,Pallacanestro Cantù,ITA
+1878,Clube Esperia,BRA
+1910,Sydney Kings,
+2018,Indiana Pacers,USA
+2054,Lietuvos Rytas,LTU
+2083,US Métro,FRA
+2119,Jilin,
+2123,Oklahoma Sooners,USA
+2260,RKS Łódź,POL
+2312,IF Linnéa,SWE
+2359,Dynamo Almaty,KAZ
+2470,Norfolk State Spartans,USA
+2536,Dynamo Mahilyow,BLR
+2542,Gold Coast Canoe Cougars/Kayak Club,
+2547,Club de Canoë de Course de Lachine,CAN
+2549,McMaster Marauders,CAN
+2646,MMCK,FRA
+2682,Elmbridge CC,GBR
+2683,Royal CC,GBR
+2703,Nottingham KC,GBR
+2807,Győri VSE,HUN
+2808,Szeged VSE,HUN
+2922,Sparta Augustów,POL
+2928,LKK Drzewica,POL
+2933,AD Amarante,POR
+2946,KK Soške Elektrarne,SLO
+2983,Jönköpings KK,SWE
+3045,Dynamo Khmelnytskyi,UKR
+3051,Dynamo Homel,BLR
+3097,KK Val,SRB
+3153,Stockholms FRK,SWE
+3199,Fågelbro RK,SWE
+3200,Djursholms RK,SWE
+3220,RV Mannheim,GER
+3234,Haras des Brulys Barbizon,
+3325,ZRFV Borken,GER
+3355,Haras Du'Nazoy,
+3385,Espace Marcel Rozier,
+3450,MAPEI,ITA
+3466,Sandnes Cykleklubb/Merida Biking Team,
+3526,Chirio Forno D'Asolo,ITA
+3581,City of Edinburgh RC,GBR
+3589,Caloi,BRA
+3640,LA Alumínios–LA Sport,
+3979,HTC-Highroad,USA
+4055,Korea Water Resource Corp.,KOR
+4080,Fassa Bortolo,ITA
+4088,Dynamo Kharkiv,UKR
+4090,MKS Gryf Szczecin,
+4116,OB,DEN
+4256,Atlético Mineiro,BRA
+4272,Team Saxo Bank,DEN
+4288,Siemens Mobile-Cannondale,
+4519,Hurling Club,ARG
+4522,Club de Gimnasia y Esgrima,ARG
+4540,Essendon Hockey Club,AUS
+4541,Wesley South Perth Hockey Club,AUS
+4619,Stade toulousain,FRA
+4741,RC Jolaseta,ESP
+4768,Leicester Hockey Club,GBR
+4839,Reading HC,GBR
+4864,Klipper THC,GER
+4871,Münchner SC,GER
+4894,Nürnberger HTC,GER
+4971,CUS Cagliari,ITA
+4982,Korea Telecom Corporation,KOR
+5021,HCKZ,NED
+5092,Grunwald Poznań,POL
+5411,En Garde Haapsalu,EST
+5426,AS Saint-Gratien,FRA
+5496,The Lansdowne Club,GBR
+5609,AZS Łódź,POL
+5741,NA Hussein-Dey,ALG
+5742,CR Belouizdad,ALG
+5750,Rosario Central,ARG
+5753,Ferro Carril Oeste,ARG
+5755,Independiente,ARG
+5761,Huracán,ARG
+5795,FC Salzburg,AUT
+5831,Internacional,BRA
+5856,AS Roma,ITA
+5924,Atlético Nacional,COL
+5928,Deportivo Cali,COL
+5930,Independiente Santa Fe,COL
+5931,Deportes Tolima,COL
+5932,Junior de Barranquilla,COL
+5934,Millonarios FC,COL
+5961,Vejle Boldklub,DEN
+5972,Esbjerg fB,DEN
+5974,Silkeborg IF,DEN
+5975,AaB Aalborg,DEN
+6002,Sporting de Gijón,ESP
+6006,CD Tenerife,ESP
+6095,Tours FC,FRA
+6147,Tottenham Hotspur,GBR
+6202,FC Basel,SUI
+6220,Bremen 1860,GER
+6320,Al-Quwa Al-Jawiya,IRQ
+6324,Al-Minaa,IRQ
+6325,Al-Zawraa,IRQ
+6334,Hapoel Tel-Aviv,ISR
+6338,Hapoel Tel-Aviv,
+6366,US Palermo,ITA
+6404,Gamba Osaka,JPN
+6484,Deportivo Toluca,MEX
+6575,União da Madeira,POR
+6588,Molde FK,NOR
+6635,Belenenses,POR
+6644,Al-Ahly Doha,QAT
+6649,Al-Gharafa Doha,QAT
+6682,FC Zürich,SUI
+6699,Örebro SK,SWE
+6705,IF Elfsborg,SWE
+6755,Ankara Şekerspor,TUR
+6832,Columbus Crew,USA
+6990,Montpellier,
+7036,TSV Schmiden,GER
+7067,TFSE,HUN
+7103,GAL Lissone,ITA
+7160,Lisboa Ginásio Clube,POR
+7222,VS Hrodna,BLR
+7326,Skytterforeningernes Hold,DEN
+7474,Bristol Hawks Gymnastics Club,GBR
+7614,Stavanger Turnforening,NOR
+7768,BM Granollers,ESP
+7811,AAA Metodista,
+7846,Kolding IF,DEN
+7934,Kwangiu,
+8080,Colorado Stars,
+8099,RK Proleter,SRB
+8125,AD São Caetano,
+8208,CN Funchal,POR
+8211,TSV München-Großhadern,GER
+8216,Mouloudia Club De Sala Al Jadida,MAR
+8220,AZS-AWF Wrocław,
+8240,Dinamo Brașov,ROU
+8325,TJ Kralupy/VŠ Praha/Dukla B. Bystrica/Sokol Hradec Králové,
+8367,Filippos Amideou,
+8377,Kecskeméti Judo Club,
+8426,LOSC,LTU
+8462,Adelaide University Boat Club,AUS
+8480,Murray Bridge Rowing Club,AUS
+8489,Commercial Rowing Club,AUS
+8514,BTR,BEL
+8527,SK VS Minsk,
+8528,Potsdamer Rudernclub,
+8601,Fredensborg Roklub,DEN
+8605,Aarhus Roklub,DEN
+8650,CA Nantes,FRA
+8690,AUN Lyon,FRA
+8696,CN Verdunois,FRA
+8714,Tideway Scullers School,GBR
+8740,Leander Club,
+8775,Heilbronner RG Schwaben,GER
+8776,RV Saarbrücken,GER
+8784,Passauer RV,GER
+8791,Frankfurter RG Germania,GER
+8794,Ulmer RC Donau,GER
+8877,Gießener RG 1877,GER
+8887,NO Ioannina,GRE
+8933,Canottieri Lario,ITA
+8983,Triton,NED
+9001,Laga,NED
+9004,Skadi,NED
+9026,Fana Roklubb,NOR
+9034,Wellington Rowing Club,NZL
+9048,"Club de Regatas ""Lima""",PER
+9067,AZS Toruń,POL
+9097,Rostov-na-Donu Army,
+9106,SC Zürich,SUI
+9110,SN Genève,SUI
+9174,Dynamo Brest,BLR
+9199,Montevideo RC,URU
+9222,Gonzaga Bulldogs,USA
+9225,Penn AC,USA
+9250,Detroit Boat Club,
+9251,Long Beach,
+9264,Tiro Federal Santa Fé,
+9273,Frankston Australian Clay Target Club,AUS
+9314,Oakleigh Pistol Club,
+9316,VS Minsk oblast,BLR
+9321,Nove,
+9329,New York Athletic Club,
+9342,Victoria Fish and Game,
+9358,Club de Tiro el Satelite,
+9363,Enrique Borbonet,
+9377,Skytteklubben DSB/Akademisk Skytteforening,
+9385,Frederiksværk,
+9551,SG Frankfurt Oder 1406,GER
+9831,Club International Revolver,
+9858,D.P.R.K. Shootong Sport Association,
+9994,Kometa Brno,
+10021,Oak Tree Gun Club,
+10066,Čika Mata,SRB
+10072,Hindú Club,ARG
+10098,Warringah,
+10127,University of Alabama,
+10140,ESU,AUT
+10144,ASV Linz,AUT
+10243,Pacific Coast Swimming,CAN
+10259,Island Swimming,CAN
+10277,Victoria ASC,CAN
+10278,CN Piscines du Parc Olympique,CAN
+10312,Svømmeklubben Frem,DEN
+10315,Farum Svømmeklub,
+10336,Aalborg Svømmeklub,DEN
+10349,CN Kallipolis,ESP
+10362,CN Terrassa,ESP
+10381,RCNT,ESP
+10414,CS Clichy 92,FRA
+10468,Club des Vikings de Rouen,FRA
+10582,Warrender Baths Club,GBR
+10608,Reading Royals,GBR
+10690,City of Liverpool SC,GBR
+10738,SSF Bonn 1905,GER
+10753,SV Neptun,GER
+10825,Schwaben Stuttgart,GER
+10901,Hamburger SC,GER
+10972,Bolzano Nuoto,ITA
+10976,Aurelia Nuoto,ITA
+10981,DDS Milano,ITA
+10984,A.S. Dil. Geas,ITA
+11014,Larus Nuoto,ITA
+11032,JSS Nagaoka Swimming School,
+11097,TCU Horned Frogs,USA
+11154,De Dolfijn,NED
+11201,North Shore Swimming Club,NZL
+11202,Wharenui Swimming Club,NZL
+11260,PK Radovljica,SLO
+11294,Victoria,
+11324,Mariestads SS,SWE
+11325,SK Ran,SWE
+11331,Karlslunds IF,SWE
+11341,Trelleborgs SS,SWE
+11342,Upsala SS,SWE
+11367,Spartak Zaporizhzhia,UKR
+11517,Badger Swim Club,USA
+11562,Shore Aquatics,USA
+11607,PK Mornar,CRO
+11667,Pallavolo Parma,ITA
+11684,ADC Pirelli,
+11687,CAV Murcia 2005,ESP
+11691,EC Banespa,BRA
+11694,Olympikus,
+11777,Suntory Sunbirds,JPN
+11851,Farul Constanta,
+11865,VC Belogorie,RUS
+11868,Iskra Odintsovo,RUS
+11931,Latina Volley,ITA
+12035,Rari Nantes Camogli,ITA
+12108,VK Budva,MNE
+12209,ASPTT Lille,FRA
+12442,Kolos Odessa,UKR
+12720,KSV Aalen 05,GER
+12734,SV Germania 04 Weingarten,GER
+12900,Olimpia,
+12906,Tigeres,
+12935,José Granda WC,PER
+13181,Toledo Rockets,USA
+13184,CSKA Toshkent,UZB
+13190,RK Spartak,SRB
+13234,Centro Treino Mar,POR
+13235,Royal New Zealand Yacht Squadron,NZL
+13254,Sport Nautique de l'Ouest,FRA
+13282,Bouliagmeni NC,
+13330,St. Thomas Yacht Club,ISV
+13354,Württembergischer Yacht-Club,GER
+13403,WSC Überlingen,GER
+13456,San Diego Yacht Club,USA
+13474,Asker Seilforening,NOR
+13484,RZV,
+13505,JK Labud,CRO
+13527,Axon-Fotex/Gradus SE/Graffity SE,
+13599,SYA,
+13615,DTYC,GER
+13692,Dynamo Yevpatoriya,UKR
+13823,COR,
+13830,Universitario de Rosario,ARG
+13854,Northern Suburbs,
+13865,Kembla Joggers,
+13942,Union St. Pölten,AUT
+13987,Mizuno,
+14015,V. A. C.,BEL
+14073,Haag Atletiek,
+14080,Minsk,
+14082,Grodno,
+14086,RTsFVS Minsk,BLR
+14316,Edmonton Olympic Club,
+14365,St. Francés,
+14400,CA Valencia Terra i Mar,ESP
+14503,Valencia CA,
+14557,Nurmon Urheilijat,FIN
+14696,CA Montreuil,FRA
+14746,Toulouse UC,FRA
+14812,US Nemours Saint-Pierre,FRA
+14989,Trafford AC,GBR
+14995,University of Leeds,GBR
+15106,North Belfast Harriers,GBR
+15107,Bridgend AC,GBR
+15110,City of Sheffield AC,GBR
+15141,North Staffs and Stone Harriers,GBR
+15184,Hercules Wimbledon AC,GBR
+15249,Brighton Phoenix,GBR
+15258,Shettleston Harriers,GBR
+15308,ABC Ludwigshafen,GER
+15309,ASV Köln,GER
+15325,Hannover 96,GER
+15439,LG Regensburg,GER
+15472,SC Riesa,GER
+15550,GS Olympia,CYP
+15612,VE Dorogi Atlétikai Club,
+16002,Arkādija,LAT
+16040,Westmont College Warriors,USA
+16060,Ejército de México,
+16196,IL Norna-Salhus,NOR
+16337,CF Santa Clara,POR
+16341,CDUP,POR
+16353,CSM Arad,ROU
+16437,STB,SUI
+16567,Falu IK,SWE
+16757,Dynamo Barnaul,RUS
+17011,Doane College Tigers,USA
+17145,AK Železničar,SRB
+17146,AK Slavonija,CRO
+17299,Khelvachauri Sport School,
+18095,LG Karlstadt-Gambach-Lohr,GER
+18126,Team Vestsjælland,DEN
+18129,Værløse Badminton,DEN
+18143,SLUC Nancy,FRA
+18144,CB Málaga,ESP
+18173,CUS Chieti,
+18179,Ros Casares Valencia,ESP
+18201,Nippon Sport Science University,
+18308,SC Ukraina,UKR
+18329,Hills District Athletics Club,AUS
+18337,Southeastern Louisiana University,
+18338,Doyle Management,
+18339,FLAC,BEL
+18362,Occidentales,
+18363,Puma Chapín Jerez,ESP
+18364,Playas de Castellón,
+18687,Ukraïna Mykolaïv,UKR
+18845,SK FPB Minsk,BLR
+18850,TJ Sokol Opava,CZE
+18890,Kinki University,
+18964,Philadelphia Flyers,USA
+19180,Valencia Terra i Mar,
+19181,L'Eliana Llanera,
+19210,ECLA,FRA
+19226,Exeter Harriers,GBR
+19240,Dobó Sportegyesület,
+19243,Szolnoki MÁV-Ideál SE/Budapesti Honvéd SE,
+19259,Togher Athletic Club,
+19469,Kenyan Armed Forces,
+19471,Korean National University of Physical Education,KOR
+19489,Sonora,
+19495,Leiden Atletiek,
+19500,?,NGR
+19502,NCSDC,NGR
+19604,Ulbra,BRA
+19606,CDES Gil Eanes,POR
+19615,Mios-Biganos,FRA
+19673,Fila,
+19679,Mladost-Niskogradnja,
+19693,BW Wittorf,GER
+19694,UKS Hubal,POL
+19701,Senanikorm Bangkok,
+19704,Teutonia CR,
+19769,Lokomotiv Novosibirsk,RUS
+19783,LP,
+19835,Liaoning Flying Leopards,CHN
+19836,Guandong,
+19837,Shanghai Sharks,CHN
+19841,TGB,FRA
+19923,Canning River Canoe Club,
+19958,Ukraina Kiev/Ukraina-Dynamo Kyivska oblast,
+20007,La Cerdanya,
+20008,Multivan-Merida,
+20024,WIGGINS,GBR
+20032,Merida International/SG Rheinfelden/Team Fusion Pro,
+20116,CN Fiamme Gialle/Bolzano Nuoto,
+20167,Le Glaive Tallinn,EST
+20173,Honvéd-LNX,
+20182,Peter Westbrook Foundation,
+20195,Araraquara Extra,
+20242,CD Marathón,HON
+20251,Seongnam Ilhwa Chunma,KOR
+20255,Gwangju Sangmu,KOR
+20269,Mamelodi Sundowns,RSA
+20270,Wits University FC,RSA
+20279,AS Trenčín,SVK
+20297,Unopar,
+20348,Gymnastikos Syllogos Kallitheas,
+20407,Juntendo University,
+20420,GD Zelena Jama,SLO
+20425,Ukraina,
+20435,RUDR,
+20473,Cannock HC,GBR
+20497,Queensland Scorchers,AUS
+20510,Larensche Mixed Hockey Club,
+20618,Shanghai Sports Institute,CHN
+20643,St. Andrew Boat Club,
+20644,Dragon School Rowing Club,
+20648,Casseler Frauen-Ruder-Verein,GER
+20686,ShVSM,
+20690,Seeclub Sursee,SUI
+20692,Pattaya,
+20727,Espoon Pursiseura,FIN
+20740,NO Kallitheas,
+20766,JK Burja,
+20780,Balaklava Pistol Club,
+20786,Townsville Smallbore Rifle Club/Legion Target Rifle Club,
+20813,Komáromi Olajmunkás Sportegyesület,
+20814,Komárom Városi SE,
+20815,Sportschützenvereinigung Brigachtal,
+20816,Ranjitgarth Rifle Club,
+20824,Tiro a Volo Bagnolo,
+20846,Naval 1º de Maio,POR
+20859,Jebel Ali Shooting Club,UAE
+20860,Club Krivoy-Rog Ukraina,
+20879,Redlands Swim Club,AUS
+20915,Jiangxi Provincial Water Sports Administration Center,CHN
+20917,Zhejiang Provincial Swimming Team,CHN
+20934,Keravan Uimarit,FIN
+20957,Hódúszó Sportegyesület/Budapesti Spartacus Sport Club,
+20984,Kawon Middle School,KOR
+20985,Seoul National University,KOR
+20997,De Kempvis,
+21002,KwaZulu-Natal,
+21043,TJ Tesla Brno/Walnut Creek Aquanus,
+21054,Limmat-Nixen Zürich,SUI
+21062,TSV Betzingen,GER
+21082,Osotspa Table Tennis Club,
+21092,Nunawading,
+21101,Melbourne Taekwondo Centre,
+21125,Elite Taekwondo Centre,
+21139,University of Florida,
+21178,EWZ Power Team,
+21262,Giannino Pieralisi Volley,ITA
+21264,RC Cannes,FRA
+21273,Heungkuk Life Insurance,KOR
+21282,Loyola Marymount Lions,USA
+21345,Ferrara,
+21346,Beach Team Holland,
+21352,Fairhills,
+21638,Yekaterinburg,
+22347,Kolos,
+22849,Ármann,
+22850,Faraya Mzaar Ski Club,
+23035,São Bernardo FC,BRA
+23047,Chunnam Dragons,KOR
+23075,Shandong,CHN
+23077,Ukraina-Dynamo Kharkiv,
+23082,Fujian,CHN
+23091,Arciei Radovani,
+23110,Real Valladolid,ESP
+23111,FC Tokyo,JPN
+23135,Shandong Provincial Basketball Team,CHN
+23142,Filtros Mann,
+23175,Cooperativa Terranova/La Presse Nuoto,
+23184,MKP Szczecin,POL
+23198,Universidade Salgado de Oliveira,
+23201,WTS,
+23209,Shanghai Municipal Swimming Team,CHN
+23216,CN Marseille,
+23254,Yeronga Park Swim Club,
+23271,SC Wiesbaden,GER
+23272,Nikita SESI,
+23273,Allerød Svømmeklub,
+23274,SIGMA,
+23277,Fort Worth Area Swim Team/University of California,
+23282,SK FPB Homel,BLR
+23297,Kocaeli BB Kağıtspor,TUR
+23303,Valle del Cauca,COL
+23314,Daytona Beach Swimming,USA
+23322,COAST,GBR
+23347,Team Milram,GER
+23348,Elite-2,
+23353,Katusha–Alpecin,RUS
+23358,Team Aran Cucine-Cantina Tollo,ITA
+23359,Toyota-United,USA
+23360,Salcano Manisaspor Cycling Team,TUR
+23361,Start–Vaxes Cycling Team,SRB
+23368,Cervélo-Lifeforce Pro Cycling Team,GBR
+23382,Top Girls Fassa Bortolo,ITA
+23383,Gauss RDZ Ormu,ITA
+23385,Team Hitec Products,NOR
+23389,Diadora-Pasta Zara,ITA
+23404,Club Nautilius,COL
+23409,Guizhou,
+23427,RTsFVS Mahilyow,BLR
+23429,UMBC Retrievers,USA
+23464,Koninklijke Watersportvereniging Sneek,
+23468,Circolo vela Toscolano Maderno,ITA
+23476,Club Santa Pola,
+23486,Watersportvereniging Braassemermeer,
+23492,JK Uskok,CRO
+23498,Kufsteiner Yachtklub,AUT
+23499,Yacht Club Velden,AUT
+23519,PK Proleter,SRB
+23534,Botosani CS,
+23546,Odder Roklub,DEN
+23553,SK FPB Mazyr,BLR
+23557,New Norfolk Rowing Club,AUS
+23558,Huon Rowing Club,AUS
+23568,Rostocker RC,GER
+23585,Lok Tsui Rowing Club,HKG
+23593,SC Saint Miniato,
+23608,West End Rowing Club,
+23650,SC Cernobbio,
+23653,Real Club Náutico Sanjenjo,
+23656,Royal Yachting Association,
+23670,Municipal Apartado,
+23682,Shandong Provincial Sports School,CHN
+23683,ALS Clichy,FRA
+23684,TS Beaulieu Emblavez,FRA
+23687,Legia Warszawa/Orzeł Łódź,
+23704,PVLK,
+23715,Beijing Municipal Shooting Administrative Center,CHN
+23721,Bergschützen Voglarn,GER
+23724,ZPKS Gwardia Zielona Góra,
+23736,Associacion Crucena De Tiro,
+23737,Zhejiang,CHN
+23739,Alaska Nanooks,USA
+23740,Air India Ltd.,
+23747,Haninge JSK,SWE
+23748,Bidnija,
+23749,Mashonaland Gun Club,
+23753,Punjab Rifle Association,
+23754,Cheddar Valley Trap and SkeetClub,
+23757,Rio Promoters Team,
+23764,SK København,
+23765,CTS Grand Arbois,
+23784,Tararua,
+23805,Corrections Police,
+23806,Mizuno Track Club,
+23811,JS Douanes,ALG
+23848,Lannion Canoë Kayak,FRA
+23870,Currumbin Creek Canoe Club,
+23877,Club de Piragüismo Los Rápidos,ESP
+23888,Atomerőmű SE,HUN
+23898,Doubs Sud Athlétisme,
+23913,CSM Sibiu,
+23914,CSM Zalau [Romania],
+23933,AD Marathon,
+23945,Clube de A,
+23956,Aeronautica Militare,
+23960,FM Timbó,
+23961,Associacao Atletismo de Blumenau [Brazil],
+23962,Nihon University,
+23963,Sagawa,
+23964,Japan Self-Defense Forces [JSDF] [Japan],
+23966,FFA,
+23968,Crna Trava,
+23969,AK Vlasotince [Serbia],
+23970,Samsung Electronics Athletic Club [Republic of Korea],
+23975,IF VOM,FIN
+23978,Specialised Higher Sports School [Pavlodar,
+23982,Tuks,
+23983,AK Spartak Dubnica,SVK
+23986,LAV Tübingen,GER
+24009,CA Adidas,ESP
+24011,Iraqw,
+24024,Central Gauteng Athletics,
+24046,Technik Głubczyce,POL
+24054,1. BC Beuel,GER
+24061,Guangdong Provincial Badminton Team,CHN
+24064,SC Union 08 Lüdinghausen,GER
+24074,Sturt Badminton Club,
+24096,Sport Club AZS AWF Warszawa,
+24099,AS Frascati Cocciano,
+24102,Guangdong Provincial Fencing Team,CHN
+24108,Kyoto Club,
+24126,SVC-Triatlon,
+24195,Judo Klub Sankaku,
+24220,CN,
+24222,Team Teikei,
+24235,Tri Team Saeco-Asics-Wheeler,
+24238,BM&F Bovespa [Sao Paulo,
+24239,Nishi AC,
+24240,Fujitsu Track and Field Team [Japan],
+24252,F.C. Barcelona/C.A. Adidas,
+24271,Judo Union Flachgau,AUT
+24305,University of the Western Cape,RSA
+24309,Rockhampton Cycling Club,
+24322,Grupa PSB,POL
+24323,Tinkoff Credit Systems,RUS
+24325,OCC Laval,
+24336,Japan Professional Cycling Union,
+24337,Team Sport and Publicity,GBR
+24349,Cycling Southland,
+24355,Topsport Vlaanderen,
+24363,Stal Mees,
+24372,JKS Dako Galant Skibno,
+24385,Société Equestre de l'Etrier,
+24387,Oakcrest Farma,
+24392,Iron Spring Farm,
+24411,Lincoln Blue Tigers,USA
+24413,Hallesche Leichtathletik-Freunde,GER
+24475,TSG Niedergirmes,GER
+24478,KTV Chemnitz,GER
+24490,San José,
+24491,Irene Peristeriou,
+24498,Česka Sportovný,
+24507,Sanchez Kokal,
+24513,Tennis Club Parioli,
+24514,TK Prostějov,
+24523,ARKA Gdynia,POL
+24524,SKT Szczecin,POL
+24526,Tabajara Tênis Clube,BRA
+24552,Beijing Hu Ying,
+24556,Mikihouse Junior Sports Club,
+24580,Caja Granada,
+24591,Spartak-Dynamo Lviv,
+24601,High School Wrestling Club Hisai/Sogho Security Services,
+24609,High School Wrestling Club Nagoya,
+24638,Sduschor 1,
+24643,Centre of Olympic Preparation (SOP),KGZ
+24654,Melli Haffari,IRI
+24657,Maccabi Kiriyai Ha-Yvel,
+24659,Iuventa Bratislava,
+24660,Aqlub Chofu,
+24672,Wacoal [Kyoto,
+24680,ZS Kyivska oblast,
+24709,Club Ritmo,ESP
+24722,Shanghai Municipal Diving Team,CHN
+24730,Budapesti Vasutas Sport Club/Rugóláb Lendület SE,
+24733,Mackenzie,
+24734,Associação Peneira Olimpica de Esportes,
+24741,Topeak-Ergon,
+24785,Gator Wrestling Club,USA
+24786,Sportsclub Tirana,
+24795,CSM Cluj-Napoca,ROU
+24812,Chhattral Stadium,
+24829,Djoson Taekwondo Club,
+24839,Egyptian National Team,EGY
+24864,Vale of Aylesbury Athletics Club,GBR
+24938,BK Khimki,RUS
+24941,Guangdong Southern Tigers,CHN
+24967,Taranto Cras Basket,ITA
+24986,RK Velenje,SLO
+25009,León Balonmano,ESP
+25017,Aalborg DH,DEN
+25022,RK Zaječar,SRB
+25034,Samcheok City Hall,
+25051,Gifu Girls CS,
+25052,Asan Cityhall,
+25056,Inje University,
+25059,Emeralds,
+25074,Gordon North Sydney,AUS
+25077,Southside United,AUS
+25082,Sharkia,
+25083,Eastren Co,
+25124,Sichuan Provincial Softball Team,CHN
+25146,Praia Clube,BRA
+25147,Asystel Volley,ITA
+25163,Shimokitazawa Seitoku,JPN
+25166,JT Marvelous,JPN
+25170,GS Caltex Seoul KIXX,KOR
+25202,Melville Water Polo Club,AUS
+25214,GS Orizzonte,ITA
+25216,Fiorentina Waterpolo,ITA
+25222,CN Alcorcón Arena,ESP
+25224,Fremantle Mariners,
+25231,Azad University,IRI
+25234,Rája '94 Úszóklub,HUN
+25397,Central Army Sports Club [CSKA],RUS
+25402,Juvenia Białystok,POL
+25469,AZS AWF Katowice,
+25781,Ottawa Fury,CAN
+25784,Atlanta Silverbacks Women,USA
+25788,Waitakere City FC,NZL
+25796,Vittsjö GIK,SWE
+25813,Henan Jianye,
+25815,April 25,PRK
+25829,Houston Dynamo,USA
+25832,AZ,NED
+25845,TSG 1899 Hoffenheim,GER
+25847,Guangzhou City,CHN
+25860,SC Cambuur,NED
+25864,Pyongyang Sports Club,
+25865,Horiba,
+25867,Tabanan Archery,INA
+25869,Club Valquiria de Itagüí,COL
+25878,Chanch J. M. Trujillo,
+25882,SV Querum,GER
+25905,Beijing Chengjian,CHN
+25906,Beijing Enterprises,CHN
+25915,Joker Fuel of Norway,NOR
+25921,Spartak Mykolaïv,UKR
+25923,ISD-Jorbi,UKR
+25936,Perutnina Ptuj,SLO
+25937,Synergy Baku Cycling Project,AZE
+25938,Adria Mobil,SLO
+25949,JK Zenta,CRO
+25975,Air Force Academy Shooting Club,
+25979,Hanwha Galleria Shooting Team,
+25980,Kanagawa Police,
+25985,Changwon City Hall,
+25997,Atlanta Dream,
+25998,A.S. Ramat Hasharon Electra,
+25999,Novosibirsk Dinamo-Energiya,
+26000,Orenburg Nadezhda,
+26003,Grodno Olimpia,
+26051,Club Pellikaan,
+26057,Seoul City Hall,
+26058,Pohang Iron and Steel Company,KOR
+26064,La Sottevillaise,
+26073,GK Marijan Zadravec Macan,CRO
+26076,Huntingdon Olympic Gymnastics Club,GBR
+26089,Toulon St-Cyr Var HB,FRA
+26093,IK Våg,NOR
+26095,U Jolidon Cluj Napoca,
+26097,Rulmentul Brasov,
+26108,Byucksan Construction Incheon,
+26113,Spes Volley Conegliano,ITA
+26117,VBC Zürich,SUI
+26120,OK Poštar 064,SRB
+26124,Chemik Police,POL
+26158,Sundsvalls BK,SWE
+26167,Zagrebački plivački klub,CRO
+26169,Sigma Elite Center,
+26170,1. Perger SV,AUT
+26172,University of Arizona,
+26176,Unisante,
+26194,Serc São Caetano,
+26199,Vantaan Vesikot,FIN
+26202,Bluefish Swim Club,
+26204,Garioch ASC,GBR
+26223,Forum Sporting Club,
+26230,Vineyard SC,RSA
+26236,King Edward VII RC,
+26237,TuksSport - University of Pretoria,
+26242,California Rowing Club,
+26270,BK 93 Hořovice,
+26275,TJ Sokol Jehnice,CZE
+26276,Langhøj KFUM,DEN
+26278,BC Uzwil,SUI
+26286,BMK Wätterstad,SWE
+26287,TV Refrath,GER
+26292,VBC Steyr,AUT
+26298,Sala d'Armi Aeronautica Militare,ITA
+26309,AJEF,BRA
+26316,Tampereen Judo,
+26324,Mitsui Sumimoto,
+26330,MKS Czechowice-Dziedzice,
+26335,Judoclub Koksijde,
+26339,PSK Hradec Králové,
+26347,Júdófélag Reykjavíkur,
+26361,PB Pisok,INA
+26376,SKB Suwałki,
+26379,Japan Self Defense Forces,
+26430,CK Valhall,SWE
+26431,Team Liv–Plantur,NED
+26434,Team Specialized Designs for Women,SUI
+26457,Team Redline,CAN
+26509,KOGA Cycling Team,NED
+26510,Parkhotel Valkenburg–Destil,NED
+26522,Rite Aid Pro Cycling,USA
+26523,Maloja Pushbikers,GER
+26524,Team 100% Me,GBR
+26525,Team IG–Sigma Sport,GBR
+26538,Team Multivan Merida,
+26545,Spiuk-Tau Cerámica,ESP
+26548,Dolphin,
+26549,Multivan Merida,
+26554,Burnham BMX,
+26582,Arizona League Mariners,
+26648,Petrochimi Bandar Imam BC,IRI
+26673,KS Vive Kielce,
+26676,Chrobry Głogów,POL
+26689,Hale Hockey,AUS
+26706,Indians North Shore,
+26726,Curtin University Hockey Club,AUS
+26727,Albion Park Hockey Club,
+26731,Liaoning Provincial Hockey Team,CHN
+26736,Coca Cola West Japan,JPN
+26737,KT Busan,
+26741,United North Shore,
+26744,University of Northern California,
+26745,Tianjin Municipal Hockey Team,CHN
+26761,Santa Barbara WPF,
+26785,Fujian Provincial Volleyball Team,CHN
+26805,Ural Ufa,RUS
+26818,Central Military Sports Club [Tashkent,
+26820,LSU,LTU
+26823,Kolos Kremenchuk,
+26824,Zaporozhstal [Zaporozhye,
+26834,Gyvena Šiauliuose,
+26836,Escuela Municipal de Atletismo,
+26838,FAVO,FRA
+26842,Eureka Athletics Club,
+26843,Athletics East [Sydney,
+26844,Üsküdar BSK,TUR
+26847,CSA Turnu Severin,
+26848,CS Dinamo Bucuresti,
+26849,CS Universitatea Craiova [Romania],
+26851,LKS Vectra Włocławek,
+26855,Associação Profissionalizante BM&F,BRA
+26866,Akademik TU,SVK
+26878,AK Pavel Pavlov,BUL
+26880,Riccardi Milano,
+26881,Adams State University [Alamosa,
+26882,Milton Keynes AC,GBR
+26891,FeDex de Honduras,
+26897,Speed River TFC,CAN
+26898,Tri-City Track Club,CAN
+26899,Capital City Runners,USA
+26904,Atlético Clube Paranavaí,
+26905,Gremio Barueri [Brazil],
+26906,Ballarat YCW Harriers,
+26907,Enfield Harriers [Australia],
+26910,Universidad Nacional de La Matanza,
+26920,Standard,
+26921,FATH Union Sports [Rabat,
+26923,Olympic Essenbeek Halle,
+26924,Hunter Track and Field Club,
+26925,Maroochy Athletics Club [Australia],
+26926,Boise State Broncos,USA
+26935,Hokkaido High Tech AC,
+26945,Maroochy Athletics Club,AUS
+26953,Cus Cagliari,
+26954,GA Fiamme Gialle [Rome,
+26955,Legacy Athletics,
+26958,Platinum Athletics Club,
+26959,Royal Bafokeng Athletics [South Africa],
+26964,SCO Ste Marguerite Marseille,
+26965,Entente Sarthe Athletisme [France],
+26966,Namibian Police Force [Namibia],
+26971,Kaunas Marathon [Lithuania],
+26973,Athletic Club Borac,
+26975,Ferbasa,
+26976,Veteranos de Bahia [Brazil],
+26985,Specialised Higher Sports School [Almaty,
+26987,Niigata Albirex Running Club [Japan],
+26988,AK Zagreb,CRO
+26991,Olimpiada Komotini Proponitis,
+26999,Harmony Gold Running Club,
+27008,Gwangju Metropolitan City [Republic of Korea],
+27016,CT Piauí,
+27018,Palo Seco,TTO
+27025,Beijing Municipal Athletics Team,CHN
+27038,Mjolnir Throwers Club [United States of America],
+27040,Shandong,
+27043,AK Šentjur,SLO
+27054,Fuerza Aérea Dominicana,DOM
+27055,AK Poljane,SLO
+27057,Southwest Mississippi Community College,USA
+27064,Institut national d'athlétisme,MAR
+27072,Olabisi Onabanjo University,NGR
+27075,Jiangxi,
+27094,Liverpool Pembroke & Sefton H&AC,GBR
+27108,C.A. Valdemoro,
+27109,New Balance Team [Madrid,
+27112,Kenya Prisons,
+27115,MKL Szczecin,
+27120,Maties Athletics Club,
+27129,Spartak Bila Tserkva,
+27138,Assindustria Padova,
+27152,Simplex Athletic Club [Trinidad and Tobago],
+27161,Swept Track Club [Kingston,
+27163,Vorkuta,
+27165,SOS Gent,BEL
+27181,Saint-Petersburg,
+27185,TG Biberach,GER
+27193,BRABO,BEL
+27202,Beaconsfield Bluefins,CAN
+27207,Club Natación Palma,
+27208,Mladost 91 Plovdiv,
+27209,SC Le Dauphin,LUX
+27216,Swimming Daikyo SS,
+27222,CS Muregul Targu Mures,
+27236,Tds - Tirana,
+27242,Waterloo Natation,BEL
+27250,ACEB,BRA
+27253,CN Sarreguemines,FRA
+27261,Club Las Ranas,
+27264,Kwajalein Swim Team,
+27265,Clovercrest Swimming Club,AUS
+27273,Buonconsiglio Nuoto,ITA
+27276,Jiangsu Provincial Diving Team,CHN
+27282,Beijing Municipal Diving Team,CHN
+27283,Shanxi Provincial Diving Team,CHN
+27298,Tijuca Tênis Clube,BRA
+27308,Synchro Canada,CAN
+27317,Canterbury Triathlon Club,
+27319,Inage International Triathlon Club,
+27320,Kristianstads Triathlonklubb,SWE
+27326,BSG Elite Team,RSA
+27333,Gas Ilissos,
+27364,Hunan Provincial Weightlifting Team,CHN
+27366,Royal Olympic Ghent.,
+27368,Club Sportif de la Garde Nationale,TUN
+27371,AV 03 Speyer,GER
+27374,Millennium Institute of Sport,
+27378,HC Langres,
+27380,AC Forst,GER
+27382,KS Budowlani Opole,
+27385,Dynamo-Ukraïna Lviv,UKR
+27386,AC Kaufbeuren,GER
+27387,FUNTEC,
+27391,ASC Dukla Praha/ADOS Praha,
+27392,Arkansas Fencing Academy,USA
+27395,Forth CC,GBR
+27403,Polyus Nizhny Tagil,
+27407,Suragadai University,
+27424,Olympic CK Auxerrois,FRA
+27431,Club Nautique de Baud,FRA
+27432,Canoë Club Normand,FRA
+27433,SPN Vernon,FRA
+27434,Gold Coast Kayak Club,
+27436,C.R. CATS,
+27440,Kano- og Kajakklubben 361,DEN
+27443,UKS Kopernik Bydgoszcz,
+27459,Ashenda Riding School,
+27461,Torrey Pines Stables,
+27467,Port Phillip Showjumping Club,
+27474,De Hoge Oorsprong,NED
+27480,Donghai,
+27499,Győri Sportegyesület,HUN
+27505,Sadia,
+27506,Liaoning Provincial Rhythmic Gymnastics Team,CHN
+27521,Westfields Athletics Club [AUS],
+27522,Altis [USA],
+27524,Lagos State University,NGR
+27532,Spartak Lutsk,UKR
+27542,Onorio Okada,
+27547,Yunak Lokomotiv,BUL
+27548,Orlęta Trzciel,
+27561,Centre africain de lutte féminine,TUN
+27567,Pyongyang University Sports Club,
+27572,TSOP,
+27586,Haladás,
+27587,Spartak Vladikavkaz,RUS
+27606,Babas Wrestling Club,
+27622,BK Thor,DEN
+27626,Partizan,ALB
+27627,Miner,BUL
+27628,Lovech,BUL
+27634,ZS Mariupol,
+27636,Shanxi Provincial Shooting and Archery Administrative Center,CHN
+27637,CT Montjuic,
+27638,Amnokgang Sports Club,
+27641,Cercle de Tir de Montgeron,
+27647,Georgia Dive Club,
+27652,Rapid Plzen,
+27654,SSC-Schale,GER
+27656,South Wales 2000,
+27660,Sichuan Provincial Shooting and Archery Administrative Center,CHN
+27662,Krapfoss SSL,
+27672,NCSC,
+27673,STC Millavoise,
+27685,Lucano,
+27686,Lusel,
+27695,TKD Özer,GER
+27707,TKD Center Laar,GER
+27713,Gaziosmanpaşa Belediyesi,TUR
+27714,KSC Leopard,GER
+27715,Scorpion Taekwondo,
+27726,Ucam Himoinsa Cartagena,
+27729,Ni Ling MFS Heerlen,
+27732,Cartagena,ESP
+27738,CP Lys Lez Lannoy,FRA
+27741,Taiwan Cooperative Bank,
+27770,Tennis Club Alba,
+27772,Sociedade Harmonia de Tênis,BRA
+27773,Tianjin Municipal Tennis Team,CHN
+27780,Nadwiślan Kraków,POL
+27789,Lokomotiv Plovdiv,
+27793,Guangdong Provincial Gymnastics Team,CHN
+27812,Notts Gymnastics Academy,GBR
+27814,The Academy,GBR
+27821,OTV Nazareth,
+27833,Futuro,
+27834,The International Gymnastics Academy of the Rockies (TIGAR),USA
+27851,Weymouth and Portland National Sailing Academy,
+27855,Royal Belgian Sailing Club,
+27857,CHKś Chojnice,
+27861,Sailing Club Estavayer-le-Lac,
+27864,Shanghai Municipal Sailing Team,CHN
+27868,Fukuoka Yachting Club,
+27871,Royal Sidney Yacht Squadron,
+27872,Apoel Eilat,
+27873,Liaoning Provincial Sailing Team,CHN
+27879,Kyungwon University Sailing Club,
+27882,Velas Y Vientos,
+27883,Penghu Sailing Community,
+27896,SVKRS,
+27898,YCBb,AUT
+27902,MTÜ Spordiklubi Karpak Sailing Team,
+27916,Royal Belfast Yacht Club,
+27933,Reading University Boat Club,
+27936,St Andrews School Girls RC,
+27950,S.C. Ravenna,
+27955,Krasni Oktobr,
+27964,Næstved Roklub,DEN
+27973,AGSR Gyas,NED
+28510,Adalet SK,TUR
+28518,Krapfoss Sportskytterlag,
+28527,Suzuki Hamamatsu AC [Japan],
+28534,Sitian AO [Greece],
+28540,Despar Messina,
+28543,Meralco Bolts,PHI
+28544,Élan Chalon,FRA
+28547,Dinamo Gori,
+28549,Yavara-Neva,RUS
+28558,SC Gepard,
+28560,Bronnitsy,
+28562,CSKA Khasavyurt,RUS
+28573,Uralochka ZMZ,
+28575,Karelia,
+28579,UGMK,
+28580,Suzunets,
+28587,Japan Woman's College of Physical Education,
+28593,Tonami Transpotation Badminton Club,
+28600,Dynamo Swim Club,
+28601,Heinolan Isku,
+28602,Swimming Club Vuokatti,FIN
+28605,Sony HC Bravia Ladies,
+28608,SC Penza,
+28616,Touei Housing Corporation,
+28618,Centre of Olympic Training,
+28621,IF Nykarlebynejden,FIN
+28622,Lehtimäen Jyske,FIN
+28623,Someron Esa,FIN
+28624,Pielaveden Sampo,FIN
+28625,Nokian Urheilijat,FIN
+28629,Tokyo Junior Rhythmic Gymnastics Club,
+28639,Legyc Sport,
+28644,Budokwai Taekwondo Team,
+28652,Okayama Seagulls,JPN
+28653,Hitachi Rivale,JPN
+28660,University of Illinois Fighting Illini,
+28662,Hapoel Emek Hefer,
+28674,Chennai Cheetahs,
+28675,Kanto Auto Works Sailing Team,
+28685,Park 24,
+28687,Fourleaf Japan Judo Club,
+28694,CSK VVS,
+28697,Al-Ansar SC,
+28700,Fujitsu Track and Field Team,
+28705,Imura Synchro Club,
+28706,Imura Synchronized Swimming Club,
+28707,Tarakito Swim Club,
+28708,Bangalore Hi-Fliers,
+28711,Suzuki Hamamatsu Athlete Club,
+28713,Nomi Swimming Club,
+28719,Meiji University/Hakuyo Swimmers,
+28721,Swin Tatebayashi SS,
+28742,Albirex Niigata,JPN
+28752,Vientiane Athletics Club [Lao People's Democratic Republic],
+28761,Patiala,
+28767,SC Yunost-Metar,
+28768,Grandmaster Taekwondo Club,RUS
+28775,Federacion Deportiva Provincial de Loja,
+28783,MNO,
+28792,ZKS Drzonkow,
+28794,Sherbrooke University [Canada],
+28801,Brest SC,
+28807,Police Progressive Youth Club [Guyana],
+28808,SKB Litpol-Malow Suwalki,
+28818,St. Fergal's Boxing club,
+28819,Tarpan Mrocza,
+28828,Vestre Bærum Salongskytterlag,
+28829,Østre Romerike Miniatyrskytterlag,
+28838,University of Southern California Trojans,
+28839,Spårvägen SF,
+28845,AC Salonais,FRA
+28852,64-sto,POL
+28855,Neptunes Water Polo Sports Club,
+28863,Lider-Lviv Wrestling Club,UKR
+28866,CNAR,
+28871,Tritans Swimming Club,
+28875,Soo Shim Taekwondo Klubb,
+28876,Universitatea de Stat de Educatie Fizica si Sport [USEFS] [Republic of Moldova],
+28883,Nefchi,
+28884,Inter Zenit,
+28885,CS Farul Constanta [ROU],
+28886,CSA Steaua Bucuresti [ROU],
+28887,CSM Ploiesti [ROU],
+28888,CSM Craiova [ROU],
+28889,Altrincham & District Athletic Club [ENG],
+28891,Sports Cluj,
+28892,CSA Steaua Bucuresti [Romania],
+28894,Palace Super Falcons,RSA
+28898,Army Sports Institute,
+28899,Indian Railways [Central],
+28900,Usha School of Athletics,
+28902,SAI Bangalore,
+28903,Club Atletico Trotamundos de Arica [Chile],
+28906,CSU Resita [ROU],
+28908,SC Meteor,
+28911,Deryugina School,UKR
+28916,MKSTS Polkowice,
+28917,PKS Kolping,POL
+28918,Club Atletismo Trotamundos,CHI
+28933,Lagardere Paris Racing,
+28934,ASKLA Sliven [Bulgaria],
+28935,Baku Fires,
+28938,Novi Pazar,BUL
+28939,Europul,BUL
+28940,Team Ecuador,ECU
+28942,Hermanos Enderica,
+28944,TC Haskovo 2015,BUL
+28945,Yacht Racing Association of Thailand,
+28947,Thrace Shooting Club Plovdiv,
+28948,Agros Zary,
+28949,Iliana EON,
+28951,Gal Lissone,
+28959,Ojag Sports Club,AZE
+28961,SM Bourges,FRA
+28964,Elan Gymnique Rouennais,
+28973,Volley TS Rybnik,
+28975,Team RCR Odense Junior,
+28977,Palmeiras,
+28985,Navy - SS Lazio Swimming,
+29001,BMX Greenhoppers,NED
+29003,Mediterranean Imperia,
+29004,RN Mediterranean Imperia,
+29013,Carrickfergus Sailing Club,
+29014,Ballyhome Yacht Club,
+29015,Ballyholme Yacht Club,
+29030,Tolworth Gymnastics Club,
+29035,Army Sailing Team,
+29037,Shandong Sailing Team,
+29039,Luneng Zhongchao Cable/Levallois [FRA],
+29041,Shandong Luneng Lu'an Group,
+29042,Beijing Capital Table Tennis Club,
+29044,Shanghai Badminton Team,
+29045,Hunan Province,
+29046,Beijing Province Team,
+29047,Jiangsu Province Badminton Team,
+29048,Hubei SOTX Badminton Club,
+29049,Hubei Badminton Team,
+29053,Jilin Province Cycling Team,
+29057,OTG Sokol Mielec,
+29066,SN Avignon,FRA
+29070,Bagsværd AC,DEN
+29071,Kolding Sejlklub,DEN
+29072,Kongelig Dansk Yachtklub,
+29074,Swim Team Taastrup,
+29075,Vestegnens Aqua Team,
+29076,Susvim,
+29078,Academia Mestre Kato,BRA
+29081,Hurricane Aquatics (Coral Gables,
+29085,Zhenjiang Province,
+29094,Shandong Province Gymnastic Team,
+29097,Örebro KF,SWE
+29101,Ningbo Boxing Team,
+29102,MKLA Łęczyca,POL
+29108,Heilongjian ticai,
+29110,Shanxi Province Shooting Team,
+29114,Shanghai,
+29119,AK Vojvodina [Novi Sad,
+29129,Instituto Viver Basquetebol,BRA
+29130,Bauru,BRA
+29136,Beijing Shun Yi Archery Team,
+29140,Shandong Provincial Team,
+29141,Zhejiang Swimming Team,
+29142,Liaoning Province,
+29153,KKK Kraków,POL
+29161,Fairweather Track Squad [AUS],
+29162,KK Zorka,SRB
+29164,BSK Borča,SRB
+29165,Associacao Itajaiense de Triatlo,BRA
+29173,Kolkata,
+29177,Heilongjaing Province,
+29184,Weihai Sports Academy,
+29187,Hunan Province Sports Institute,
+29189,Anhui Province Athletic Team,
+29201,Enka SK [Istanbul,
+29202,Heshko Sports Club [UKR],
+29203,Kolos [UKR],
+29227,Byron Badminton Club,GBR
+29229,Team Derby,GBR
+29234,St. Joseph's BC,GBR
+29237,Headland ABC,GBR
+29241,Wayne Muhammads Taekwondo Academy,GBR
+29252,Project Athletics Track & Field Program,CAN
+29254,Racewalk West,CAN
+29257,Oregon Track Club Elite [Eugene,
+29261,Uni Girona CB,ESP
+29263,Pure Athletics [United States of America],
+29266,Nuevo Leon,
+29267,Team Subaru-Trek,
+29268,Team TIBCO,USA
+29269,Team PCL,CAN
+29280,Formokan Judo Club,CAN
+29284,Takthi Wrestling Club,IRI
+29287,Zahid Farii,IRI
+29290,Bakhman Wrestling Club,IRI
+29291,Mojaberat-e Bushehr [Islamic Republic of Iran],
+29296,CHBA,MAR
+29302,Pampulha Iate Clube,BRA
+29309,Danske Studenters Roklub,
+29332,Edinburgh Judo Club/Ratho,
+29337,Kumo Judo Club,GBR
+29346,Bulleen Boomers,AUS
+29352,Apollo Trampoline Club,
+29357,Earls Gymnastics Club,
+29360,AS Hammamet,TUN
+29361,HBC Nantes,FRA
+29364,Niislel Urguu,
+29379,USAM Voile Brest,
+29380,TuS Blau-Weiß Lohne,GER
+29387,Nice Olympic Lutte Côte d’Azur,FRA
+29389,Cefema,
+29390,San Juan Triathlon Association,ARG
+29404,Særslev Skytteforening,
+29405,Rideklubben Hammelev og Omegn,
+29408,Aarhus 1900,
+29411,Atletas de Oro,
+29414,Peak UK,
+29419,Soar Valley Canoe Club,GBR
+29421,Tees Rowing Club,
+29422,Leander Rowing Club,
+29423,Army RC,
+29424,Imperial College Boat Club,
+29426,Universal Gymnastics,
+29433,Shabanie Mine Athletics Club,ZIM
+29434,Cerro Palado Habana,
+29455,Sports Atarty of India Mumbi,IND
+29458,Gusar Novigrad,
+29461,Audentese SK [Tallinn,
+29464,SMV Vernon,FRA
+29470,Pallamano Conversano,ITA
+29471,BM Huesca,ESP
+29477,S.C.D.R. Anaitasuna,ESP
+29483,Clube Atletismo BM&amp;F Bovespa,
+29488,Santon Andre,
+29492,Club Deportivo de Puerto Sajonia,PAR
+29505,Inha University,
+29506,Suwon City,
+29507,Gimcheon City,
+29509,Samsung Electro Mechanics,
+29510,Korea Ginseng Corp,
+29511,Central Province,
+29535,TK Marjan,CRO
+29546,Corinthians/Americana,BRA
+29549,Valmieras BSS,
+29550,Formula Europe,
+29558,West Virginia Mountaineers/CS Carabinieri,
+29562,Commercial Bank,
+29569,DJK Dudweiler,GER
+29571,Arcadia Sports School [Riga,
+29574,La Puente,
+29579,National Team of Algeria,
+29580,Lokomotiv Ruse Kayak Club,
+29586,North Canberra Athletics/ACTAS,
+29587,Woden Harriers,
+29588,Athletics ACT [Canberra,
+29589,Victoria Institute of Sport,
+29590,Melbourne Track Club [Australia],
+29596,Melbourne University Athletics Club [Australia],
+29600,Mandurah Rockingham Athletics Club,AUS
+29604,Queensland Academy of Sport [Australia],
+29606,St George District Athletics Club,
+29609,Sutherland Athletics Club [Australia],
+29620,Gannets Diving Club,
+29622,T-Jets,
+29624,Lion Sports Club,
+29625,Abragch,MGL
+29626,Mongol Alt FWC,
+29629,Northern Districts CC,
+29635,Canberra Off Road CC,
+29636,Tuggeranong BMX Club,
+29639,ONE Pro Cycling,GBR
+29640,Happy Valley,
+29642,GreenEDGE [road],
+29649,Victoria Vikings,
+29650,Tassie Tigers,
+29651,NSW Waratahs,
+29652,Melville Hockey Club/QLD Blades,
+29660,Michael Wenden Swim Club,
+29661,UTS,
+29662,Budapest Riding School,
+29663,Bankstown Sport,
+29664,Kemps Creek Pistol Club,
+29671,Sydney University,
+29680,APR Athletics Club [Kigali,
+29685,MTN Qhubeka,
+29700,Pacific Sea Wolves,CAN
+29710,SG 1882 Saal,GER
+29711,SGi Homberg,GER
+29714,Kenya Police [Kenya],
+29725,Team NESTEA,
+29736,Kent AC,GBR
+29746,Stade Sottevillais 76 [Rouen,
+29747,Vitória das Tabocas,BRA
+29749,Androni Giocattoli-Venezuela,
+29752,Wildwolf-Trek Pro Racing,
+29756,CD Alcoyano,ESP
+29761,Da Nang,
+29770,Morialta S.A.,
+29786,Panionios GSS,
+29797,Busan BISCO,
+29799,Sports Club Hanoi,
+29800,Tirrenia Nuoto,
+29801,CC Aniene,
+29803,IFK Skövde HK,SWE
+29804,RaceAhead,
+29806,Canottieri Aniene,
+29807,GS Forestale/Larus Nuoto,
+29812,Team Insubrika,
+29818,CS Esercito/Nuoto Livorno,
+29827,Valencia Club Judo,
+29831,UCAM,ESP
+29834,Ourinhos Basquete,
+29835,Divino/COC,
+29843,Auburn Tigers,
+29848,City of Cardiff,
+29854,ITC Bath/Bracknell and Wokingham,
+29858,Gwangju City Hall,
+29859,Incheon Yeil Girls High School,
+29860,Daegu University,
+29867,Changwon City Hall [Republic of Korea],
+29871,SBV Runner Team 99,
+29872,Suwon City Hall,
+29873,Gumi City Hall [Republic of Korea],
+29874,Bucheon City Hall,
+29881,GyeRyong City Hall,
+29886,Iksan City Hall,
+29889,Awadhe Warriors,IND
+29892,Korean National Sports University,
+29914,Hong Kong Fencing School,
+29917,Stade Rennais Athletisme [France],
+29923,Montpellier Athletic Méditerranée Métropole,
+29929,ESC Pau,FRA
+29930,Golbey Épinal-St. Nabord,FRA
+29932,Eleftherios Venizelos [Greece],
+29943,Villemomble Sports Judo,
+29944,Villemomble sports judo,FRA
+29945,SHRP,BRA
+29946,Youth Sailing Curacao,
+29948,Sparta,PUR
+29950,Gimnasia y Esgrima de Rosario,ARG
+29951,Fesatiro,
+29963,High Performance Training Centre [Mauritius],
+29965,UCAM CN Fuensanta (Murcia,
+29967,SP Tableware,GRE
+29971,Shooting Club Vardas,GRE
+29974,De Vriendenkring 1897 Schaijk,
+29975,Turncentrum Sportstad Heerenveen,NED
+29978,Waddenteam,NED
+29981,Sporting Clube de Portugal/Clube Nautico da Ilha de Luanda,
+29984,U.C.,VEN
+29985,Nueva Generacion,COL
+29990,Brest Iroise Cyclisme 2000,FRA
+29998,Gimnasia Rítmica de Móstoles,ESP
+29999,Gimnasia Ritmica l'Almara-Burjassot,ESP
+30000,Club Liceo-Córdoba,ESP
+30001,Colegio CEU Jesús María,ESP
+30011,Hyderabad Hunters,IND
+30013,TJ Obal-Servis [Kosice,
+30019,AK Sarajevo,BIH
+30021,BM Castro Urdiales,ESP
+30029,KPS Ostrava,
+30034,Wingate Bulldogs,USA
+30039,USK Praha [Czech Republic],
+30042,PSK Olymp,
+30043,TJ Sokol Kolin [Czech Republic],
+30047,Rubena Specialised Birell,
+30049,Wadi Degla Club,EGY
+30052,Grünauer KV 90,GER
+30056,SV Spittal,AUT
+30059,RC Bergedorf,GER
+30060,Rendsburger RV,GER
+30065,Crefelder Ruder-Club 1883,GER
+30066,Wurzener RV Schwarz-Gelb,GER
+30067,RC Allemannia,GER
+30071,BAT Basque Team,
+30072,Ensidesa Trasona,ESP
+30076,Reial Club Nàutic Port de Pollença,ESP
+30079,Projekt Sprintteam,GER
+30084,ACD Che Lagoense,POR
+30085,Badminton La Orden,ESP
+30086,Team Argovia,SUI
+30091,Austin Peay State Governors,USA
+30092,Houston Aces,USA
+30093,Inter de Bogotá,COL
+30099,Miami SC,AUS
+30105,Heibei Sports,
+30108,Groningen Atletiek,NED
+30114,AV'34,NED
+30116,Stichting Top Judo Nijmegen,NED
+30119,Gestut Sprehe,GER
+30120,TC Spora,LUX
+30125,Stal Vrieling,NED
+30126,SPIO Venray,
+30128,National Swimming Institute of Amsterdam,
+30130,E.On-Nza,
+30133,BTC City Ljubljana,SLO
+30139,Hagenower SV,GER
+30140,TSV Kronshagen,GER
+30144,Tisza Evezős Egyesület,HUN
+30153,Bp. Honvéd SE,HUN
+30157,Lyon Plongeon Club,FRA
+30159,Amiens MN,FRA
+30164,TSV Bad Saulgau,GER
+30166,SG Stadtwerke München,GER
+30172,E Perigueux Sarlat Trelissac,
+30182,UTTC Stockerau,
+30188,Memphis Pioneers Sports Club,
+30189,Zenith Velocity AC,USA
+30191,Memphis Pioneers [Trinidad and Tobago],
+30193,STG Angers,
+30195,TC Gleisdorf,AUT
+30202,Waterpolo Messina,ITA
+30214,CA Malaga,
+30215,City of Perth Swimming Club,
+30219,Unio Kispest SE,
+30221,Marinha do Brazil,BRA
+30224,Phoenix Gymnastics,CAN
+30225,US Rowing Training Centre,
+30233,Canterbury Cavaliers,
+30234,United North Shore,NZL
+30242,TCG 79 Parthenay,
+30247,Matamata Swim Club,NZL
+30256,Rotorua Rowing Club,
+30260,Union BC,
+30261,Southern RPC,NZL
+30264,North Harbour Bays Athletics [Auckland,
+30265,West Illawarra Aquatic Swim Club,
+30273,Southland Cycling,
+30274,Warmup Pushbikes Cycling Team,
+30284,Club de Tennis Barcino,
+30292,AS Elfen Saitama,JPN
+30300,Segler-Vereinigung Thalwil,
+30301,Segel Club Enge,
+30302,Club Nautique de Versoix,
+30305,Limmat Sharks,
+30308,Stade Sottevillais 76 [France],
+30310,Swansea ITC,
+30313,York City Rowing Club,GBR
+30320,Basler Ruder-Club,SUI
+30321,RC Kreuzlingen,SUI
+30322,Club d'Aviron Vésenaz,SUI
+30323,Aegir Swim Club,
+30335,Gold Swimming Team,BEL
+30340,Flanders Atletiek Club [Belgium],
+30348,BBC Bayreuth,GER
+30350,Mammoth Track Club,USA
+30359,Atlanta Dream,USA
+30362,Walk USA [United States of America],
+30366,Crescent Boat Club,USA
+30371,Lancheras de Cataño,PUR
+30372,FWC Berston,
+30378,Haro Bikes,
+30379,Hansons-Brooks Original Distance Project [United States of America],
+30380,Chow's Gymnastics and Dance Institute,
+30381,CDC Racing,
+30382,XCEL Racing,
+30386,Astana Batyry,KAZ
+30388,Team Specialized-lululemon,
+30391,Brestyan's American Gymnastics,
+30393,Club las Dinamicas [Colombia],
+30412,Kuwaiti National Team,KUW
+30422,Army Club,EGY
+30429,Team DeNA [Japan],
+30430,Colchester Harriers AC,GBR
+30431,Leo's Archers,
+30432,Kenya Defence Forces [Kenya],
+30433,SRA Elite,
+30434,NorCal Distance Project [Sacramento,
+30436,Double Pillar Athletics [Las Vegas,
+30437,Team Novo Nordisk,USA
+30438,Skydive Dubai–Al Ahli Pro Cycling Team,UAE
+30439,Rīgas VEF,LAT
+30449,Banbury and District Canoe Club,GBR
+30452,Real Club Tenis de Barcelona,
+30457,RK Vardar,MKD
+30578,Sad Majadahonda,
+30717,Korea Armed Forces Athletic Corps,KOR
+30776,Moscow Regional Centre of Olympic Sports,RUS
+30892,HK Hradec Králové,CZE
+30899,NC Bordj Bou Arreridj,
+30900,CSCS,
+30901,Avoine Beaumont Gymnastique,FRA
+30902,ASPC Mostaganem [Algeria],
+30903,Club de Judo Hantei [Andorra la Vella,
+30904,Club Andorra Tir Precisio,
+30905,Benfica,
+30907,Ginasio Clube Vila Real,POR
+30910,BEPA,
+30911,Mid. Tenn. State,
+30912,Club Nautico Luis Piedra Buena [Viedma,
+30914,Club Regatas Uruguay,ARG
+30916,Club Argym,ARG
+30917,Club Municipalidad de Vicente Lopez [Buenos Aires,
+30918,CID Moreno [Argentina],
+30919,Club Balonmano Malaga [Spain],
+30920,Union Electrica [Cordoba,
+30921,Atletico Guardes [Pontevedra,
+30922,Club Balonmano Alcobendas [Spain],
+30923,Estudiantes de La Plata [Argentina],
+30924,Cideco [Lanus,
+30925,Club de Gimnasia y Esgrima [GEBA] [Argentina],
+30927,Club de Gimnasia y Esgrima [GEBA] [Buenos Aires,
+30928,River Plate [Argentina],
+30929,Yacht Hacoaj [Tigre,
+30931,Mar del Plata [Argentina],
+30937,Rio do Soul,BRA
+30938,Hotel VFM,SUI
+30940,VC Kanti,SWZ
+30941,Urbino,ITA
+30942,Velez Sarsfield,ARG
+30946,Club Atletico Provincial [Argentina],
+30947,Gymnastics World USA),
+30948,Aruba Beach Cats [Noord,
+30950,Noord Taekwondo Center [Aruba],
+30953,University of Queensland Athletics Club,
+30955,Illawong & Districts Athletic Club,
+30958,Randwick Botany HarrIers,
+30959,Flinders Athletics Club,
+30967,Australian Institute of Sport [AIS] [Australia],
+30970,Orica Women [Australia],
+30971,Orica-AIS/Gold Coast CATS Cycling Club [Australia],
+30974,Bowral Dressage Club [Australia],
+30981,SA Suns [Australia],
+30983,Adelaide Hockey Club [Australia],
+30986,WA Diamonds [Australia],
+30988,Isao Okano Club [ITA],
+30989,UNSW Judo Club [AUS],
+30991,Ohori Judo Club [AUS],
+30992,Budokan Judo Club [AUS],
+30994,Sunnybank,
+30996,Toowoomba Bears,
+30998,Premier Gymnastics Club,
+30999,Brisbane and GPS Rowing Club,
+31000,Buckingham RC,
+31006,Springwood Smallbore and Air rifle Inc,
+31011,St Peters Western Swim Club (Brisbane,
+31013,St. Peter's Western (Brisbane,
+31017,Melbourne Taekwondo Centre [Australia],
+31022,Brisbane Barracudas [Australia],
+31024,CrossFit Gladstone [Australia],
+31025,BSV Schönbrunn,AUT
+31027,BTC City [Slovenia],
+31029,ASKO Kleinmünchen,AUT
+31031,VRG Worgl,
+31033,SG Hotting,
+31035,WFV Finkenstein am Faakersee,
+31036,Ojaq Sports Club Public Association,
+31038,Purdue Boilermakers,
+31039,McKendree University,
+31040,Ithaca College [United States of America],
+31046,Ippon Judo Club [Bujumbura,
+31047,AC Meetjesland,
+31049,AC Lyra,
+31050,Atletiekclub De Demer,
+31052,AC Kapellen,
+31053,Lotto Soudal Ladies [Belgium],
+31054,Topsport Vlaanderen - Etixx-Guill D'or [Belgium],
+31060,Sportiva Sint-Gillis-Waas,BEL
+31062,Gym Haacht,BEL
+31063,Gymgroep AS,BEL
+31067,Oxford University Women's Boat Club [England],
+31068,Royal Hamilton Amateur Dinghy Club [Bermuda],
+31069,Bermuda Sharks Swim Club (Bermuda),
+31072,Ipswich Harriers Athletics Club,
+31073,Dinamo Brestskaya,
+31077,Brest,
+31078,TSV 1880 Wasserburg,
+31079,New York Liberty,
+31080,Galatasaray,
+31081,BC Tsmoki Minsk,
+31082,BK Gorizont Minsk,
+31083,All Olympian Gymnastics Centre,USA
+31084,Sports Club of the Armed Forces of Belarus [Belarus],
+31086,Trade Unions Federation [Belarus],
+31088,Homyel School of Supreme Sports Skill [Belarus],
+31089,Club Spikes Entel,
+31090,Associacion Pacena Tiro Deportivo,
+31091,Florida International University Panthers (Miami,
+31093,Santos Dumont,
+31097,Cruzeiro Caixa,
+31099,Sampaio Basquete [Brazil],
+31102,Clube de Regatas Cascavel [CRC] [Brazil],
+31103,Lensworld.eu [Belgium],
+31106,Sucandi Cavalos do Brasil [Sao Paulo,
+31107,Sociedade Thalia,
+31108,Clube Militar,
+31109,Yale Bulldogs,
+31110,Paulistano e Truro Fencing Club,
+31114,Orlando City,USA
+31116,CBF Permanent Selection,BRA
+31120,Guarulhos [Sao Paulo,
+31123,Niterói Rugby,BRA
+31124,São José Rugby,BRA
+31127,Bandeirantes,BRA
+31130,São Paulo Athletic Club,BRA
+31131,Clube Ítalo Brasileiro,BRA
+31132,Agiblu,
+31133,FMD,
+31134,Escola de Campeas,
+31135,Clube Caca e Tiro de Sao Paulo,
+31136,Clube de Caca e Pesca Santo Huberto,
+31137,S.D.C.Cruzeiro Joinvillense,
+31139,CT Kirmayr,BRA
+31140,Diego TKD Team,BRA
+31141,Club Ligavale,BRA
+31144,CA Paulistano [Sao Paulo,
+31145,Arizona State Sun Devils [USA],
+31147,Flamengo [BRA],
+31148,Prato [ITA],
+31149,Clube Paineiras do Morumby [Sao Paulo,
+31150,WP Messina [ITA],
+31151,University of Southern California Trojans [USA]; Paineiras do Morumby [BRA],
+31152,APCEF Sports Club [Rio de Janeiro,
+31154,Skim KB,
+31156,Atlet Mezdra,
+31163,Levski Sofia,
+31168,Kansas State University,
+31170,Louisiana State University,
+31171,Université du Québec en Outaouais,
+31172,Indiana University,
+31173,Johnson C. Smith University,
+31174,London Western Track and Field Club,
+31175,University of Calgary Athletics Club,
+31178,Dynamo-GUVD Novosibirsk [Russian Federation],
+31180,Underdog Boxing Club [Montreal,
+31183,Orenda Canoe Club [Canada],
+31188,Cranford Stud Eventing [Naunton,
+31189,Deer Ridge Equestrian [Loretto,
+31190,Cutting Edge Fencing,
+31194,Brandon Eagles Gymnastic Centre,CAN
+31195,Gym-Richelieu,CAN
+31200,Peterborough Pagans [Canada],
+31202,Royal Canadian Yacht Club [Toronto,
+31203,Royal Nova Scotia Yacht Squadron [Halifax,
+31205,HPC-Ontario,
+31206,University of Georgia Bulldogs,
+31207,Oakville Aquatic Club (Canada),
+31209,Greater Ottawa Kingfish Swim Club,
+31210,HPC-Vancouver (Canada),
+31211,Granite Gators Swim Club,CAN
+31212,Indiana University Hoosiers,USA
+31214,North York Aquatic Club,
+31215,High Performance Centre Ontario (Toronto,
+31217,Lethbridge Swim Club (Canada),
+31218,University of Montreal Carabins,
+31219,Club Aquatique de Montreal (CAMO),
+31220,HPC-Ontario (Canada),
+31222,Black Belt World,CAN
+31224,Red Bull Racing,
+31225,Tristar Wrestling Academy [Montreal,
+31226,Dinos Wrestling Club [Calgary,
+31227,Brock WC [St. Catharines,
+31229,Loughborough University (England),
+31230,Club Deportivo Aleman [San Pedro de la Paz,
+31231,Cofradia Nautica del Pacifico [Algarrobo,
+31232,Cofradia Nautica del Pacifico [Valparaiso,
+31234,Jiangsu Province,
+31236,Zhejiang Province,
+31237,Gansu Province,
+31238,Tianjin [People's Republic of China],
+31239,Shanxi Flame [People's Republic of China],
+31242,Hebei Province [People's Republic of China],
+31244,Hubei Province,CHN
+31245,Sichuan Province,CHN
+31247,Shaanxi Province,CHN
+31248,Shanxi Province,CHN
+31251,Shanghai Women,CHN
+31252,Jiangsu Huatai,CHN
+31253,Army Club,CHN
+31256,Hunan Province,CHN
+31262,Gansu Province [People's Republic of China],
+31265,Jiangsu Province [Nanjing,
+31266,Sichuan Provincial Rhythmic Gymnastics Team,CHN
+31267,Zhejiang Provincial Team [People's Republic of China],
+31273,Hainan Province [People's Republic of China],
+31274,Shenzhen Sailing Club [People's Republic of China],
+31276,Jiangsu Swimming Team (People's Republic of China),
+31278,Jiangsu Province (People's Republic of China),
+31280,Hebei Province (People's Republic of China),
+31282,Shanghai (People's Republic of China),
+31284,Shanghai (Shanghai,
+31285,Henan Province (People's Republic of China),
+31286,Guangdong Province (People's Republic of China),
+31287,Liaoning Province (People's Republic of China),
+31288,Shanxi Province (Taiyuan,
+31290,Chengdu Military Region Triathlon Team,
+31295,Sichuan Province [People's Republic of China],
+31296,Anhui Province [People's Republic of China],
+31297,Fujian Province [Xiamen,
+31298,Guangdong Province [People's Republic of China],
+31299,Guangxi Province [Nanning,
+31301,Cercle d'Escrime Livry Gargan,
+31305,Bordeaux Mérignac,FRA
+31306,FAP Volley-Ball,CMR
+31307,Tremblay AC,FRA
+31308,Stella Calais,FRA
+31309,La Rochelle Volley-Ball,FRA
+31310,Injs Yaoundé,CMR
+31311,Rarotonga Sailing Club,
+31312,Howick Pakuranga (HPK) (Auckland,
+31314,Porvenir,
+31315,Porvenir Medellin,
+31317,Bogota Mejor Para Todos [Colombia],
+31318,Club Kamatsa FC,COL
+31320,Forman Intimas,COL
+31321,University of Toledo,USA
+31322,Generaciones Palmiranas,COL
+31323,Boyaca,COL
+31324,Gatos Rugby Club,COL
+31325,Minotauros Rugby Club [Bogota,
+31326,Carneros Andes Rugby Football Club [Bogota,
+31327,Porra Caimanera Rugby Club,COL
+31328,La Guajira [Riohacha,
+31329,Athalantas Rugby Club,COL
+31332,Ultra Huilca,COL
+31333,Dreux Athletic Club Athletisme,
+31334,Associacao de Ginastica da Praia,
+31335,Boston Academy of Taekwondo [United States of America],
+31336,AK Maksimir,CRO
+31337,AK Agram,CRO
+31339,Varazdin,
+31340,SK Kustošija,CRO
+31342,AEK Athens,
+31345,Limassol Nautical Club (Cyprus),
+31346,Univerzitní sportovní klub Praha,
+31349,ASC Dukla,
+31350,PSC Plzen,
+31351,Dukla Hradec Kralove,
+31354,SK Jazzmani Zatec (Czech Republic),
+31357,TAK Hellas Brno [Czech Republic],
+31358,Idrætsklubben Viking Rønne,
+31360,Amager AC,
+31361,Limfjorden Kayak Club [Denmark],
+31362,361 Kano- og Kajakklub [Denmark],
+31365,Stutteriet Julianelyst [Ostbirk,
+31367,Hillerød Golf Klub,DEN
+31369,Bagsvaerd Roklub [Denmark],
+31370,Horsens Sejlklub [Denmark],
+31371,Hellerup Sejlklub [Denmark],
+31375,Gentofte Svommeklub,
+31376,NTC (Denmark),
+31387,University of the Sacred Heart,PUR
+31388,Aquatica La Libertad,ESA
+31389,Club Arqueros Pozuelo,
+31390,Club Bilbao Atletismo Santutxu,
+31392,Nadezhda Orenburg [Russian Federation],
+31398,Haras de Wisbecq,BEL
+31403,Fleury Loiret HB [Orleans,
+31406,Club Balonamano Zuazo [Barakaldo,
+31412,Club Egara [Terrassa,
+31415,Valencia [Spain],
+31417,INEF Barcelona,
+31418,FER,
+31419,Getxo RT,
+31420,Limoges,
+31421,Geieg,
+31422,Olímpico de Pozuelo,
+31424,Blagnac,
+31425,XV Sanse Scrum,
+31426,Crat a Coruña,
+31427,Club Gimnástico Aragón,
+31429,Olimpic Barcelona [Spain],
+31430,Club Nautic El Balis [Sant Andreu,
+31432,CN Sabadell (Spain),
+31433,CN Riveira (Spain),
+31434,Club Sanchez Elez [Leganes,
+31435,Club Triatló Costa de Barcelona Marsme,ESP
+31438,CN Madrid Moscardo [Spain],
+31439,Vana-Võidu Vibuklubi,
+31440,Viljandi Spordikool,
+31441,SK Saarde,
+31444,En Garde,
+31445,Tallinn Yacht Club [Estonia],
+31446,Sport Club Garant (Tallinn,
+31449,Hussein Shibo,
+31450,Southwestern Spartans [Sylva,
+31452,Striders Women's Rugby Club [Suva,
+31453,Tribe [Brisbane,
+31456,Baba Gym [Levuka,
+31457,Lahden Vasama,
+31458,Helsingin Jyry,
+31460,HIK Friidrott,
+31461,Turun Urheiluliitto,
+31463,Espoon Sulkapallo-Badminton,
+31465,Cervélo-Bigla Pro Cycling,
+31466,Voimistelu- ja urheiluseura Elise,
+31467,Nyländska Jaktklubben,
+31469,Lappeenrannan Uimarit,
+31470,Rovaniemen Reipas,
+31471,Lappajärven Veikot,
+31474,Strasbourg Agglomération Athlétisme ALSACE NORD ATHL,
+31475,AJ Blois-Onzain,
+31476,Athlé 91,
+31477,Limoges Athlé,
+31478,Décines Meyzieu Athlétisme,
+31479,Entente Franconville Césame Val d'Oise,
+31482,Athletic Clubs du Littoral,
+31485,Cavigal Nice Basket 06 [France],
+31488,Badminton Club d'Oullins [BACO] [France],
+31490,Boxing Beats [Aubervilliers,
+31491,Canoe Kayak Club Nancy-Tomblaine [France],
+31495,CKCIR Saint Gregoire [France],
+31497,BH-SR Suntour-KMC [France],
+31498,Centre Hippique Isle Adam Parmain [France],
+31499,Lyon EM/PF,
+31502,AS Bondy,
+31504,Cercle d’Escrime de Roubaix,
+31505,Pole Espore de Toulon,
+31506,Saint-Denis Gym,FRA
+31507,Gymnastique Dunkurque,
+31508,Pole France de Saint-Etienne,
+31511,Detante et Loisirs de Viriat,
+31512,Institut National du Sport,FRA
+31514,Siofok KC [Hungary],
+31517,CSM Bucharest [Romania],
+31520,SCM Craiova [Romania],
+31521,Thuringer HC [Erfurt,
+31523,Red Star Champigny [Champigny-sur-Marne,
+31528,Blagnac Saint-Orens [BSORF] [France],
+31529,ASPP Bordeaux,
+31533,Aviron Grenoblois [France],
+31534,CV Marseillan,
+31535,ASPTT Marseille,
+31536,SR Rochelaise,
+31539,ASPTT Montpellier (France),
+31541,Valence Triathlon (France),
+31543,Pays d'Aix Natation,
+31544,Angers Nat Synchro,
+31545,ASCC Champigny [France],
+31547,Levallois Sporting Club,
+31549,Pohnpei Island Central School,
+31551,University of Sunderland,GBR
+31552,Sunderland Strollers,GBR
+31555,AA Palamós,ESP
+31557,Liverpool John Moores University,GBR
+31558,Royal Sutton Coldfield/Loughborough Students,
+31559,East Kilbride AC,GBR
+31560,Brunel University London,GBR
+31561,Birmingham Lions [National Badminton League] [Birmingham,
+31565,Abergavenny RC,GBR
+31567,Bourne Hill Dressage,GBR
+31568,Gemma Tattersall Eventing [Horsham,
+31570,South Durham Gymnastics Club,GBR
+31574,Ealing Judo Club [London,
+31577,Bristol Ladies RFC,
+31578,Lichfield Ladies Rugby Union Football Clu,
+31579,Thurrock Rugby Football Club Ladies,
+31581,Darlington Mowden Park Sharks Ladies Rugby Football Club,
+31583,Putney Town RC,GBR
+31584,Imperial College Boat Club [London,
+31586,City of Glasgow Swim Team (Scotland),
+31587,City of Cardiff Swimming Club (Wales),
+31590,Team Orca,
+31591,Mytholmroyd WLC,GBR
+31593,Sporting Clube de Portugal [POR],
+31594,Sogipa [BRA],
+31597,run2sky,
+31598,MTV 49 Holzminden,GER
+31600,LG Filstal,GER
+31604,1. BV Mülheim,GER
+31606,"WSV ""Am Blauen Wunder""",GER
+31607,Lotto Ladies [Belgium],
+31608,RSC Turbine Erfurt,GER
+31609,GHOST,
+31610,Sportfordergruppe Bundeswehr Todtnau-Fahl,
+31613,RC 50 Erlangen [Germany],
+31614,Boels [Netherlands],
+31615,Arsenal Ladies FC,
+31616,1.FFC Frankfurt,GER
+31617,1 FFC Turbine Potsdam,GER
+31622,1. Berliner Judo-Club,
+31623,KSC Asahi Spremberg,
+31625,1. VfL Fortuna Marzahn,GER
+31626,TV Eschborn,GER
+31627,Ruder-Club Havel Brandenburg,GER
+31628,Verein Seglerhaus am Wannsee [VSaW] [Berlin,
+31629,Kieler Yacht Club [Germany],
+31630,SV Schlossau,
+31631,Priv. SGi Nienburg e.V.,
+31633,Altschützen Burghausen,
+31634,AMTV-FTV Hamburg,GER
+31635,Ratinger Tennisclub Grün-Weiß 1911 e.V.,GER
+31640,KSC Motor Jena [Germany],
+31641,AC Ueckerath [Dormagen,
+31642,Ghana National Fire Service,
+31643,Boston University,
+31644,Camberley Judo Club [England],
+31645,Real Club Mediterráneo,
+31646,Oregon Track Club Elite,
+31653,GA Leros Youth,
+31656,Eleftherios Venizelos,
+31657,AOX Aigaleo,
+31659,N.O. Katerini [Greece],
+31664,Olympiacos (Greece),
+31665,York YMCA Swimming,USA
+31668,Dolphin Speed Swim Club (Guyana),
+31670,University of Chicago,USA
+31671,City Of Atlanta Dolphins,USA
+31672,Styles United [South Windsor,
+31674,University of Edinburgh (Scotland),
+31675,Tiburones de Honduras (Honduras),
+31677,Ujpesti TE,
+31679,Pécsi VSK,
+31684,BPLE/KVSE,
+31685,BHSE,
+31686,KSI SE,
+31688,Delzalai Vizmu SE (Nagykanizsa,
+31690,Ujpesti Torna Egylet [UTE] [Budapest,
+31692,Jaya Raya Suryanaga [Surabaya,
+31693,Jaya Raya Jakarta [Jakarta,
+31694,Bekasi Regency [Indonesia],
+31696,Oil and Natural Gas Corporation,
+31698,East Coast Railway athletic team,
+31702,North Eastern Railways Gorakphur [India],
+31703,Madhya Pradesh Hockey Academy [MPHA],
+31710,Bhiwani Sports Club [India],
+31711,Wrestling Club Haryana,IND
+31713,Tarasht [Islamic Republic of Iran],
+31714,Sazman-e Nezam-e Mohandesi-ye Sakhteman-e Esfahan,
+31715,University College Dublin AC,
+31717,Newcastle & District AC,
+31720,Dunboyne AC,
+31721,Run-Fast Birmingham,
+31725,Europa Gymnastics Club,GBR
+31726,Old Collegians Boat Club [Dublin,
+31727,St Michael's Rowing Club [Limerick,
+31728,Portmarnock Swimming Club,IRL
+31729,University of Calgary Swimming Club (CAN) (Canada),
+31731,Fimleikadeild Armanns,ISL
+31733,Pedal Power [Scotland],
+31736,Meitav Netanya [Israel],
+31737,Kfar Saba,
+31738,Rishon Le-Zion,
+31740,Hapoel Dolphin Netanya (Israel),
+31741,Maccabi Kiriyat HaYovel,
+31742,Fiamme Azzurre [Italy],
+31746,Atletica ASD Sandro Calvesi,
+31748,ACSI Italia Atletica,
+31751,Brixia Vrescia,
+31752,CS Esercit,ITA
+31755,ASD San Giorgio '79,
+31757,Circolo Canottieri Aniene [Rome,
+31761,Team Veneto,ITA
+31762,ImolaNuoto,
+31763,Fiamme Galle (Italy),
+31765,GS Forestale,ITA
+31766,Imola Nuoto (ITA) (Italy),
+31767,Nuoto Livorno-Calenzano,ITA
+31768,Fiamme Oro,ITA
+31769,RN Torino,ITA
+31771,CS Esercito,
+31774,GS Forestale,
+31775,CC Aniene (Italy),
+31779,UniCusano Aurelia Nuoto,
+31781,Aurelia Nuoto,
+31782,UISP Bologna,
+31783,Tennis Club Genova 1983,ITA
+31784,Bergamo,ITA
+31787,Orizzonte Catania [Italy],
+31788,Plebiscito Padova [Padua,
+31789,Citta di Cosenza [Italy],
+31795,University of Texas,
+31799,MVP Track Club,
+31801,University of California Golden Bears,
+31802,United Gymnastix,USA
+31803,Miki House [Sasebo,
+31804,Matsuyama University,
+31806,VOLVER,
+31808,Otsuka,
+31809,Sekisui Chemical Co,
+31810,Dai-ichi Life,
+31812,Mitsubishi Electronic Koalas,
+31814,Toyota Antelopes [Tokyo,
+31816,Toyota Antelopes [Japan],
+31825,Academy Bartels [Hooge Mierde,
+31829,Saints Gymnastics Club,JPN
+31830,Smile Gymnastics Club [Japan],
+31833,Yamanashi Gakuin Crowning Glories [Kofu,
+31836,Mitsui Sumitomo Insurance Company [Japan],
+31837,Miki House [Japan],
+31838,International Pacific University [Okayama,
+31842,Tokyo Phoenix,
+31843,Rugirl 7,
+31846,Nagoya Ladies,JPN
+31847,Aeon Sports Club,
+31848,Adachi Rhythmic Gymnastics Club,
+31852,Wakayama Sailing Club [Japan],
+31853,Fukui Amateur Sports Association [Japan],
+31862,Toyokawa High School (Japan),
+31863,Renaissance (Japan),
+31864,Miki House Sports Club (Tokyo,
+31867,Emotent,JPN
+31870,Seiryo Club,
+31871,Toshi Partners Team Kens,
+31872,Inage International,
+31875,ALSOK [Japan],
+31876,Aisin AW [Japan],
+31878,Dynamo Astana,
+31882,Dynamo Shymkent,
+31885,Sport School Uransk,KAZ
+31889,Mwamba Ladies RFC [Nairobi,
+31890,Mwamba Ladies RFC,KEN
+31891,Homeboyz Ladies RFC [Nairobi,
+31895,Performance Aquatics,
+31896,DOVS Bishkek [Kyrgyzstan],
+31897,LH Archery Team [Republic of Korea],
+31898,Kwangju Women's University [Gwangju,
+31901,Gimcheon City Hall [Republic of Korea],
+31903,Iksan City Office,
+31905,Kangwon Physical Education High School [Republic of Korea],
+31906,Samcheok City Hall [Republic of Korea],
+31907,SK Sugar Gliders [Republic of Korea],
+31909,Busan Bisco [Republic of Korea],
+31911,KNSU [Seoul,
+31913,Mokpo City Office [Mokpo,
+31914,Pyeongtaek City Office [Republic of Korea],
+31915,Ansan City Hall [Republic of Korea],
+31917,IBK Industrial Bank,
+31918,Cheongju City Hall,
+31919,Woori Bank Wibee,
+31921,IBK Shooting Team,
+31922,Busan Metropolitan City,
+31923,Daejeon Metropolitan City Facility Management Corporation (Daejeon,
+31925,Chuncheon City Office [Republic of Korea],
+31926,Korea Gas Corporation [Republic of Korea],
+31927,Korean Air [Republic of Korea],
+31928,Lets Run Park [Republic of Korea],
+31931,Korea Express Corporation,KOR
+31932,Ulsan City Hall [Republic of Korea],
+31933,Busan Weightlifting Federation [Republic of Korea],
+31934,Shooting Club -Jeton Ramaj- Viti,
+31935,Step Pristina (Kosovo),
+31936,Sonoran Distance Project,
+31937,University of Latvia,
+31938,VSK Noskrien,
+31939,Sailing Club 360 [Riga,
+31940,BSK Delfins (Riga,
+31941,Olympic Centre Ventspils [Latvia],
+31942,Mount Kelly School (Tavistock,
+31943,Southern Miss Golden Eagles,
+31944,Survivors Track Club,
+31948,Vilniaus Baltai,
+31949,Pabrades Race Walking Club (PSEK),
+31950,INPA Sottoli [Italy],
+31951,Judo Club Danas [Kaunas,
+31952,CSL,
+31953,Lille Metropole Athletisme,
+31954,Club ESCA [MAD],
+31955,Saint Genevieve Sports Club [FRA],
+31956,Athletic Club de Rabat,MAR
+31957,Club Chabab Hay Hassani,MAR
+31961,TSC Swimming (Morocco),
+31962,Petaling Jaya Badminton Club [Malaysia],
+31963,Sapitwa Athletics,
+31965,Sport School Calarasi [Republic of Moldova],
+31967,Astana Women [Kazakhstan],
+31970,Universidad Autónoma de Nuevo León,
+31971,UVM,MEX
+31972,CAR Tijuana,
+31974,Cercle d’escrime d’héninbeaumont,
+31976,Sinaloa State Autonomous University [Culiacan,
+31977,Autonomous University of Nuevo Leon [San Nicolas de los Garza,
+31978,Guanajuato [Mexico],
+31979,Sonora [Mexico],
+31980,Genco,
+31981,Ajmai Club [Ulaanbaatar,
+31982,Sniper,
+31983,Robbinsdale Cooper High Schoo,
+31984,Judo Club Mioki [Skopje,
+31986,Cardiff AAC,
+31987,St. Patrick's Athletics Club,
+31991,ZRK Buducnost [Podgorica,
+31993,New Mexico State University (Las Cruces,
+31994,IMBC92 [Issy-les-Moulineaux,
+31995,Police Force,
+32001,AAV '36,
+32002,AV'34,
+32004,Team Terol Rozenstruik,
+32005,Prins Hendrik,
+32009,SC Union 08 Ludinghausen [Germany],
+32013,Stable Naber Lozeman [Biddinghuizen,
+32020,Metz Handball,
+32023,TuS Metzingen,
+32026,Succes Schoonmaak/VOC Amsterdam,
+32028,Toulon Saint Cyr Var Handball,
+32029,Győri Audi ETO KC,
+32030,Budokan Rotterdam [Netherlands],
+32032,RV De Laak [NED],
+32033,HSRV Pelargos [NED],
+32037,KR&ZV De Maas [Rotterdam,
+32043,NTC - De Dolfijn (Eindhoven,
+32045,NTC - PSV (Eindhoven,
+32046,NTC-De Dolfijn (Amsterdam,
+32047,RONIN [Netherlands],
+32049,Rocheville Le Cannet,FRA
+32050,Scandicci,ITA
+32052,VK Agel Prostejov,CZE
+32053,Piacenza,ITA
+32054,KSV Simson,NED
+32055,Tribhuvan Army Club,
+32056,Tribhuvan Army Club [Kathmandu,
+32059,Harvard Crimson,
+32061,Nigerian Army Club [Nigeria],
+32063,BUL,NOR
+32064,Bergen CK,
+32065,Moss & Rygge Golfklubb,NOR
+32066,Oslo GK,NOR
+32067,Setermoen Svømmeklubb,NOR
+32068,Øvre Romerike Budo Senter,
+32069,Tana Bryteklubb,
+32071,University of Canterbury Athletic Club,
+32072,North Harbour Bays Club,
+32073,Cambridge Athletic and Harrier Club,NZL
+32074,Paekakariki Surf Lifesaving Club,NZL
+32076,Christchurch School of Gymnastics,NZL
+32077,Northland [Hamilton,
+32079,North Harbour [New Zealand],
+32082,North Harbour [Auckland,
+32084,Gisborne Judo Club [New Zealand],
+32085,Auckland Marist [New Zealand],
+32090,Auckland Rowing Club,
+32094,Tauranga Rowing Club,NZL
+32096,Murrays Bay Sailing Club [New Zealand],
+32101,TSS Aquatics,AUS
+32102,Sejong Taekwondo Club [Auckland,
+32103,Northsport Olympic Weightlifting [Auckland,
+32105,Loughborough College (England),
+32107,Guelph Marlin Aquatic Club (Canada),
+32108,Paraguay Marathon Club,
+32110,Fortuna Marzahn,
+32111,Grot Zabierzów,
+32112,OŚ AZS Poznań,
+32113,KKS Victoria Stalowa Wola,
+32116,MUKS Wisła Junior Sandomierz,
+32117,UKS 19 Bojary Białystok,
+32120,AZS UMCS TPS Lublin,
+32123,TKK Pacific Toruń,
+32124,UKS Gimnazjum Twoja Merida Imielin,
+32126,Ale Cipollini,
+32127,KU AZS AWF Poznań,
+32128,TMS Sosnowiec,
+32129,GKS Czarni Bytom,
+32131,Warszawskie Towarzystwo Wioślarskie,
+32132,Chojnicki Klub Żeglarski,
+32133,Sopocki Klub Żeglarski,
+32134,AZS UŁ PŁ Łódź,
+32135,AZS UWM Olsztyn (Poland),
+32136,LKS Budowlani Nowy Tomyśl,
+32137,MKS Cement-Gryf Chełm,POL
+32138,Leiria Marcha,POR
+32140,Estrelas SJB,POR
+32142,Pyongyang City Sports Club,
+32143,Pyongyang University of Science and Technology Sports Club [Democratic People's Republic of Korea],
+32144,Kigwancha Sports Club [Democratic People's Republic of Korea],
+32145,Washington Huskies,
+32147,Conroy's Taekwondo [New York,
+32148,Catano Lancheras,PUR
+32149,Carolina Gigantes,PUR
+32150,San Juan Capitalinas,PUR
+32151,Caguas Criollas,PUR
+32152,Ponce de Leones,PUR
+32153,Juncos Valencianas,PUR
+32156,CAM Timișoara,
+32157,CSU Pitești,
+32158,CS Universitatea Reșița,
+32161,CSM Onești,
+32163,CSM Zalău,
+32164,HC Dunarea Braila [Romania],
+32165,Universitatea Alexandrion Cluj-Napoca,
+32166,ASC Corona Brasov [Romania],
+32167,Brest Bretagne [France],
+32168,HCM Baia Mare,
+32169,CS Olimpia Bucuresti,
+32170,Traian Lalescu [Orsova,
+32172,CS Dinamo Bucuresti [Romania],
+32173,Universitatea Cluj (Romania),
+32175,KPMG Running Club,
+32179,University of Johannesburg Athletics Club,
+32180,RuFC Dinklage [Germany],
+32181,Santos FC,RSA
+32182,Samford Bulldogs,USA
+32183,Cape Town Roses,RSA
+32184,Ma-Indies FC,RSA
+32185,University Johannesburg,RSA
+32186,Bloemfontein Celtic Ladies,RSA
+32187,Central Army Sports Club [CSKA] [Russian Federation],
+32188,Nagornaya Sports School of Olympic Reserve [Moscow,
+32189,Yekaterinburg,RUS
+32190,Oryol Regional Centre of Sports Preparation [Russian Federation],
+32193,Dynamo Moskva,
+32194,Yunost Moskvy,
+32195,Sambo 70,
+32196,Central Army SC,RUS
+32197,Kuban Krasnodar [Russian Federation],
+32198,Rostov-Don [Russian Federation],
+32200,Dynamo [Russian Federation],
+32202,Armed Forces [Russian Federation],
+32203,Centre of Gymnastics,
+32205,Khlebnikovo Centre of Sports Preparation [RUS],
+32206,Saratov Regional Specialised Rowing Youth Sports School of Olympic Reserve [Russian Federation],
+32207,Sochi Sailing Centre of Sports Preparation [RUS],
+32208,Russian Shooting Union,
+32209,SK Lipetskij metallurg,
+32212,Lokomotiv Nizhny Novgorod,
+32215,Dinamo Kazan,RUS
+32217,Spartak Volgograd,
+32219,SKIF Izmailovo,
+32220,MGFSO Vityaz [RUS],
+32221,New Stream [RUS],
+32222,MGFSO Vityaz [Moscow,
+32223,Champion Youth Sports School [Makhachkala,
+32224,APR Athletics Club,
+32225,Aquatica Torino (Turin,
+32226,River City Rapids Swim Club (Brisbane,
+32227,Edwige Lawson-Wade Centre [France],
+32228,BC Namur Capitale [Belgium],
+32229,Club Baloncesto Conquero [Huelva,
+32230,Tarbes Gespe Bigorre [France],
+32231,Dakar Universite Club [Senegal],
+32232,L'ASC Ville de Dakar [Senegal],
+32233,US La Glacerie [Cherbourg,
+32234,Clube Desportivo Primeiro de Agosto [Luanda,
+32235,Villeneuve d'Ascq [France],
+32236,Avenir Chartres [France],
+32237,Club Deportivo Promete [Logronyo,
+32238,Toulouse Metropole Basket [France],
+32240,Safra Jurong Running Club,
+32241,Singapore Badminton Association [SBA] [Singapore],
+32242,Mosman Boat Club [Sydney,
+32244,NOSS Sailing Club [SIN],
+32245,People's Association Sailing [SIN],
+32246,SAF Yacht Club [Changi,
+32247,Constant Wind Sea Sports Centre [Singapore],
+32248,Singapore Management University [Singapore,
+32250,AD Stajerska Maribor,
+32252,Nebraska Cornhuskers,
+32253,KK Soske Elektrarne [Nova Gorica,
+32259,AK Novi Pazar,
+32260,Crvena Zvezda,
+32265,Galatasaray [Istanbul,
+32268,UNI Győr,
+32269,Mohak KK,SRB
+32272,Arizona State University Sun Devils,USA
+32275,Sri Lanka Army,
+32279,CABV Martigny,
+32281,LAC TV Unterstrass Zürich,
+32282,KTV Bütschwil,
+32289,Rotsee Riding and Training Stables [Switzerland],
+32290,Judo Club Cortaillod [Neuchatel,
+32295,S.V. Büren,
+32296,SC Uster Wallisellen (Switzerland),
+32298,Lancy Swimming (Switzerland),
+32300,Florida Gulf Coast University (Fort Myers,
+32301,Blue Arrows Vinicne [Slovakia],
+32302,BK HNTN Bratislava,
+32303,VSC Dukla Banska Bystrica,
+32304,Slavia STU Bratislava,
+32307,Ullevi FK,
+32309,IF Göta Karlstad,
+32314,Kopparbergs,
+32315,Göteborg,SWE
+32317,Eskilstuna GF,SWE
+32319,Issy Paris [France],
+32321,Stockholm Polisen Judo [SPIF] [Sweden],
+32322,Norrtalje Roddforening [Sweden],
+32323,MKK (Malmo,
+32324,Toigye Taekwondo Club [Malmo,
+32325,Szekszard AC [HUN],
+32326,Malmo IF [SWE],
+32327,SVNO Strock [Vienna,
+32328,Mossbergs AK [Gothenburg,
+32329,Gallivare SK [Sweden],
+32330,Sydney Olympic Park Archers [Australia],
+32331,Prescott Swimming Club,
+32332,Henwood's Hounds Racing Team,
+32333,J&R Bicycles [Largo,
+32334,Mueng Ong Shooting,
+32335,Nakhon Ratchasima Municipality Sport School [NRMSS] [Thailand],
+32337,Turkmen School of Supreme Sports Skill [Ashgabat,
+32339,Air Timor [Democratic Republic of Timor-Leste],
+32342,Sevetto [Italy],
+32346,National Taiwan Sport University (NTSU),TPE
+32347,Abilene Christian Wildcats,
+32349,Capital City Gymnastics Centre,CAN
+32351,CA Balma Athlètisme,FRA
+32354,Yacht Club Cannes [France],
+32355,AS Cimenteraie [Bizerte,
+32356,Megrine,TUN
+32359,Fenerbahce SK [Istanbul,
+32360,Abdullah Gul University [TUR],
+32361,Washington Mystics [USA],
+32363,Botasspor [Adana,
+32364,Antalya Gençlik Merkezi GSK,
+32366,Istanbul Technical University Sports Clun,TUR
+32367,Buyuksehir Belediyesi Sport Club [Istanbul,
+32370,Galatasaray (Turkey),
+32372,Istanbul Hunting and Shooting Club [Turkey],
+32373,Gaziantep Halter Ihtisas [Turkey],
+32374,Tuzgolu-Zirve [Turkey],
+32375,Trakya Birlik Spor Kulubu [Turkey],
+32376,Altinova Tersaneler Spor Kulubu [Turkey],
+32377,Trakya Birlik SK [Edirne,
+32381,Sumy School of Supreme Sports Skill,
+32385,Kiev Regional School of Supreme Sports Skill,
+32386,Central Sports Club of the Armed Forces,
+32387,Rivne Running Club,
+32388,Dynamo Luhansk,
+32389,Vinnytsia,
+32390,Dynamo-Spartak,
+32391,Fenerbahce SK,
+32392,Chernivtsi School of Supreme Sports Skill,
+32394,Spartak [UKR],
+32395,Uppercut Kovel [UKR],
+32400,Parkhotel Valkenburg Cycling Team [Alkmaar,
+32401,BPS MTB Team [UKR],
+32402,Kharkiv School of Supreme Sports Skill [UKR],
+32404,Dynamo Ukraine,UKR
+32405,Zaporozhye School of Supreme Sports Skill [Ukraine],
+32406,Armed Forces [Ukraine],
+32407,Dynamo [Ukraine],
+32408,Dynamo Kharkiv,
+32409,Dynamo-Ukraina Kharkiv,
+32410,Ukraina Donetsk,
+32411,ZSU/Kolos Kharkiv,
+32412,Dynamo [Donetsk,
+32414,Spartak [Kolomyya,
+32415,Epicentre [UKR],
+32418,Yacht Club Punta del Este,
+32419,Allmana SK [Eskilstuna,
+32420,New Balance Boston,
+32422,University of Arkansas,
+32423,Santa Barbara Track Club,
+32424,Big Bear Track Club,
+32425,University of Oregon,
+32426,Central Park Track Club,
+32427,NorCal Distance Project,
+32429,San Gabriel Valley Badminton Club [El Monte,
+32430,Al Mitchell's Boxing Club [Marquette,
+32431,Potomac Whitewater Racing Center [United States of America],
+32432,OKC Riversport,USA
+32433,Stan's NoTubes-Pivot Team [United States of America],
+32434,Boels-Dolmans [Netherlands],
+32437,Crossties LLC [Apopka,
+32440,Monmouth Gymnastics Academy,USA
+32441,World Olympics Gymnastics Academy,USA
+32443,Syracuse University [United States of America],
+32444,US Training Center [Princeton,
+32446,Lake Beulah Yacht Club [East Troy,
+32447,Southwestern Yacht Club [San Diego,
+32448,St.Francis Yacht Club [USA],
+32449,Seattle Yacht Club [USA],
+32450,Stanford Sailing Team [United States of America],
+32451,San Diego Yacht Club [United States of America],
+32452,West Virginia University Mountaineers,
+32455,SwimMAC Carolina,USA
+32457,St. Petersburg Aquatics,USA
+32458,Tennessee Aquatics (Knoxville,
+32460,Chang Lee's Taekwondo Center,USA
+32462,Indian Community Centre [ICC] [Milpitas,
+32463,New York Indoor Sports Club [United States of America],
+32464,Ageo Medics,JPN
+32466,Santa Barbara 805 Water Polo Club [United States of America],
+32469,Santa Barbara Water Polo Foundation [United States of America],
+32471,United States Olympic Training Centre [USOTC] [Colorado Springs,
+32473,College of Olympic Reserve,
+32474,Garmoniya Elite,
+32475,Toshkent Republican Gymnastics School,UZB
+32477,Equipo de Yaracuy [Venezuela],
+32478,Asociación de Esgrima Estado Lara,
+32480,Marcial Andrades [Cumana,
+32481,Hanoi International Fencing Club,
+32482,Thai Binh Rowing Club [Vietnam],
+32483,Hanoi Weightlifting Club [Vietnam],
+32484,Black Sands Swim Squad (Kingstown,
+32486,Nedbank Running Club,
+32487,Flame Lily Queens FC,ZIM
+32488,Black Rhinos FC,ZIM
+32489,Mwenezana FC,ZIM
+32490,Cyclone Stars FC,ZIM
+32491,Weerams FC,ZIM
+32492,Inline Academy FC,ZIM
+32493,Blue Swallows Queens FC,ZIM
+32494,Necira Nounou,ALG
+32495,CREPESM,ALG
+32497,Association Sportive de la Protection Civile,ALG
+32499,Club Akboucien de Boxe,ALG
+32500,Sharjah Team,UAE
+32501,Dimension Data,RSA
+32502,Paradou AC,ALG
+32503,RC Arbaâ,ALG
+32504,USM El Harrach,ALG
+32505,ES Sétif,ALG
+32506,ASM Oran,ALG
+32507,MC El Eulma,ALG
+32508,WAB Boufarik,ALG
+32512,Ligue de Tir Sportif de Tipasa,
+32515,CN Font-Romeu Cerdagne (France),
+32517,Vela no Clube Naval de Luanda [Angola],
+32519,Wilton YMCA Wahoos Swim Club,USA
+32520,Asociacion Atletica FCMax,
+32521,Garmin,
+32522,BA,
+32524,KO Gym [Argentina],
+32525,ATE Gym [Argentina],
+32526,Club Sarmiento [Buenos Aires,
+32527,Club Nautico San Pedro [Argentina],
+32528,Canotaje Las Flores [Argentina],
+32529,Club San Fernando [Argentina],
+32530,Delko [Marseille,
+32532,San Juan [Argentina],
+32534,Defensa y Justicia,ARG
+32536,Club Atletico Provincial,ARG
+32537,River Plate [Buenos Aires,
+32538,Ciudad Encantada [Cuenca,
+32539,UNlu [University of Lujan] [Argentina],
+32542,San Fernando [Argentina],
+32543,Club de Campo [Spain],
+32544,Quilmes Athletic [Argentina],
+32545,Waterloo Ducks [Belgium],
+32547,Marista Rugby Club,ARG
+32548,Córdoba Athletic,ARG
+32549,Asociación Alumni,ARG
+32552,Universitario,ARG
+32553,Atlético del Rosario,ARG
+32554,Racing 92,FRA
+32556,Club de Remo Atlantis [Mar del Plata,
+32557,CNSI [Argentina],
+32559,Club Nautico San Isidro [Argentina],
+32560,Club de Cazadores,
+32561,Club de Gimnasia y Esgrima de Buenos Aires (GEBA) (Argentina),
+32563,DDS Triathlon,
+32566,Brazil Kirin Club,BRA
+32569,Bbts Bielsko-Biala,POL
+32575,Sports School Israel Militosyan [Armenia],
+32576,Tashir [Armenia],
+32577,Club Universitario,ARG
+32581,JICA [American Samoa],
+32583,Aim Archery Club,
+32585,Maroochy Athletics Club,
+32586,North Canberra-Gungahlin Athletics Club,
+32587,Corio Athletics Club,
+32588,Queensland Racewalking Club,
+32589,University of Tasmania Athletics Club,
+32597,Lake Macquarie AC,
+32598,Kaunas Žalgiris,
+32600,Perth Wildcats,
+32601,Lokomotiv Kuban,
+32602,Badminton Academy of Victoria [Melbourne,
+32603,Murphy's Boxing Gym [Surrey Hills,
+32604,Bayswater Paddlesports Club [Perth,
+32611,Eastfield [Kilsyth,
+32612,Team Illuminate,USA
+32614,Focus-4Shaw,
+32615,Victoria Institute of Sport,AUS
+32616,Ringwppd Diving Club,AUS
+32617,Corowa GC,AUS
+32621,Resilience Training Centre [Melbourne,
+32622,iJudo [AUS],
+32623,Geelong YMCA Judo Club [AUS],
+32625,New South Wales Modern Pentathlon,
+32626,Endeavour Hills,
+32627,Australia national rugby sevens team,AUS
+32629,West Tigers,
+32632,Sydney Stars,
+32633,West Australian RC,
+32637,Cessnock Pistol Club,
+32642,Sydney Olympic Park Aquatic Centre (SOPAC) (Australia),
+32643,Nunawading Swimming Club (Melbourne,
+32645,Global Martial Arts [Liverpool,
+32649,UNSW West Magpies [Sydney,
+32650,Fremantle Mariners [AUS],
+32651,Ferencvaros [HUN],
+32652,Drummoyne Water Polo Club [Sydney,
+32653,Hawthorn Weightlifting Club [Melbourne,
+32654,In2Fitness [Melbourne,
+32656,BLZ-Vienna,
+32657,KC Glanegg,AUT
+32658,Salzburg Fencing Club,
+32660,Ruderverein STAW,AUT
+32663,Schützenverein Mittersill,
+32664,SG Hötting,
+32665,SG Hohenems,
+32667,LTU Linz,
+32671,Baku Fires [Azerbaijan],
+32674,Gilan Boxing Club [Baku,
+32675,Synergy [Azerbaijan],
+32678,Neftchi-Sarhetchi [Azerbaijan],
+32683,Dickinson State University,
+32685,Kurmitola Golf Club,BAN
+32687,Saint Augustine's University Falcons,
+32688,Quantum Leap Athletics Programme,
+32690,Regional Triathlon Centre Guelph,
+32691,Athletic Prato,
+32693,FC Luik,
+32694,AC Dampicourt,
+32700,Habitat [NED],
+32701,Topsport Defensie [BEL],
+32702,Lotto [Belgium],
+32704,Stal Philippaerts [Gruitrode,
+32705,Koninklijke en Ridderlijke Hoofgilde van Sint-Michiel,
+32706,Anahita Golf & Spa Resort,MRI
+32707,Tupsportcentrum,BEL
+32708,Judo Kwai Moorsele [Belgium],
+32711,Bras,
+32712,De Beringse Tuimelaars (Beringen,
+32713,Fung Sing Taekwondo Club [Brussels,
+32716,CE Dijon,
+32717,La Sirene de Cotonou (Benin),
+32718,Next Level Athletics,
+32719,Spanish Point Boat Club/ Royal Bermuda Yacht Club,
+32720,Trojan Swim Club (Los Angeles,
+32721,Akademski Plivacki Klub 22 April (Banja Luka,
+32722,Belize Judo & Ju-jitsu Academy [Belize City,
+32723,Vitebsk State Technological University,
+32724,Dynamo [Belarus],
+32725,Army Sport Club. Minsk,
+32726,Rings of Glory Club,BLR
+32727,Mahilyow Regional Centre of Olympic Reserve in Rowing Sports [Belarus],
+32730,Minsk SC Start (Minsk,
+32731,Trade Unions Federation Sports Club [Belarus],
+32732,Minsk Regional School of Supreme Sports Skill [Belarus],
+32733,Armed Forces [Belarus],
+32734,GOGTSOP,BLR
+32735,Grodno [Belarus],
+32736,Trade Unions Sports Society [Belarus],
+32737,Grodno Regional Complex Centre of Olympic Reserve [Belarus],
+32738,Movistar CT [Spain],
+32739,IV Centenario Stadium [Tarija,
+32740,SAMIX (Bolivia),
+32741,SSKB,
+32742,Lesedi Judo Club [Botswana],
+32743,Nova Southeastern University Sharks (Fort Lauderdale,
+32744,Associacao de Tiro com Arco de Brasilia [Brazil],
+32746,EC Pinheiros,
+32747,AABLU,
+32750,Marinha do Brasil [Brazil],
+32751,Equipe Tony Boxe [Sao Paulo,
+32752,Academia Raff Giglio [Rio de Janeiro,
+32753,Associacao Pirajuense de Esportes Nauticos [Piraju,
+32754,Associacao Funcionarios Publicos de Sao Bernardo [Sao Bernardo do Campo,
+32755,Guahyba Associacao de Canoagem [Brazil],
+32757,Associacao Santa Mariense de Esportes Nauticos [Santa Maria,
+32759,Associacao Fiel de Canoagem de Cascavel [Brazil],
+32762,FUNVIC [Brazil],
+32763,E2 Stables [San Diego,
+32767,Academia Mestre Kato,
+32768,Beijing Guoan,CHN
+32769,BM Puerto Sagunto [Spain],
+32770,Taubate [Brazil],
+32771,Sao Caetano [Brazil],
+32777,Ademar Leon [Spain],
+32778,SCDR Anaitasuna [Pamplona,
+32780,Labrador Tigerstix,AUS
+32781,Carioca Hóquei Clube,BRA
+32782,Florianópolis Hóquei Clube,BRA
+32783,Rio Hockey Club,BRA
+32784,HIC,NED
+32785,AMHC,NED
+32786,Hóquei Clube Desterro,BRA
+32787,Sociedade Germânia,BRA
+32789,Centro Esportivo Salesiano,
+32790,Apache 7s,GBR
+32791,CE Na.For,BRA
+32792,Associacao Campineira de Tiro Esportivo,
+32794,Clube Olímpico de Tiro Esportivo de Brasília,BRA
+32795,Clube Caxiense de Caca e Tiro,
+32796,Unisanta (Santos,
+32797,Two Brothers Team [Sao Caetano do Sul,
+32798,Academia Bruno Igreja [Macapa,
+32800,Sao Caetano do Sul [Sao Paulo,
+32803,Vasas SC [HUN],
+32804,Botafogo [BRA],
+32805,Roma Vis Nova [ITA],
+32806,SESI-SP [BRA]; OVK POSK [CRO],
+32807,Lazio [ITA],
+32808,Pallanuoto Trieste [ITA],
+32810,SESI-SP [BRA],
+32811,Rari Nantes Sori [ITA],
+32814,Bahrain Shooting Club,BRN
+32815,Brunei Muara,
+32816,Botev Plovdid,
+32820,Chipilski Plovdiv,
+32821,Brisaspor [Turkey],
+32822,Academy Etropole,
+32827,PSK Cherno More (Varna,
+32829,Assenovec,BUL
+32830,Maryville University [St. Louis,
+32831,SK Levski [Sofia,
+32832,Slavia 2009 [Sofia,
+32834,AS Onatel [Ouagadougou,
+32835,Savannah Swim Team,USA
+32836,Brown University Bears (Providence,
+32837,Altis,
+32838,Speed River Track and Field Club,
+32843,Ottawa Lions Track and Field Club,
+32845,Glencoe Club [Calgary,
+32846,HUF Boxing [Mississauga,
+32848,Direct Energie [France],
+32849,Club Cyclone d'Alma [Alma,
+32850,Cannondale 360fly Powered by SUGOI [United States of America],
+32851,Plongeon Quebec [Montreal,
+32852,Club de Plongeon Como [Montreal,
+32853,Wingberry Farms [King City,
+32854,Dynamiques de Brebeuf,
+32855,Vango Fencing Club,
+32857,Flicka Gymnastics Club,CAN
+32858,India Field Hockey Club [Vancouver,
+32859,Vancouver Hawks [Canada],
+32860,United Brothers [Surrey,
+32863,Altona Hockey Club [Melbourne,
+32865,Judo Club Jonquiere [Canada],
+32866,Japan Racing Association [Tokyo,
+32867,Brentwood College School [Canada],
+32868,Ridley Graduate Boat Club [St. Catharines,
+32869,St Catharine's Rowing Club [Canada],
+32873,C3 Triathlon Club,
+32876,Pamvohaikos,GRE
+32877,Sada Cruisero,BRA
+32880,Benfica,POR
+32884,Club Atlas de Sherbrooke [Canada],
+32885,Guelph Wrestling Club [Canada],
+32886,University of Edinburgh (Edinburgh,
+32887,Club Avenir Natation de Brazzaville (Congo),
+32889,Aysen [Chile],
+32890,Escuela de Equitacion del Ejercito [Quillota,
+32892,Titanium Ruder Club [Valparaiso,
+32893,Kristel Kobrich Swim Team (Cordoba,
+32894,Academia Rott TKD [Santiago,
+32895,Alhue Sports Club [Chile],
+32896,Tibet,
+32897,Yunnan Province,
+32898,Chongqing Athletics Team,
+32901,Xinjiang Guanghui [People's Republic of China],
+32902,Liaoning Flying Leopards [People's Republic of China],
+32903,Shenzhen Leopards [People's Republic of China],
+32904,Houston Rockets [United States of America],
+32905,Shandong Golden Stars [People's Republic of China],
+32906,Shandong Hi-Speed Golden Stars [People's Republic of China],
+32907,Bayi Fubang Rockets [People's Liberation Army] [People's Republic of China],
+32908,Memphis Grizzlies [United States of America],
+32909,Fujian Province,CHN
+32911,Hubei Province [People's Republic of China],
+32912,Beijing Yanqing Innova [People's Republic of China],
+32914,Anhui Provincial Fencing Team,CHN
+32917,Guizhou Province,CHN
+32919,Shandong Province [Rizhao,
+32920,Liaoning Province [Dalian,
+32921,People's Liberation Army (PLA) (Suzhou,
+32922,Shandong Province (People's Republic of China),
+32923,PLA Navy (People's Republic of China),
+32924,Zhejiang Province (Wenzhou,
+32927,Hubei Province,
+32929,Shangdong Province [People's Republic of China],
+32931,Lion Boxing Club [Ebolowa,
+32932,Dalton Club Yaounde [Cameroon],
+32934,Manihiki Sailing Club [Cook Islands],
+32936,Bolivar Archery,
+32937,Meta,
+32939,Equipo Porvenir,COL
+32940,Bolivar,
+32943,IAM Cycling [Switzerland],
+32944,KTM Protek Dama [Milan,
+32946,SC Saint Gratien,
+32947,Levante UD,ESP
+32948,Norte de Santander,COL
+32949,Scarlet Aquatics (Bayonne,
+32952,Clube Militar [CPV],
+32953,Academia de Artes Marciais [CPV],
+32954,BCR Pizza Hut [Costa Rica],
+32955,San Francisco [San Jose,
+32956,Philadelphia 76ers [United States of America],
+32957,Pallacanestro Olimpia Milano [Italy],
+32958,KK Cedevita,CRO
+32959,Dinamo Sassari,ITA
+32960,Cibona Zagreb [Croatia],
+32961,BK Leonardo,CRO
+32962,HC Meshkov Brest,BLR
+32963,Dunkerque HB,FRA
+32964,Taekwondo Klub Metalac [Zagreb,
+32965,Pallanuoto Sport Management,ITA
+32966,Acquachiara Napoli [Italy],
+32967,Matadura,CRO
+32970,Cuba Domadores [Cuba],
+32973,Sancti Spiritus,CUB
+32974,La Habana,CUB
+32975,Matanzas,CUB
+32976,Pinar del Rio,CUB
+32977,Cienfuegos,CUB
+32978,Santic Spiritus,CUB
+32979,Ciudad Habana,CUB
+32981,Larnaca,
+32982,University of Alabama Crimson Tide,USA
+32983,Constantias Nautical Club,CYP
+32985,Dukla Brandys nad Labem [Czech Republic],
+32986,Team Sky [Great Britain],
+32991,SSK DDM Kolin,
+32992,TJ Delfin Nachod (Czech Republic),
+32993,GV Hennebont,FRA
+32997,Team CPH [Copenhagen,
+32998,Bourne Hill Stables [Horsham,
+32999,FC Nordsjælland,DEN
+33000,Henan Songshan Longmen,CHN
+33001,FC Fredericia,DEN
+33007,Fredericia Sejlklub [Denmark],
+33010,Herlev Svomning (Denmark),
+33011,Herlev Svommeklub,DEN
+33012,Aalborg Svommeklub (Denmark),
+33013,Tri Team SDU,
+33016,JLR Track Club,
+33018,Fuerza Aerea,
+33019,Rosario Minaya [Dominican Republic],
+33020,Inteja [Dominican Republic],
+33021,Club de Judo San Juan [San Juan de la Maguana,
+33022,Azura Florida Aquatics (Fort Lauderdale,
+33023,La Tola [Quito,
+33026,Arab Contractors Club,EGY
+33028,El Jaish SC,QAT
+33029,Aviation SC,EGY
+33031,Talaa Elgesh,
+33034,Egyptian Army Club,EGY
+33037,Club Arqueros San Jorge [Caceres,
+33038,Club Silex de As Pontes,
+33039,CA Fent Camí,ESP
+33040,CD Nike Running,
+33041,Club de Atletismo en Castellón,ESP
+33045,Boxring Hanau [Germany],
+33046,CF Lugo,ESP
+33049,Piraguismo Ria Betanzos [A Corunya,
+33052,Movistar [Spain],
+33053,Katyusha [Russian Federation],
+33054,AHF Eventing [Els Serrats] [Lleida,
+33056,Real Club Pineda [Seville,
+33058,RCG Las Palmas,ESP
+33059,Club de Campo del Mediterráneo,ESP
+33062,RC Polo [Spain],
+33064,Atletic Terrassa [Spain],
+33069,Tatami RC,
+33070,Bera Bera RT,
+33071,Hernani Cre,
+33072,CR La Vila,
+33073,FC Barcelona Rugby,
+33074,Club de Rem Tortosa [Spain],
+33077,RCN Barcelona,
+33079,Ensidesa Trasona,
+33080,Club Natacio Terrassa (Spain),
+33081,CN Atletic Barceloneta (Spain),
+33082,Real Canoe NC,
+33085,CN Bidasoa XXI (Irun,
+33087,CN Churriana (Granada,
+33088,Taekwondo Jesus Tortosa [Madrid,
+33090,Diablillos de Rivas,
+33093,CN Terrassa [Spain],
+33095,IMD de San Pablo [Seville,
+33096,Club Lluita la Mina [Sant Adria de Besos,
+33097,Tartu SS Kalev,
+33098,Tallinna TU SK,
+33099,Audentese SK,
+33101,SK Viraaz,
+33108,Warrior's Boxing Club [Suva,
+33109,Ba FC,FIJ
+33110,Nadi FC,FIJ
+33112,Rewa FC,FIJ
+33113,Hideaway Hurricanes [Fiji],
+33114,RC Toulonnais,
+33115,Suva Wardens [Fiji],
+33116,Covenant Brothers Rugby Club [Suva,
+33117,Montauban Rugby Club [France],
+33118,Edinburgh Rugby,GBR
+33119,Dolphin Swim Club,FIJ
+33120,SPIRE Institute Ohio,USA
+33121,Oulun Jousimiehet [Oulu,
+33124,Esbo IF,
+33125,Siltakorpi-Jankari Eventing [Warendorf,
+33126,Espoon Telinetaiturit (ESTT),FIN
+33128,Lahden Ampumaseura,
+33129,Seinäjoen Sisu,
+33130,Ilmajoen Kisailijat,
+33131,Les Archers Riomois,
+33135,EC Orléans Cercle Jules Ferry,
+33136,Lille Métropole Athlétisme,
+33139,Valencia Basket [Spain],
+33140,ASVEL Basket [Villeurbanne,
+33144,USM Montargis [France],
+33145,Boxing Amical Les Mureaux [France],
+33147,Boxing Club Heninois [France],
+33148,Boxing Lyon [France],
+33150,Top Rank Bagnolet [France],
+33152,BMX Limonest [France],
+33153,Lempdes BMX Auvergne [France],
+33155,BH SR Suntour KMC; ASPTT Mulhouse [France],
+33159,Poney Club de la Noe [France],
+33161,Verneuil Dressage [France],
+33162,Association Concours Maurice Besson [France],
+33163,Ecuries Besnardeau Eperon du Haut Forez [France],
+33164,Institut Francais du Cheval et de l'Equitation [Saumur,
+33165,Levallois Sporting Club Escrime,
+33166,CE Aulnay,
+33167,AS Bourg-la-Reine,
+33169,Golf Bordelais,FRA
+33170,Les Aisses Golf,FRA
+33173,L'Etoile de Monaco,MON
+33176,Saint-Raphael Var Handball [France],
+33181,Olympique Judo Nice [OJ Nice] [France],
+33186,Stade Rochelais,FRA
+33187,Emulation Nautique de Bordeaux [France],
+33188,US Toul [France],
+33189,SNO Nantes,
+33191,TC Pointe Rouge,
+33192,CMV Saint-Brieuc,
+33193,SR Antibes,
+33197,Stade de Vanves Natation (Paris,
+33200,Taekwondo de Cachan [Paris,
+33201,Bois Colombes Trampoline 92,
+33202,Montpellier Triathlon,
+33205,AS Pontoise Cergy [France],
+33206,Sète Natation EDD,FRA
+33207,Team Strasbourg [France],
+33208,Reims Halterophilie Musculation [France],
+33209,Lutte Club de Nice [France],
+33210,ASM de Mantes-la-Jolie,
+33211,Jaraaf Athletics Club,
+33212,Biramsira Swimming Club (Gambia),
+33219,Lewes AC,GBR
+33221,Shettleston/Glasgow City,
+33222,Surrey Smashers [National Badminton League] [England],
+33224,Earlsfield Boxing Club [London,
+33225,South Norwood and Victory Boxing Club,GBR
+33226,Houghton and District Amateur Boxing Club [England],
+33227,Dagenham Police and Community Boxing Club [London,
+33232,Superior Brentjens Mountain Bike Racing Team [NED],
+33233,Pedal Heaven [GBR],
+33234,The Pure Bicycle Company,GBR
+33235,City of Sheffield,GBR
+33237,Saujana Golf & Country Club,MAS
+33238,Leeds Gymnastic Club,GBR
+33241,Scarlets,GBR
+33242,Glasgow Warriors,GBR
+33244,Newcastle Falcons,
+33246,Newport RFC,GBR
+33247,Inverness RC [Great Britain],
+33248,Oxford Brookes University BC,
+33249,Lancaster Rowing Club [England],
+33250,Stokes Bay Sailing Club,
+33253,Royal Lymington Yacht Club [England],
+33254,Nuthampstead Shooting Club,
+33259,Perth City Swim Club (Scotland),
+33260,National Centre Loughborough (England),
+33261,ASV Grunwettersbach [Germany],
+33262,Empire Sports Club [Bristol,
+33265,N. Salukvadze Club,
+33268,Asics Team Memmert,
+33269,Leichtathletik Club Jena,
+33270,BC Traktor Schwerin,
+33271,SG Kaarst [Germany],
+33272,TuS Traunreut [Germany],
+33276,Chemnitzer Polizeisportverein,GER
+33278,Dressurstall Rothenberger [Germany],
+33280,FC Ingolstadt 04,GER
+33281,Fuchse Berlin [Germany],
+33284,HBW Balingen-Weilstetten [Germany],
+33285,Fuchse Berlin Reinickendorf HBC [Germany],
+33286,KS Vive Tauron Kielce [Poland],
+33287,SFV Europa Braunschweig,
+33290,1. JC Mönchengladbach,
+33292,SC Berlin,
+33294,Rudern und Sport Steinmühle,GER
+33295,Lübecker RG,GER
+33296,Bernburger RC,GER
+33297,Joersfelder Segel-Club [JSC] [Germany],
+33298,SSV Mundelsheim,
+33301,SV Rai-Breitenbach,
+33302,FSG Diessen,
+33303,Kölner THC,GER
+33305,GSV Eintracht Baunatal [Germany],
+33309,Western Kentucky Hilltoppers,
+33312,IA Apollo,
+33317,Sailing Club of Thessaloniki [Greece],
+33320,ANO Argyroypolis (Greece),
+33325,Ydraikos [Greece],
+33327,Front Range Racers,
+33328,Club de caza Tiro y Pezca,
+33329,Dorado Swim Club (Guyana),
+33330,Virginia Tech Hokies,
+33331,Atlas Cops N Kids [New York,
+33332,Budokan Judo Club of South Florida [United States of America],
+33333,Nieves Wrestling Club [Springfield,
+33334,Hong Kong University,
+33335,Kepong Badminton Club [Malaysia],
+33336,Banga Beats [India],
+33337,HKSI [Hong Kong,
+33338,Davie Police Athletic League [Davie PAL] [United States of America],
+33339,Juticalpa F. C.,HON
+33340,Real Sociedad,HON
+33342,Budapesti Egyetemi AC,
+33343,Pécsi Futó Club/ BHSE,
+33344,Debreceni Sportiskola/UTE,
+33345,Vasas-Sullos [Budapest,
+33347,Balaton Vívóklub,
+33349,Volán Fehérvár,
+33352,Göcsej SE/BHSE,
+33353,Keceli Pintér Művek Lövész Klub/UTE,
+33354,Szazhalombattai VUK SE (Hungary),
+33355,Bácsvíz KVSC,
+33357,Debrecen SC (Hungary),
+33361,Mogyi Triatlon SE,
+33362,Bvsc-Ganz Jaszkiser [Budapest,
+33363,Club Sports Affairs [Malaysia],
+33364,Thrill Factory Team,
+33368,Bengaluru Topguns [Bangalore,
+33370,Royal Calcutta Golf Club,IND
+33371,Oil and Natural Gas Corporation [ONGC] [India],
+33372,CAG Bangalore [India],
+33373,Western Railway [India],
+33374,Western Railway [Mumbai,
+33375,Indian Oil Corporation [IOC] [India],
+33378,Army Rowing Node [Pune,
+33380,AMV,
+33382,Atlas Gym [Vellore,
+33383,Services Sports Control Board [New Delhi,
+33384,Bengaluru Yodhas [India],
+33385,Qadsia Club,
+33387,Pishgaman–Giant Team,IRI
+33388,Tabriz Shahrdari Team,IRI
+33394,Kalleh Mazandaran VC,IRI
+33396,Matin Varamin VC,IRI
+33400,Raheny Shamrock AC,
+33403,St. Michael's Athy Boxing Club [Ireland],
+33404,All Saints Amateur Boxing Club [Ballymena,
+33406,Ballypatrick Stables [Thurles,
+33407,West Waterford GC,IRL
+33408,Pembroke Wanderers [Dublin,
+33409,Royal Racing Club de Bruxelles [Ukkel,
+33410,Royal Racing Club de Bruxelles [Belgium],
+33412,Banbridge [Northern Ireland],
+33413,Reading [England],
+33414,Cork Church of Ireland [Ireland],
+33415,Lisnagarvey [Hillsborough,
+33416,Monkstown [Dublin,
+33417,Rotterdam [Rotterdam,
+33418,Crefelder HTC [Germany],
+33422,University of Edinburgh Swim Team (Scotland),
+33424,Al Dhafra FC,UAE
+33425,Çaykur Rizespor,TUR
+33426,Naft Al-Wasat SC,IRQ
+33427,Al Shorta Club [Iraq],
+33431,Sdot Yam [Israel],
+33432,Carina Leagues Triathlon Club,AUS
+33434,St Thomas Swim Academy (Virgin Islands,
+33435,Compagnia del Tempio di Diana [Cantalupa,
+33437,Contrada Boxe [Italy],
+33438,Italia Thunder [ITA],
+33439,Pugilistica De Novellis [ITA],
+33441,CSCK,ITA
+33442,BMC Racing [United States of America],
+33443,FRM [Italy],
+33446,GS Fiamme Oro,ITA
+33447,Pony Club Il Dragoncello [Italy],
+33451,Fiamme Gialle GS [Italy],
+33452,GS Fiamme Oro [Italy],
+33453,GS Fiamme Gialle [Italy],
+33455,Garnell Sailing Team [ITA],
+33457,Team Veneto (Italy),
+33458,De Akker Team (Italy),
+33459,GS Fiamme Oro Napoli,
+33460,NC Azzurra 91 (Bologna,
+33461,Fondazione Marcantonio Bentegodi,
+33462,CS Carabinieri (Italy),
+33463,CS Esercito (Italy),
+33466,Tennis Club Italia,ITA
+33467,CT Massa Lombarda,ITA
+33473,Central Ariziona College,
+33474,Coleman Track Club,
+33477,AKAN Track Club,
+33479,University of Southern California Trojans,USA
+33480,South Florida Aquatics,USA
+33481,Alameda ON Triathlon Team,
+33482,Dome orporation,
+33483,Hitachi ICT,
+33484,Yaskawa Electronic Corporation,
+33485,Zenrin,
+33486,University of Tsukuba,
+33488,Honda,
+33489,Sumitomo Electric Industries,
+33490,Descente Track Club,
+33491,Tokyo University of Agriculture [Japan],
+33493,Akita Sports Association,
+33494,Manroku Construction Corp [Japan],
+33495,Bridgestone Anchor [Japan],
+33498,Hiruzen Horse Park [Japan],
+33501,Riding Club Crane [Habikino,
+33504,Avispa Fukuoka,JPN
+33505,Fagiano Okayama,JPN
+33506,Nippon Sports Science University,JPN
+33515,Panasonic Wild Knights,JPN
+33516,Honda Heat,JPN
+33519,Toshiba Brave Lupus,JPN
+33520,NEC Green Rockets,JPN
+33521,Iris Ohyama Rowing Club [Japan],
+33522,Nippon Steel & Sumitomo Metal [Japan],
+33523,Team Abeam [Japan],
+33524,JR Kyushu [Japan],
+33525,JSDF Physical Training School,
+33528,Miki House Sports Club (Japan),
+33529,Miki House (Japan),
+33530,Daiichi Sankyo,JPN
+33531,Gifu Nishi Sports Club (Japan),
+33532,Yuras (Japan),
+33533,Japan Self-Defense Forces (JSDF) Physical Training School (Kofu,
+33537,Nagoya Daihatsu [Nagoya,
+33539,Bourbon Water Polo Club Kashiwazaki [Kashiwazaki,
+33540,Nippon Sport Science University [Japan],
+33541,JSDF Physical Training School [Japan],
+33543,Fuefuki City Office [Japan],
+33544,San-E Maritime Corporation [Japan],
+33545,Central Army Sports Club [CSKA] [Kazakhstan],
+33546,Astana Arlans [Kazakhstan],
+33549,Dynamo [Astana,
+33550,Specialised School of Supreme Sports Skill,KAZ
+33554,Team Astana [Kazakhstan],
+33555,Dynamo [Almaty,
+33556,Astana Batyry [Kazakhstan],
+33557,Dynamo [Pavlodar,
+33558,National Police Service,
+33559,Toyota Boshoku,
+33560,Team Kyudenko,
+33561,Central Rift AK,
+33562,Kenya Prisons [Kenya],
+33569,Nakuru RFC [Kenya],
+33570,Impala Saracens,
+33573,Bandari Swimming Club (Mombasa,
+33574,Hamburger Judo-Team e.V.,
+33578,Berkut [Bishkek,
+33579,Andong National University [Republic of Korea],
+33580,Kolon [Republic of Korea],
+33582,Gwangju Metropolitan City Hall,
+33584,Yongin University [Republic of Korea],
+33586,Busan Gangseo District Office [Republic of Korea],
+33587,KSPO,
+33588,Seoul City Hall [Republic of Korea],
+33589,Seoul Cycling Team,KOR
+33592,Vegalta Sendai,JPN
+33594,Hokkaido Consadole Sapporo,JPN
+33596,Manyang Unversity,KOR
+33597,Joenbuk Provincial Government Office,KOR
+33601,Korea Armed Forces Athletic Corps [Republic of Korea],
+33603,Industrial Bank of Korea Shooting Team,
+33604,Gyeonggi Province Office,
+33606,Gyeongsangbukdo Sports Council,
+33607,Jeollanamdo Swimming Federation (Republic of Korea),
+33608,Dong-A University [Busan,
+33612,Samsung Wrestling Team [Republic of Korea],
+33614,KF Kastrioti [Ferizaj,
+33615,STEP Prishtina (Kosovo),
+33617,Vientiane Athletics Club,
+33618,CCN Cycling Team [Brunei Darussalam],
+33620,OC Ventspils,
+33621,Makkabi Sports Fight Club [Riga,
+33622,HK Iecava,
+33623,Naadi Sidi Salim,LIB
+33624,Hansons-Brooks Original Distance Project,USA
+33625,Customs Sports Association,
+33626,Triton SK (Staffanstorp,
+33629,Mr Price Athletic Club,
+33630,ACE-The Sufferfest Lesotho [Lesotho],
+33632,Westminster Academy Swim Club (Fort Lauderdale,
+33635,SM Viltis,
+33636,Kauno maratono klubas,
+33637,G.S. Kymis,GRE
+33638,Gaja Kaunas [Lithuania],
+33639,Kaunas Rowing School [Lithuania],
+33640,Irklo Broliai [Lithuania],
+33644,Vilnius Shooting Club,
+33649,Klaipeda Weightlifting [Lithuania],
+33651,Assounboula Athletic,MAR
+33652,Association Sportive Ouled Abdoune,MAR
+33655,Atlas Lions,MAR
+33657,Al-Birnussi Youth Boxing Club,MAR
+33658,World Cycling Centre,SUI
+33659,Mohammedia Shooting Club,
+33660,ASPTT Toulouse Natation,FRA
+33661,Wydad de Casablanca,
+33662,Club Imaili [Meknes,
+33663,CP Besancon [France],
+33664,Muar City Badminton Club [Malaysia],
+33667,Judoclub Leipzig e.V.,
+33669,Chisinau Zirve [Republic of Moldova],
+33670,Sports School Comrat [Republic of Moldova],
+33672,Nuevo Leon State,
+33674,SEDENA,
+33675,Hidalgo,
+33677,Club de Canotaje Tuxpan [Mexico],
+33678,Tennis Stars Pro Cycling Team,MEX
+33679,Cycling Academy [Israel],
+33680,Estado Mexico,MEX
+33681,Club de Yates de Chapala [Mexico],
+33683,Chênois Genève,SUI
+33684,Raision Loimu,FIN
+33685,Imss Atn,MEX
+33686,Tigres Uanl,MEX
+33687,Cocoteros de Colina,MEX
+33688,Virtus Guanajuato,MEX
+33689,Baja California,MEX
+33690,Chihuahua,MEX
+33691,Tuv Aimag [Mongolia],
+33692,Ulaanbaatar Golden Gloves [Mongolia],
+33693,Gumko Club [Mongolia],
+33694,Erdenet Khangarid Sports Club [Mongolia],
+33696,Ganit Club [Mongolia],
+33697,Sacramento City College Track and Field,
+33698,LG Bern,
+33699,AS Monaco (Monaco),
+33701,St. Patrick's AC,MLT
+33702,SC im Theresianum (Vienna,
+33703,Circolo Canottieri Napoli [Italy],
+33704,CN Posillipo [Naples,
+33705,Kinef Kirishi [Russian Federation],
+33707,Star of Monaco,MON
+33710,Melbourne Athletic Club,
+33711,Balma Athletics Club,
+33713,OMB Beau Bassin Swimming Club (Mauritius),
+33715,Nampol Khomas Athletics Club,
+33716,Nampol Boxing Gym,
+33717,St. Jozefdoelen [Geldrop,
+33721,Apeldoornse Boks en Conditie Club [Netherlands],
+33724,Van Silfhout Stables [Lunteren,
+33726,Flik Flak,NED
+33727,Budokan Rotterdam [NED],
+33728,TSV Munchen-Grosshadern 1926 eV [GER],
+33730,Team Delta Lloyd; WSV Hoorn [Netherlands],
+33731,ZPC Amersfoort,NED
+33732,RTC Amsterdam,NED
+33734,NTC-PSV (Eindhoven,
+33735,Manang Marshyangdi Club [Kathmandu,
+33736,Nepal Army Club,
+33737,Tribhuwan Army Club (Nepal),
+33739,Indiana Hoosiers,
+33740,Garden State Track Club,
+33741,Hapoel Migdal HaEmek [Israel],
+33742,Lagos Islanders,NGR
+33743,Capitanes de Arecibo [Puerto Rico],
+33744,Dinamo Sassari [Italy],
+33745,Detroit Pistons [United States of America],
+33746,Ironi Nahariya [Israel],
+33747,FC Barcelona Lassa [Spain],
+33748,Osmanlıspor,TUR
+33750,Rhapsody FC,NGR
+33751,Abia Warriors,NGR
+33752,CD Feirense,POR
+33754,RFC Seraing,BEL
+33755,Kayseri Erciyesspor,TUR
+33757,Taraba FC,NGR
+33758,FK Haugesund,NOR
+33763,IL Norna-Salhus,
+33764,Stavanger Sykleklubb,
+33770,Wellington Scottish Harriers,
+33772,The Very Nice Track Club,
+33774,Mana Kayak Racing Club [Porirua,
+33776,Specialized Factory Racing [Morgan Hill,
+33783,Northland [Whangarei,
+33784,The Blues,NZL
+33785,Counties Manukau [New Zealand],
+33787,Waikato Rowing Club/Te Awamutu Rowing Club,
+33790,Wellington Rowing Club [NZL],
+33791,Central Regional Performance Centre [NZL],
+33792,Union Rowing Club [New Zealand],
+33798,Howick Pakuranga (New Zealand),
+33799,Swim Rotorua (New Zealand),
+33803,Club de Tiro Balboa,
+33804,Escuela de Remo Paraguayo - Aleman [Asuncion,
+33805,Hoka One One,
+33808,University of Arizona Wildcats (Tucson,
+33809,Bago City ABAP Gym [Philippines],
+33810,Pasobolong Weightlifting Club [Zamboanga,
+33811,JC Leipzig,
+33812,Team East New Britain,
+33813,MULKS MOS Sieradz,
+33814,MKS Aleksandrów Łódzki,
+33817,UKS Barnim Goleniów,
+33822,AZS KU Politechniki Opolskiej Opole,
+33823,AZS-AWF Warszawa,
+33824,Zagłębie Konin,
+33825,KS Sako Gdańsk,
+33828,UKS Dojlidy Białystok,POL
+33831,Orlen Wisła Płock,
+33832,FC Barcelona Lassa,
+33833,SPR Orlen Wisła Płock,
+33834,RK Gorenje Valenje,
+33835,TBV Lemgo,
+33836,KS Azoty Puławy,
+33841,Flota Gdynia,
+33842,MKP Szczecin (Poland),
+33843,UKS Skarpa Lublin,
+33844,WKS Śląsk Wrocław,
+33846,UKP Unia Oświęcim,
+33847,AZS OŚ Poznań,
+33848,AZS AWF Warszawa,
+33849,KS Bogoria Grodzisk Mazowiecki,
+33850,KST Energa-Manekin Toruń,
+33851,TTF Liebherr Ochsenhausen. [Ochsenhausen,
+33854,Lotos Trefl Gdańsk,POL
+33858,DMT Racing Team,ITA
+33860,Golf de Saint-Nom-La-Bretèche,FRA
+33861,Quinta do Lago,POR
+33863,Sajabong,
+33864,TV Schwanewede [Germany],
+33865,Pugilist Boxing Gym [Germany],
+33866,Stal Tops,NED
+33867,Qatar Academy,QAT
+33868,Al-Jaish SC,QAT
+33869,National School for Education and Sports,
+33870,Royal Ghent Swimming Club (Belgium),
+33871,CSU Suceava,
+33872,CS Știința Bacău,
+33873,SC Bacau [Romania],
+33874,Androni Giocattoli [Italy],
+33875,CS Dinamo Bucharest,ROU
+33877,CSM Brasov (Romania),
+33878,Delfinul Bucharest (Romania),
+33879,CS Stiinta Municipal Bacau (Romania),
+33883,CSM Lugoj [Romania],
+33886,UFS Kovsies Athletics,
+33889,Royal Bafokeng Athletics,
+33891,Team Spur [South Africa],
+33892,Alrode [Alberton,
+33894,Mpumalanga Black Aces,RSA
+33895,Maritzburg United,RSA
+33896,Highlands Park F.C.,RSA
+33900,Mount Edgecombe CC,RSA
+33901,Dainfern CC,RSA
+33902,University of California Golden Bears,RSA
+33904,Western Province [Cape Town,
+33905,Stormers [Cape Town,
+33906,Golden Lions [Johannesburg,
+33907,The Stormers,RSA
+33908,Benoni Sailing Club,
+33910,Seagulls Swimming Club (Durban,
+33911,University of Alabama Crimson Tide (Tuscaloosa,
+33912,Action Swim Academy (Durban,
+33915,Vityaz Boxing Club [RUS],
+33918,Gazprom–RusVelo,
+33920,KSK Exotica [Moscow,
+33924,Novosibirsk Gymnastics Youth Sports School of Olympic Reserve,
+33925,Yawara-Neva [St. Petersburg,
+33926,Kometa Specialised Youth Sports School of Olympic Reserve [RUS],
+33927,Yawara-Neva [St Petersburg,
+33928,Krylatskoye Centre of Sports Preparation [Moscow,
+33929,Dynamo-Tatarstan [Kazan,
+33934,ADN Swim Project (Caserta,
+33936,Delfin Youth Sports School (St. Petersburg,
+33937,Volga (Volgograd,
+33938,Kometa Specialised Youth Sports School of Olympic Reserve (St. Petersburg,
+33940,Central Army Sports Club,RUS
+33944,Central Sports Club of the Air Force (CSK VVS) (Samara,
+33948,MGFSO [Russian Federation],
+33950,Team Distance Runners,
+33951,Benediction Club,
+33952,Tanifa O Le Vai Swim Club (Samoa),
+33953,BCEAO (Senegal),
+33956,People's Association Sailing [Singapore],
+33958,AD MASS,
+33961,PPD Zagreb [Croatia],
+33963,TuS Nettelstedt-Lubbecke [Germany],
+33964,RD Riko Ribnica [Slovenia],
+33965,HC Meshkov Brest [Belarus],
+33968,PK Ljubljana (Slovenia),
+33970,l'Atletica Biotekna Marcon,
+33971,Sport Association San Marino,
+33972,AK Partizan Beograd,
+33973,AK Crvena Zvezda,
+33975,Crvena Zvezda [Belgrade,
+33976,Unicaja Malaga [Spain],
+33977,Partizan [Belgrade,
+33980,SK Akademac,
+33984,RK Proleter Zrenjanin [Serbia],
+33985,Sri Lanka Air Force,
+33987,TV Oerlikon,
+33989,KCBM,SUI
+33990,Montreux-Rennaz Cyclisme,SUI
+33991,BMC MTB Racing Team,
+33992,VC Eschenbach,
+33993,FDJ [France],
+33997,Ecurie Duguet [Gumligen,
+33999,Zürcher Fechtclub,
+34004,Ju-Jitsu und Judo Club [JJJC] Brugg [Switzerland],
+34005,Ruderclub Baden,SUI
+34008,Gstaad Yacht Club [GYC] [Switzerland],
+34011,Balsthal,
+34012,Geneve Natation 1885 (Switzerland),
+34014,St Jigoro Kano [Paramaribo,
+34015,SLK Liptovsky Mikulas,
+34018,Kajak Canoe Klub Samorin [Slovakia],
+34022,Malmö AI,
+34027,Mersin İdmanyurdu,TUR
+34028,Östersunds FK,SWE
+34029,Randers FC,DEN
+34030,PGA Sweden National,SWE
+34031,IFK Kristianstad [Sweden],
+34032,Paris SG [France],
+34033,TBV Lemgo [Germany],
+34034,KIF Kolding Kobenhavn [Denmark],
+34040,IK Sparta [SWE],
+34041,SV Johannis Nurnberg [GER],
+34042,Huddinge BK [SWE],
+34043,KSV Ispringen [GER],
+34044,Moshi Judo Club [United Republic of Tanzania],
+34045,Hamilton Aquatics (Dubai,
+34046,Koge Bueskyttelaug Archery Club [Denmark],
+34047,Nakhonratchasima Municipality Sport School [Thailand],
+34048,Black Mountain GC,THA
+34049,Rangsit University [Thailand],
+34050,Leos Team,
+34052,Sisaket Paisan Vithaya Club [SPV] [Thailand],
+34057,Vostok [Ashgabat,
+34060,Kinmen Count,
+34062,Taichung Sports University Team [Chinese Taipei],
+34063,Shin Fong GCC,
+34066,Hsinchu City (Chinese Taipei),
+34067,Taiwan Cooperation Bank [TPE] [Chinese Taipei],
+34068,Kaohsiung [Chinese Taipei],
+34069,Pingdong [Chinese Taipei],
+34072,Ultimate Gym [TTO],
+34073,Mexico Guerreros [MEX],
+34074,Queens Park Judo Club [Trinidad and Tobago],
+34076,ASBR,
+34080,Saydes Spor Kulübü,
+34081,PTT Spor Kulübü,
+34082,Ayvalık Atletizm SK,
+34087,Stal Karaevli [Swolgen,
+34089,Kocaeli Kagıtspor Club,
+34090,Istanbul Hunting and Shooting Club,
+34091,Besiktas JK [Istanbul,
+34092,Aski SK Ankara [Ankara,
+34094,Nanumea,
+34096,Al-Nasr Pro Cycling Team,UAE
+34099,Uganda Police Force,
+34100,Prisons Athletics Club,
+34101,Elgon,
+34102,Grinnell College,USA
+34103,Kiev School of Supreme Sports Skill,
+34104,Kolos [Ukraine],
+34105,Nadezhda Sports Club [UKR],
+34107,Kozak Boxing Club [UKR],
+34108,Dynamo-Kolos [UKR],
+34111,Kolss [Ukraine],
+34112,Dynamo [Kiev,
+34114,CSK ZSU,
+34116,Motor Sich Sports Complex [Zaporozhye,
+34117,Armed Forces [UKR],
+34118,Osvita [UKR],
+34119,Ternopil Regional School of Supreme Sports Skill [UKR],
+34122,Kiev School of Supreme Sports Skill (Ukraine),
+34123,Dynamo (Poltava,
+34125,Dynamo [Kherson,
+34126,Sports Club of the National Guard [Ukraine],
+34127,Epicentre Sports Club [UKR],
+34128,Spartak [Lviv,
+34129,Dinamo,UKR
+34130,Dynamo [Kharkiv,
+34133,Team Cuestas-Manana,
+34134,Carrasco Polo Club [Uruguay],
+34135,Club Nautico Union Atletica [Uruguay],
+34137,Camilo Jose Cela University (Madrid,
+34138,United States Olympic Training Centre,
+34139,US Air Force,
+34141,Brooks Beasts Track Club,
+34142,LA Clippers [United States of America],
+34144,Toronto Raptors [Canada],
+34145,Cleveland Cavaliers [United States of America],
+34147,Orange County Badminton Club [Orange,
+34148,Santa Maria Elite Boxing Team [United States of America],
+34149,Team TUFF Boxing Academy; Soul City Boxing Club [United States of America],
+34150,Northside 316 Boxing,USA
+34151,ALX Boxing [United States of America],
+34152,Housatonic Area Canoe and Kayak Squad [United States of America],
+34154,BMC Racing [Switzerland],
+34158,Miami Diving [Coral Gables,
+34159,Boiler Diving Academy [West Lafayette,
+34162,Alcazar Fencing Club,
+34163,USA Youth Fitness Centre,
+34164,Team Hilton [Colorado Springs,
+34165,World Elite Gymnastics,
+34166,Sunwolves [Tokyo,
+34169,Saracens [London,
+34170,New England Patriots,
+34172,US Rowing Training Center - Oklahoma City [United States of America],
+34173,US Rowing Training Centre - Princeton [Princeton,
+34174,US Rowing Training Center [Princeton,
+34175,Bayview Yacht Club [Detroit,
+34176,St. Francis Yacht Club [San Francisco,
+34178,Annapolis Yacht Club [United States of America],
+34179,US Army Marksmanship Unit,
+34180,Air Force Academy,
+34181,Phoenix Rod and Gun Club,
+34182,University of Colorado – Colorado Springs,
+34186,Poos Taekwondo Center [Edmond,
+34187,Triathlon Project 2016,
+34188,International Table Tennis Academy [ITTA] [United States of America],
+34191,Trefl Gdańsk,POL
+34194,USA Blue,
+34198,Minnesota Storm [United States of America],
+34199,Titan Mercury WC [United States of America],
+34200,Nittany Lion Wrestling Club [State College,
+34207,Central Army Sports Club,
+34208,Sports School of the Ministry of Public Education (Uzbekistan),
+34209,Tornado [Tashkent,
+34212,Dynamo [Tashkent,
+34213,Capricorn BC [Vanuatu],
+34214,Judo Club Port Vila [Vanuatu],
+34215,Ole Miss Rebels,
+34216,Trotamundos de Carabobo [Valencia,
+34217,Guaros de Lara [Barquisimeto,
+34218,SLUC Nancy Basket [France],
+34219,Bucaneros de La Guaira [Maiquetia,
+34220,Marinos de Anzoategui [Puerto La Cruz,
+34221,Toros de Aragua [Maracay,
+34222,Venezuela Caciques [Venezuela],
+34224,JHS Aves,VEN
+34225,Hollow Creek Farm [Aiken,
+34226,Club de Esgrima UPEL,
+34227,Asociación de Esgrima Estado Bolívar Jesús “Chuchú” Gruber,
+34228,Club Puerto Azul,
+34230,University of Louisville Cardinals,USA
+34231,Falcon [Venezuela],
+34232,Apure Wrestling Club,VEN
+34233,Wrestling Club Barinas,VEN
+34234,TTVN,
+34235,Ho Chi Minh City Weightlifting Club [Vietnam],
+34236,Claflin University,
+34237,Team Run Flagstaff,USA
+34238,Sikanze Police Judo Club [Lusaka,
+34239,Worthing Archery Club [England],
+34240,Louisiana State University Tigers,
+34241,BYU Cougars,
+34242,University of Kentucky (Lexington,
+34244,Westfield Dragons [Nadi,
+34246,Worcester Warriors,
+34247,Lada Togliatti [Russian Federation],
+34248,CN Stabia [Italy],
+34249,Fiamme Oro [Italy],
+34251,UVB Purgstall,
+34252,Atletica Brugnera Friulintagli,
+34253,Jiangsu Phoenix [People's Republic of China],
+34255,Beijing Ducks [People's Republic of China],
+34256,Flammes Carolo Basket Ardennes,
+34257,Querétaro,MEX
+34258,ASM Romagnat Rugby Féminin,
+34259,Arukas Queen Kumagaya Women's Sevens Rugby Football Club,
+34260,Alcobendas Rugby,
+34262,New Zealand sevens team,
+34266,MG Badminton Team [Republic of Korea],
+34267,Nuestra Señora de Lujan,
+34268,Corona Braşov,
+34269,Lugi HF,SWE
+34270,A-Qayada,
+34272,Tremblay,FRA
+34273,ES Tunis,
+34275,ROUOR,RUS
+34276,Krasnoyarsk region [RUS],
+34277,Sakha [Yakutia] School of Supreme Sports Skill [RUS],
+34278,Zhejiang Province,CHN
+34280,VC Mendrisio-PL Valli,SUI
+34282,Sangemini–MG.K Vis,ITA
+34283,Vega Prefabbricati Montappone,ITA
+34284,Wilier Triestina–Selle Italia,ITA
+34286,Punjab and Sind Bank [PSB] [India],
+34288,Inje University [Kimhae,
+34290,Ciel Bleu Kanoya,
+34292,University of Calgary Athletics Club [Canada],
+34293,Pucheon City Hall [Republic of Korea],
+34294,Nuevo Leon [MEX],
+34295,Navy Ministry [MEX],
+34794,Kanggye,PRK

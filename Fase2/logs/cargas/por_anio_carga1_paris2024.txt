@@ -1,21 +1,21 @@
-﻿Evidencia generada: 2026-10-16T14:23:30.3491077-06:00
-     fecha_hora_servidor      |    base_datos    |                                         version                                          
-------------------------------+------------------+------------------------------------------------------------------------------------------
- 2026-10-16 20:23:30.77832+00 | olimpiadas_fase2 | PostgreSQL 17.10 on x86_64-pc-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit
+﻿Evidencia generada: 2026-10-16T21:54:21.9393552-06:00
+      fecha_hora_servidor      |    base_datos    |                                         version                                          
+-------------------------------+------------------+------------------------------------------------------------------------------------------
+ 2026-10-17 03:54:22.228156+00 | olimpiadas_fase2 | PostgreSQL 17.11 on x86_64-pc-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit
 (1 row)
 
      tabla     | total 
 ---------------+-------
  atleta        | 11100
- atleta_club   |     0
- club          |     0
+ atleta_club   |  1810
+ club          |  1446
  deporte       |    50
  edicion       |     1
- equipo        |     0
+ equipo        |  1071
  evento        |   361
- pais          |   206
+ pais          |   207
  participacion | 14891
- poblacion     |     0
+ poblacion     |  8832
 (10 rows)
 
  pais_id |          nombre_pais           | region 
@@ -29,7 +29,12 @@
 
  pais_id | anio | poblacion 
 ---------+------+-----------
-(0 rows)
+ AFG     | 1960 |   8622466
+ AFG     | 1961 |   8790140
+ AFG     | 1962 |   8969047
+ AFG     | 1963 |   9157465
+ AFG     | 1964 |   9355514
+(5 rows)
 
  atleta_id |       nombre_completo        |   nombre_usado    | sexo | fecha_nacimiento |         lugar_nacimiento         | fecha_fallecimiento |        lugar_fallecimiento         | estatura_cm | peso_kg | pais_id 
 -----------+------------------------------+-------------------+------+------------------+----------------------------------+---------------------+------------------------------------+-------------+---------+---------
@@ -63,17 +68,32 @@
       6542 |         53 |         18 | Men's Freestyle 65kg
 (5 rows)
 
- equipo_id | evento_id | pais_id | nombre_equipo 
------------+-----------+---------+---------------
-(0 rows)
+ equipo_id | evento_id | pais_id |  nombre_equipo   
+-----------+-----------+---------+------------------
+         2 |      6740 | IRI     | Mohammad Rahbari
+         3 |      6690 | JAM     | Tia Clayton
+         4 |      6607 | COL     | Santiago Arcila
+         5 |      6582 | GBR     | Thomas Daley
+         6 |      6856 | RSA     | James Birkett
+(5 rows)
 
- club_id | nombre_club | pais_id 
----------+-------------+---------
-(0 rows)
+ club_id |     nombre_club      | pais_id 
+---------+----------------------+---------
+       5 | AS Pontoise-Cergy TT | FRA
+      10 | Caen TTC             | FRA
+      11 | Levallois SC         | FRA
+      58 | TTC Grenzau          | GER
+      59 | Borussia Düsseldorf  | GER
+(5 rows)
 
  atleta_id | club_id 
 -----------+---------
-(0 rows)
+      2850 |     874
+      5435 |    1574
+      6065 |   25994
+      6274 |    1615
+      9324 |    1563
+(5 rows)
 
  participacion_id | atleta_id | evento_id | equipo_id | pais_representado_id | nombre_en_competencia | posicion | medalla 
 ------------------+-----------+-----------+-----------+----------------------+-----------------------+----------+---------

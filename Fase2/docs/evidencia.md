@@ -2,7 +2,7 @@
 
 Capturas con fecha/hora real del sistema de una corrida completa de las 3
 rondas (por año, por deporte, por deportista) el **2026-10-16**, entre las
-12:21 y las 12:47. Cada ronda sigue el mismo ciclo: 3 cargas con respaldo
+21:24 y las 21:51. Cada ronda sigue el mismo ciclo: 3 cargas con respaldo
 (full tras la carga 1, incremental tras las cargas 2 y 3) → se elimina la
 base de datos por completo (`docker compose down -v`) → se restaura solo el
 full (con tiempo) → se restaura full + incrementales con `pg_combinebackup`
@@ -21,6 +21,24 @@ docker exec fase2-pg psql -U postgres -d olimpiadas_fase2 -f /stored_procedures.
 ## 1. Ronda por año (París 2024 → Tokio 2020 → Río 2016)
 
 La más grande de las 3: 75,533 participaciones acumuladas al final.
+
+La validación final de esta ronda incluyó datos en las diez tablas:
+
+| Tabla | Filas |
+| --- | ---: |
+| pais | 228 |
+| poblacion | 8,896 |
+| atleta | 40,754 |
+| edicion | 3 |
+| deporte | 85 |
+| evento | 1,676 |
+| equipo | 5,108 |
+| club | 9,384 |
+| atleta_club | 15,202 |
+| participacion | 75,533 |
+
+La derivación enlazó 28,647 participaciones con un equipo y la validación
+referencial terminó con cero filas huérfanas.
 
 ### 1.1 Cargas 1, 2 y 3
 
@@ -162,8 +180,14 @@ docker exec fase2-pg psql -U postgres -d olimpiadas_fase2 -f /verificar_fragment
 
 ![fragmentacion de tablas](evidencia/fragmentacion_tablas.png)
 
-0% de tuplas muertas en las 10 tablas. Ver la explicación en
-[`informe_tecnico.md`](informe_tecnico.md) sección 5.
+La carga masiva usa `COPY`; adicionalmente, la derivación de equipos ejecuta
+`UPDATE` y `DELETE`. Por MVCC pueden existir tuplas muertas hasta que
+`autovacuum` las limpie. La condición obligatoria de integridad se comprobó
+independientemente: cero filas huérfanas en las diez tablas. Ver la explicación
+en [`informe_tecnico.md`](informe_tecnico.md) sección 5. En la corrida final,
+`pg_stat_user_tables` todavía estimó 38.12% para `participacion` y 39.73% para
+`equipo`, mientras `pgstattuple` confirmó físicamente 0 tuplas muertas en
+`participacion` después de `autovacuum` (35.85% de espacio reutilizable).
 
 ## 5. Logs completos
 
@@ -174,7 +198,7 @@ registrados en [`../logs/backups.csv`](../logs/backups.csv) y
 
 ## 6. Revalidación funcional final
 
-El **2026-10-16 entre 13:31 y 13:43** se repitieron de forma independiente
+El **2026-10-16 entre 21:24 y 21:51** se repitieron de forma independiente
 las seis restauraciones en el contenedor aislado `fase2-validacion`, sin
 alterar `fase2-pg`. Los resultados fueron:
 
@@ -184,8 +208,8 @@ alterar `fase2-pg`. Los resultados fueron:
 | Por deporte | 91 | 410 | 0 huérfanos |
 | Por año | 14,891 | 75,533 | 0 huérfanos |
 
-La salida y los tiempos de esta segunda corrida están en
-[`../logs/validacion_restores.csv`](../logs/validacion_restores.csv) y en
+La salida y los tiempos de esta corrida están en
+[`../logs/restores.csv`](../logs/restores.csv) y en
 `../logs/validacion_restore_*.txt`. La base principal también se validó con
 [`../sql/validar_integridad.sql`](../sql/validar_integridad.sql): registra la
 fecha/hora del servidor, ejecuta `COUNT(*)`, muestras de `SELECT *` sobre las

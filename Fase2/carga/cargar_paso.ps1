@@ -16,8 +16,13 @@ if (-not (Test-Path -LiteralPath $CarpetaCSV -PathType Container)) {
 docker inspect $Contenedor *> $null
 if ($LASTEXITCODE -ne 0) { throw "No existe el contenedor '$Contenedor'." }
 
-# Se implemento el orden de carga respetando las FKs del esquema (pais -> edicion/atleta -> evento -> equipo -> participacion)
-$orden = @("pais", "edicion", "deporte", "evento", "atleta", "equipo", "participacion")
+# Orden completo de las diez tablas respetando sus llaves foraneas. Equipo se
+# deriva despues de COPY porque el run_load.sh de Fase 1 lo crea en PostgreSQL
+# y su etl-csvs/equipo.csv original no contiene esas filas derivadas.
+$orden = @(
+    "pais", "poblacion", "edicion", "deporte", "evento", "atleta",
+    "club", "atleta_club", "participacion"
+)
 
 foreach ($tabla in $orden) {
     $archivo = Join-Path $CarpetaCSV "$tabla.csv"
@@ -40,6 +45,18 @@ SELECT setval(pg_get_serial_sequence('equipo','equipo_id'), COALESCE((SELECT MAX
 SELECT setval(pg_get_serial_sequence('participacion','participacion_id'), COALESCE((SELECT MAX(participacion_id) FROM participacion), 1));
 " | Out-Null
 if ($LASTEXITCODE -ne 0) { throw "No se pudieron sincronizar las secuencias IDENTITY." }
+
+# Reproduce el paso posterior a load.sql de Fase 1. Es idempotente: reconstruye
+# los equipos para todas las participaciones acumuladas y vuelve a enlazarlas
+# antes de validar o tomar el respaldo.
+$sqlEquipos = Join-Path $PSScriptRoot "..\sql\derivar_equipos.sql"
+if (-not (Test-Path -LiteralPath $sqlEquipos)) {
+    throw "No existe el script de derivacion de equipos: $sqlEquipos"
+}
+docker cp $sqlEquipos "${Contenedor}:/tmp/derivar_equipos.sql" | Out-Null
+if ($LASTEXITCODE -ne 0) { throw "No se pudo copiar derivar_equipos.sql al contenedor." }
+docker exec $Contenedor psql -U postgres -d $BaseDatos -v ON_ERROR_STOP=1 -f /tmp/derivar_equipos.sql
+if ($LASTEXITCODE -ne 0) { throw "Fallo la derivacion de equipos." }
 
 if ($Validar) {
     $sqlValidacion = Join-Path $PSScriptRoot "..\sql\validar_integridad.sql"

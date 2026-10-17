@@ -10,7 +10,10 @@ import os
 FASE1 = os.path.join(os.path.dirname(__file__), "..", "..", "Fase1", "etl-csvs")
 OUT = os.path.join(os.path.dirname(__file__), "subconjuntos")
 
-TABLAS = ["pais", "edicion", "deporte", "evento", "atleta", "equipo", "participacion"]
+TABLAS = [
+    "pais", "poblacion", "edicion", "deporte", "evento", "atleta",
+    "equipo", "club", "atleta_club", "participacion",
+]
 
 
 def leer(tabla):
@@ -33,6 +36,7 @@ def escribir(tabla, filas, carpeta):
 
 CAMPOS = {
     "pais": ["pais_id", "nombre_pais", "region"],
+    "poblacion": ["pais_id", "anio", "poblacion"],
     "edicion": ["edicion_id", "nombre_edicion", "anio", "temporada", "ciudad", "pais_sede_id"],
     "deporte": ["deporte_id", "nombre_deporte"],
     "evento": ["evento_id", "edicion_id", "deporte_id", "nombre_evento"],
@@ -40,72 +44,109 @@ CAMPOS = {
                "lugar_nacimiento", "fecha_fallecimiento", "lugar_fallecimiento",
                "estatura_cm", "peso_kg", "pais_id"],
     "equipo": ["equipo_id", "evento_id", "pais_id", "nombre_equipo"],
+    "club": ["club_id", "nombre_club", "pais_id"],
+    "atleta_club": ["atleta_id", "club_id"],
     "participacion": ["participacion_id", "atleta_id", "evento_id", "equipo_id",
                        "pais_representado_id", "nombre_en_competencia", "posicion", "medalla"],
 }
 
+CLAVES = {
+    "pais": ("pais_id",),
+    "poblacion": ("pais_id", "anio"),
+    "edicion": ("edicion_id",),
+    "deporte": ("deporte_id",),
+    "evento": ("evento_id",),
+    "atleta": ("atleta_id",),
+    "equipo": ("equipo_id",),
+    "club": ("club_id",),
+    "atleta_club": ("atleta_id", "club_id"),
+    "participacion": ("participacion_id",),
+}
+
+
+def clave_fila(tabla, fila):
+    return tuple(fila[campo] for campo in CLAVES[tabla])
+
 
 def armar_paso(participaciones_incluidas, datos, carpeta, ya_incluido):
-    # Deriva las tablas padre (pais, edicion, deporte, evento, atleta, equipo) a
-    # partir de los participacion_id incluidos hasta este paso, respetando FKs,
-    # y escribe solo las filas NUEVAS respecto a pasos anteriores (carga delta:
-    # cada paso se inserta con COPY sin tocar lo ya cargado en pasos previos).
+    # Deriva todas las tablas relacionadas a partir de los participacion_id
+    # incluidos y escribe solo filas NUEVAS respecto a pasos anteriores. Los
+    # equipos se derivan en PostgreSQL después de cada carga, pues el CSV de
+    # Fase 1 se genera antes de ejecutar etl/derivar_equipos.sql y está vacío.
     part_por_id = datos["participacion_por_id"]
     filas_part = [part_por_id[pid] for pid in participaciones_incluidas]
 
     evento_ids = {p["evento_id"] for p in filas_part}
     atleta_ids = {p["atleta_id"] for p in filas_part}
-    equipo_ids = {p["equipo_id"] for p in filas_part if p["equipo_id"]}
 
-    filas_evento = [datos["evento_por_id"][e] for e in evento_ids]
+    filas_evento = [datos["evento_por_id"][e] for e in sorted(evento_ids, key=int)]
     edicion_ids = {e["edicion_id"] for e in filas_evento}
     deporte_ids = {e["deporte_id"] for e in filas_evento}
 
-    filas_edicion = [datos["edicion_por_id"][e] for e in edicion_ids]
-    filas_deporte = [datos["deporte_por_id"][d] for d in deporte_ids]
-    filas_atleta = [datos["atleta_por_id"][a] for a in atleta_ids]
-    filas_equipo = [datos["equipo_por_id"][e] for e in equipo_ids]
+    filas_edicion = [datos["edicion_por_id"][e] for e in sorted(edicion_ids, key=int)]
+    filas_deporte = [datos["deporte_por_id"][d] for d in sorted(deporte_ids, key=int)]
+    filas_atleta = [datos["atleta_por_id"][a] for a in sorted(atleta_ids, key=int)]
+
+    filas_atleta_club = [
+        relacion for relacion in datos["atleta_club"]
+        if relacion["atleta_id"] in atleta_ids
+    ]
+    club_ids = {relacion["club_id"] for relacion in filas_atleta_club}
+    filas_club = [
+        datos["club_por_id"][club_id] for club_id in sorted(club_ids, key=int)
+    ]
 
     pais_ids = {a["pais_id"] for a in filas_atleta if a["pais_id"]}
     pais_ids |= {p["pais_representado_id"] for p in filas_part if p["pais_representado_id"]}
     pais_ids |= {e["pais_sede_id"] for e in filas_edicion if e["pais_sede_id"]}
-    pais_ids |= {e["pais_id"] for e in filas_equipo if e["pais_id"]}
-    filas_pais = [datos["pais_por_id"][p] for p in pais_ids]
+    pais_ids |= {club["pais_id"] for club in filas_club if club["pais_id"]}
+    filas_pais = [datos["pais_por_id"][p] for p in sorted(pais_ids)]
+    filas_poblacion = [
+        fila for fila in datos["poblacion"] if fila["pais_id"] in pais_ids
+    ]
 
     tablas = {
-        "pais": (filas_pais, "pais_id"),
-        "edicion": (filas_edicion, "edicion_id"),
-        "deporte": (filas_deporte, "deporte_id"),
-        "evento": (filas_evento, "evento_id"),
-        "atleta": (filas_atleta, "atleta_id"),
-        "equipo": (filas_equipo, "equipo_id"),
-        "participacion": (filas_part, "participacion_id"),
+        "pais": filas_pais,
+        "poblacion": filas_poblacion,
+        "edicion": filas_edicion,
+        "deporte": filas_deporte,
+        "evento": filas_evento,
+        "atleta": filas_atleta,
+        "equipo": [],
+        "club": filas_club,
+        "atleta_club": filas_atleta_club,
+        "participacion": filas_part,
     }
 
     resumen = {}
-    for tabla, (filas, clave) in tablas.items():
+    for tabla, filas in tablas.items():
         previos = ya_incluido.setdefault(tabla, set())
-        nuevas = [f for f in filas if f[clave] not in previos]
-        previos.update(f[clave] for f in nuevas)
+        nuevas = [f for f in filas if clave_fila(tabla, f) not in previos]
+        previos.update(clave_fila(tabla, f) for f in nuevas)
         escribir(tabla, nuevas, carpeta)
         resumen[tabla] = len(nuevas)
 
     print(f"  {os.path.basename(carpeta)} (nuevo en este paso): "
           f"{resumen['participacion']} participaciones, {resumen['atleta']} atletas, "
-          f"{resumen['evento']} eventos, {resumen['pais']} paises")
+          f"{resumen['evento']} eventos, {resumen['club']} clubes, "
+          f"{resumen['poblacion']} poblaciones, {resumen['pais']} paises")
 
 
 def cargar_datos():
     datos = {}
-    for t in ["pais", "edicion", "deporte", "evento", "atleta", "equipo", "participacion"]:
+    for t in [
+        "pais", "poblacion", "edicion", "deporte", "evento", "atleta",
+        "club", "atleta_club", "participacion",
+    ]:
         filas = leer(t)
         datos[t] = filas
         clave = {
             "pais": "pais_id", "edicion": "edicion_id", "deporte": "deporte_id",
-            "evento": "evento_id", "atleta": "atleta_id", "equipo": "equipo_id",
+            "evento": "evento_id", "atleta": "atleta_id", "club": "club_id",
             "participacion": "participacion_id",
-        }[t]
-        datos[f"{t}_por_id"] = {r[clave]: r for r in filas}
+        }.get(t)
+        if clave:
+            datos[f"{t}_por_id"] = {r[clave]: r for r in filas}
     return datos
 
 

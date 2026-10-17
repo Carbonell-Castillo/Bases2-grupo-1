@@ -35,7 +35,15 @@ python carga\generar_subconjuntos.py
 ```
 
 Genera `carga/subconjuntos/{por_anio,por_deporte,por_deportista}/cargaN_*`,
-cada uno con **solo las filas nuevas** respecto al paso anterior.
+cada uno con **solo las filas nuevas** respecto al paso anterior. Incluye los
+datos relacionados de las diez tablas: población, clubes y relaciones
+atleta–club, además de las entidades olímpicas.
+
+No ejecute `Fase1/etl/run_load.sh` para cargar Fase 2. Ese script usa otro
+contenedor y otra base. `cargar_paso.ps1` ya reproduce el paso que hacía falta:
+después de cada `COPY` ejecuta `sql/derivar_equipos.sql`, reconstruye los
+equipos sobre el estado acumulado y enlaza `participacion.equipo_id` antes de
+validar y respaldar.
 
 ## 4. Ciclo de una ronda (ejemplo: por deportista)
 
@@ -99,7 +107,7 @@ Esto borra el contenedor **y** el volumen `fase2_pgdata`. Los respaldos en
 ### 6.1 Solo el respaldo completo
 
 ```powershell
-.\restore\restaurar_full.ps1 -BackupDir por_deportista/full_carga1 -Puerto 5434
+.\restore\restaurar_full.ps1 -BackupDir por_deportista/full_carga1 -Puerto 5544 -NombreContenedor fase2-prueba
 ```
 
 Copia el respaldo a `backups/restore_tmp`, levanta un contenedor Postgres
@@ -112,7 +120,7 @@ cargado después).
 ### 6.2 Respaldo completo + incrementales (recuperación total)
 
 ```powershell
-.\restore\restaurar_incremental.ps1 -Cadena por_deportista/full_carga1,por_deportista/incr1_carga2,por_deportista/incr2_carga3 -Puerto 5434
+.\restore\restaurar_incremental.ps1 -Cadena por_deportista/full_carga1,por_deportista/incr1_carga2,por_deportista/incr2_carga3 -Puerto 5544 -NombreContenedorDestino fase2-prueba
 ```
 
 Usa `pg_combinebackup` para reconstruir el directorio de datos completo a
@@ -124,9 +132,9 @@ Al terminar tendrá **todos** los datos (carga 1 + 2 + 3).
 ### Validar la restauración
 
 ```powershell
-docker exec fase2-restore psql -U postgres -d olimpiadas_fase2 -c "SELECT count(*) FROM participacion;"
-docker exec fase2-restore psql -U postgres -d olimpiadas_fase2 -c "SELECT * FROM participacion;"
-docker rm -f fase2-restore
+docker exec fase2-prueba psql -U postgres -d olimpiadas_fase2 -c "SELECT count(*) FROM participacion;"
+docker exec fase2-prueba psql -U postgres -d olimpiadas_fase2 -c "SELECT * FROM participacion LIMIT 20;"
+docker rm -f fase2-prueba
 ```
 
 ## 7. Verificar fragmentación de las tablas
@@ -137,10 +145,9 @@ docker exec fase2-pg psql -U postgres -d olimpiadas_fase2 -f /verificar_fragment
 ```
 
 Muestra el % de tuplas muertas por tabla (`pg_stat_user_tables`) y el detalle
-de espacio libre de `participacion` (`pgstattuple`). En un flujo de solo
-`COPY`/`INSERT` como el de Fase 2 debería mantenerse en 0% — si aparecen
-tuplas muertas, es señal de que se corrieron `UPDATE`/`DELETE` y conviene
-correr `VACUUM`.
+de espacio libre de `participacion` (`pgstattuple`). La carga usa `COPY`, pero
+la derivación idempotente de equipos ejecuta `UPDATE` y `DELETE`; por ello
+pueden aparecer tuplas muertas hasta que `autovacuum` o `VACUUM` las limpien.
 
 ![Resultado de fragmentación](evidencia/fragmentacion_tablas.png)
 
@@ -173,7 +180,7 @@ docker exec fase2-pg psql -U postgres -d olimpiadas_fase2 -c $sql
 ## 10. Limpieza final
 
 ```powershell
-docker rm -f fase2-restore 2>$null
+docker rm -f fase2-prueba 2>$null
 docker compose down -v
 ```
 

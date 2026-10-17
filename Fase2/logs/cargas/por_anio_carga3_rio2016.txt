@@ -1,21 +1,21 @@
-﻿Evidencia generada: 2026-10-16T14:23:58.9477533-06:00
+﻿Evidencia generada: 2026-10-16T21:55:47.0326862-06:00
      fecha_hora_servidor      |    base_datos    |                                         version                                          
 ------------------------------+------------------+------------------------------------------------------------------------------------------
- 2026-10-16 20:23:59.21879+00 | olimpiadas_fase2 | PostgreSQL 17.10 on x86_64-pc-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit
+ 2026-10-17 03:55:47.34754+00 | olimpiadas_fase2 | PostgreSQL 17.11 on x86_64-pc-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit
 (1 row)
 
      tabla     | total 
 ---------------+-------
  atleta        | 40754
- atleta_club   |     0
- club          |     0
+ atleta_club   | 15202
+ club          |  9384
  deporte       |    85
  edicion       |     3
- equipo        |     0
+ equipo        |  5108
  evento        |  1676
  pais          |   228
  participacion | 75533
- poblacion     |     0
+ poblacion     |  8896
 (10 rows)
 
  pais_id |          nombre_pais           | region 
@@ -29,7 +29,12 @@
 
  pais_id | anio | poblacion 
 ---------+------+-----------
-(0 rows)
+ AFG     | 1960 |   8622466
+ AFG     | 1961 |   8790140
+ AFG     | 1962 |   8969047
+ AFG     | 1963 |   9157465
+ AFG     | 1964 |   9355514
+(5 rows)
 
  atleta_id |    nombre_completo     |      nombre_usado      | sexo | fecha_nacimiento |    lugar_nacimiento     | fecha_fallecimiento | lugar_fallecimiento | estatura_cm | peso_kg | pais_id 
 -----------+------------------------+------------------------+------+------------------+-------------------------+---------------------+---------------------+-------------+---------+---------
@@ -65,17 +70,32 @@
        132 |         21 |         13 | Gymnastics Men's Horizontal Bar
 (5 rows)
 
- equipo_id | evento_id | pais_id | nombre_equipo 
------------+-----------+---------+---------------
-(0 rows)
+ equipo_id | evento_id | pais_id |    nombre_equipo    
+-----------+-----------+---------+---------------------
+      4440 |     13602 | MEX     | Jorge Martín Orozco
+      4441 |      6607 | COL     | Santiago Arcila
+      4442 |      6712 | KOR     | Yooyeon Lee
+      4443 |      6786 | ESP     | Samuel Garcia
+      4444 |     14210 | AUS     | Storm Sanders
+(5 rows)
 
- club_id | nombre_club | pais_id 
----------+-------------+---------
-(0 rows)
+ club_id |       nombre_club        | pais_id 
+---------+--------------------------+---------
+       1 | Racing Club de France    | FRA
+       5 | AS Pontoise-Cergy TT     | FRA
+       6 | Royal Villette Charleroi | BEL
+      10 | Caen TTC                 | FRA
+      11 | Levallois SC             | FRA
+(5 rows)
 
  atleta_id | club_id 
 -----------+---------
-(0 rows)
+        75 |      21
+       173 |      79
+       250 |     112
+       292 |     118
+       313 |     127
+(5 rows)
 
  participacion_id | atleta_id | evento_id | equipo_id | pais_representado_id | nombre_en_competencia | posicion | medalla 
 ------------------+-----------+-----------+-----------+----------------------+-----------------------+----------+---------

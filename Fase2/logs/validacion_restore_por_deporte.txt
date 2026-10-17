@@ -1,20 +1,20 @@
 ﻿      fecha_hora_servidor      |    base_datos    |                                         version                                          
 -------------------------------+------------------+------------------------------------------------------------------------------------------
- 2026-10-16 19:39:12.587542+00 | olimpiadas_fase2 | PostgreSQL 17.10 on x86_64-pc-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit
+ 2026-10-17 03:44:09.085997+00 | olimpiadas_fase2 | PostgreSQL 17.11 on x86_64-pc-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit
 (1 row)
 
      tabla     | total 
 ---------------+-------
  atleta        |   311
- atleta_club   |     0
- club          |     0
+ atleta_club   |    95
+ club          |    90
  deporte       |     1
  edicion       |     3
  equipo        |     0
  evento        |     5
  pais          |   134
  participacion |   410
- poblacion     |     0
+ poblacion     |  5696
 (10 rows)
 
  pais_id |  nombre_pais   | region 
@@ -28,7 +28,12 @@
 
  pais_id | anio | poblacion 
 ---------+------+-----------
-(0 rows)
+ AFG     | 1960 |   8622466
+ AFG     | 1961 |   8790140
+ AFG     | 1962 |   8969047
+ AFG     | 1963 |   9157465
+ AFG     | 1964 |   9355514
+(5 rows)
 
  atleta_id |    nombre_completo    |     nombre_usado     | sexo | fecha_nacimiento |    lugar_nacimiento    | fecha_fallecimiento | lugar_fallecimiento | estatura_cm | peso_kg | pais_id 
 -----------+-----------------------+----------------------+------+------------------+------------------------+---------------------+---------------------+-------------+---------+---------
@@ -64,13 +69,23 @@
 -----------+-----------+---------+---------------
 (0 rows)
 
- club_id | nombre_club | pais_id 
----------+-------------+---------
-(0 rows)
+ club_id |       nombre_club       | pais_id 
+---------+-------------------------+---------
+     112 | PB Djarum               | INA
+     296 | Levski Sofia            | BUL
+     462 | California Golden Bears | USA
+     599 | Al-Ahly                 | EGY
+     977 | Texas A&M Aggies        | USA
+(5 rows)
 
  atleta_id | club_id 
 -----------+---------
-(0 rows)
+      5538 |     599
+     19496 |    5014
+     25964 |    6426
+     26384 |    6561
+     28317 |    7082
+(5 rows)
 
  participacion_id | atleta_id | evento_id | equipo_id | pais_representado_id |     nombre_en_competencia     | posicion | medalla 
 ------------------+-----------+-----------+-----------+----------------------+-------------------------------+----------+---------
@@ -82,4 +97,8 @@
 (5 rows)
 
 DO
+            resultado             
+----------------------------------
+ VALIDACION OK: 0 filas huerfanas
+(1 row)
 

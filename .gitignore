@@ -9,3 +9,6 @@ Fase2/backups/*
 
 # HTML intermedio usado para imprimir los PDF entregables
 Fase2/docs/*.html
+
+# Evidencias temporales producidas al ejecutar docs/test.md
+Fase2/logs/pruebas/

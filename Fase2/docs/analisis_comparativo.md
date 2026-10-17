@@ -8,9 +8,9 @@ ejecución del **2026-10-16** sobre Postgres 17 en Docker Desktop (contenedor
 
 | Ronda | Full | Incremental 1 | Incremental 2 |
 | --- | ---: | ---: | ---: |
-| Por deportista (14 participaciones) | 42.02 | 39.10 | 42.91 |
-| Por deporte (410 participaciones) | 38.65 | 35.34 | 37.39 |
-| Por año (75,533 participaciones) | 42.95 | 35.67 | 39.77 |
+| Por deportista (14 participaciones) | 43.11 | 40.75 | 41.03 |
+| Por deporte (410 participaciones) | 44.04 | 40.25 | 41.25 |
+| Por año (75,533 participaciones) | 44.31 | 39.11 | 39.96 |
 
 ![Gráfico de tiempos de respaldo](evidencia/grafico_tiempos_respaldo.png)
 
@@ -18,9 +18,9 @@ ejecución del **2026-10-16** sobre Postgres 17 en Docker Desktop (contenedor
 
 | Ronda | Full | Incremental 1 | Incremental 2 |
 | --- | ---: | ---: | ---: |
-| Por deportista | 46.0 | 36.0 | 36.0 |
-| Por deporte | 45.9 | 36.2 | 36.4 |
-| Por año | 48.8 | 27.4 | 46.8 |
+| Por deportista | 46.0 | 36.7 | 36.5 |
+| Por deporte | 46.3 | 37.3 | 36.9 |
+| Por año | 66.3 | 47.8 | 39.0 |
 
 ![Gráfico de tamaño de respaldo](evidencia/grafico_tamano_respaldo.png)
 
@@ -28,9 +28,9 @@ ejecución del **2026-10-16** sobre Postgres 17 en Docker Desktop (contenedor
 
 | Ronda | Solo FULL | FULL + 2 incrementales (`pg_combinebackup`) | Diferencia |
 | --- | ---: | ---: | ---: |
-| Por deportista | 68.93 | 128.85 | +86.9% |
-| Por deporte | 61.83 | 144.42 | +133.6% |
-| Por año | 54.71 | 139.00 | +154.1% |
+| Por deportista | 72.49 | 138.13 | +90.6% |
+| Por deporte | 69.91 | 147.31 | +110.7% |
+| Por año | 73.18 | 146.72 | +100.5% |
 
 ![Gráfico de tiempos de restauración](evidencia/grafico_tiempos_restauracion.png)
 
@@ -38,17 +38,17 @@ ejecución del **2026-10-16** sobre Postgres 17 en Docker Desktop (contenedor
 
 **El tiempo de respaldo NO escala con el volumen de datos en este rango.**
 Entre la ronda más chica (14 filas) y la más grande (75,533 filas) el tiempo
-de `pg_basebackup` se mantiene entre 35-43 segundos en todos los casos. La
+de `pg_basebackup` se mantiene entre 39-45 segundos en todos los casos. La
 razón es que, a esta escala (decenas de MB), el costo fijo domina: esperar el
 checkpoint (`-c fast`), el protocolo de replicación, y el streaming de WAL
 (segmentos de 16 MB mínimo) pesan más que la diferencia real de datos. El
 tamaño en disco sí refleja el ahorro esperado: los incrementales pesan
-20-40% menos que el full porque solo copian bloques modificados — la
-excepción es `por_anio/incr2_carga3` (46.8 MB), más grande por la propia
-carga de ~31,643 filas nuevas (la más voluminosa de las 9 cargas).
+19-41% menos que el full porque solo copian bloques modificados. Aunque la
+tercera carga por año agrega 31,643 participaciones, su incremental se mantuvo
+en 39.0 MB frente a 66.3 MB del FULL.
 
 **Restaurar con incrementales siempre fue más lento que restaurar solo el
-full (87%-154% más tiempo), y la brecha crece con el tamaño del respaldo.**
+full (91%-111% más tiempo).**
 `pg_combinebackup` tiene que leer el full completo más cada incremental de
 la cadena y reconstruir un directorio de datos íntegro antes de poder
 arrancar Postgres; restaurar solo el full es una simple copia de directorio.
@@ -71,7 +71,7 @@ aparecen al combinar el full con ambos incrementales (ver
 - **Si la prioridad es *minimizar la pérdida de datos* (RPO bajo)** —
   recuperar hasta el último cambio posible — es necesario el esquema
   **completo + incremental**, aceptando un tiempo de restauración mayor
-  (en estas pruebas, 1.9x a 2.5x más) porque hay que recombinar la cadena.
+  (en estas pruebas, 1.9x a 2.1x más) porque hay que recombinar la cadena.
 - **Recomendación para este volumen de datos (cientos de miles de filas):**
   mantener la estrategia híbrida clásica — un full periódico (p. ej.
   diario) + incrementales frecuentes entre cada full (p. ej. cada carga) —

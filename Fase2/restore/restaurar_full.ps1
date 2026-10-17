@@ -33,8 +33,14 @@ do {
         docker logs $NombreContenedor
         throw "El contenedor restaurado termino antes de aceptar conexiones."
     }
-    docker exec $NombreContenedor pg_isready -U postgres *> $null
+    # pg_isready puede responder durante la fase final de arranque; una consulta
+    # real garantiza que la base restaurada ya acepta operaciones SQL. Los
+    # intentos fallidos son normales mientras inicia y no deben cortar el bucle.
+    $errorActionAnterior = $ErrorActionPreference
+    $ErrorActionPreference = "Continue"
+    docker exec $NombreContenedor psql -U postgres -d olimpiadas_fase2 -At -c "SELECT 1" *> $null
     $ready = $LASTEXITCODE -eq 0
+    $ErrorActionPreference = $errorActionAnterior
     if (-not $ready) { Start-Sleep -Milliseconds 500 }
     if ((Get-Date) -gt $limite) {
         docker logs $NombreContenedor
