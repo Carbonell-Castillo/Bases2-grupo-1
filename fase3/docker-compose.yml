@@ -3,7 +3,7 @@ version: '3.8'
 services:
   mongodb:
     image: mongo:6.0
-    container_name: proyecto-fase3
+    container_name: proyecto_fase3
     environment:
       MONGO_INITDB_DATABASE: olimpiadas_fase3
     ports:
