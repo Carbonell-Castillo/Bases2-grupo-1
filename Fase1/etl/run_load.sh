@@ -41,4 +41,4 @@ echo "Creando stored procedures (src/stored_procedures.sql)..."
 docker cp src/stored_procedures.sql "$CONTAINER":/stored_procedures.sql
 docker exec -e PGPASSWORD=postgres "$CONTAINER" psql -U postgres -d olimpiadas -v ON_ERROR_STOP=1 -f /stored_procedures.sql
 
-docker exec -it -e PGPASSWORD=postgres "$CONTAINER" psql -U postgres -d olimpiadas
+# docker exec -it -e PGPASSWORD=postgres "$CONTAINER" psql -U postgres -d olimpiadas
