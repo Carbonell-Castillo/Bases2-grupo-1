@@ -2,6 +2,9 @@
 **/__pycache__/
 *.py[cod]
 
+# CSVs regenerados por la migración de Fase 3
+/fase3/src/output_postgres/
+
 # Los respaldos fisicos de PostgreSQL son artefactos locales regenerables
 # (cientos de MB y miles de archivos). Se conservan logs, capturas y scripts.
 Fase2/backups/*
