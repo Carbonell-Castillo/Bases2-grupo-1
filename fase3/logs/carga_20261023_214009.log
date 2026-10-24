@@ -1,0 +1,14 @@
+[2026-10-23 21:40:09] INICIO migración a MongoDB (base olimpiadas_fase3)
+[2026-10-23 21:40:09] Colecciones vaciadas
+[2026-10-23 21:40:09] Leyendo catálogos desde CSV
+[2026-10-23 21:40:09] Construyendo colección 'paises' (con población anidada)
+[2026-10-23 21:40:09] paises insertados: 234
+[2026-10-23 21:40:09] Construyendo colección 'ediciones'
+[2026-10-23 21:40:09] ediciones insertadas: 64
+[2026-10-23 21:40:09] Leyendo participaciones y unificando duplicados entre fuentes
+[2026-10-23 21:40:21] participaciones: 693398 filas CSV -> 534950 únicas (158448 duplicados entre fuentes unificados)
+[2026-10-23 21:40:21] Construyendo colección 'atletas' con participaciones y clubes embebidos
+[2026-10-23 21:40:42] atletas insertados: 244540
+[2026-10-23 21:40:42] Asegurando índices
+[2026-10-23 21:40:42] Totales en MongoDB -> paises: 234, ediciones: 64, atletas: 244540
+[2026-10-23 21:40:42] FIN migración. Duración: 33.1 s. Bitácora: D:\bccas\USAC\ProyectoBases\Bases2-grupo-1\fase3\logs\carga_20261023_214009.log

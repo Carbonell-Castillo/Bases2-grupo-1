@@ -1,0 +1,29 @@
+[2026-10-23 22:00:31] INICIO verificación de olimpiadas_fase3 en mongodb://localhost:27017/
+[2026-10-23 22:00:31] OK   conexión MongoDB
+[2026-10-23 22:00:31] OK   exactamente tres colecciones: ['atletas', 'ediciones', 'paises']
+[2026-10-23 22:00:32] OK   conteos de documentos: {'paises': 234, 'ediciones': 64, 'atletas': 244540}
+[2026-10-23 22:00:32] OK   validador JSON de paises
+[2026-10-23 22:00:32] OK   índices de paises: ['_id_', 'nombre_busqueda_1', 'nombre_pais_1']
+[2026-10-23 22:00:32] OK   validador JSON de ediciones
+[2026-10-23 22:00:32] OK   índices de ediciones: ['_id_', 'anio_1_temporada_1', 'pais_sede_id_1']
+[2026-10-23 22:00:32] OK   validador JSON de atletas
+[2026-10-23 22:00:32] OK   índices de atletas: ['_id_', 'nombre_busqueda_1', 'nombre_completo_1', 'nombre_usado_1', 'pais_origen_id_1', 'part_anio_1', 'part_deporte_1', 'part_medalla_1', 'part_pais_1']
+[2026-10-23 22:00:32] OK   participaciones consolidadas: 534950
+[2026-10-23 22:00:32] OK   atletas sin participación documentados
+[2026-10-23 22:00:36] OK   sin participaciones exactas duplicadas: []
+[2026-10-23 22:00:38] OK   países representados sin referencias huérfanas: []
+[2026-10-23 22:00:39] OK   todas las participaciones tienen país representado: 0
+[2026-10-23 22:00:39] OK   corrección LBN -> LIB conserva atleta y participación
+[2026-10-23 22:00:39] OK   Usain Bolt: 8 oros
+[2026-10-23 22:00:39] OK   Michael Phelps: 23/3/2
+[2026-10-23 22:00:39] OK   Simone Biles 2016: 4 oros y 1 bronce
+[2026-10-23 22:00:39] OK   Jamaica: historial 37/48/36
+[2026-10-23 22:00:39] OK   Guatemala 2024: 1 oro y 1 bronce
+[2026-10-23 22:00:39] OK   Estados Unidos: 8 ediciones sede: 8
+[2026-10-23 22:00:39] OK   correcciones de ciudad sede
+[2026-10-23 22:00:39] OK   búsqueda de atleta usa índice
+[2026-10-23 22:00:39] OK   búsqueda por país usa índice multikey
+[2026-10-23 22:00:40] OK   CLI atleta con filtros y JSON
+[2026-10-23 22:00:41] OK   CLI país con filtro y JSON
+[2026-10-23 22:00:41] FIN: 26 pruebas correctas, 0 fallidas, duración 9.7 s
+[2026-10-23 22:00:41] RESULTADO FINAL: APROBADO. Evidencia: D:\bccas\USAC\ProyectoBases\Bases2-grupo-1\fase3\logs\verificacion_fase3.log

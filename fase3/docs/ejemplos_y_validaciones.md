@@ -10,6 +10,8 @@ client = MongoClient("mongodb://localhost:27017/")
 db = client["olimpiadas_fase3"]
 ```
 
+
+
 ## 1. Consultas sobre Equipos (Embebidos)
 
 **Lógica y Justificación:** En SQL teníamos una tabla `equipo`. En Mongo, el equipo se integró como un subdocumento dentro del arreglo `participaciones` de cada atleta. Usamos el *Aggregation Pipeline* para "desenrollar" (`$unwind`) las participaciones y agruparlas.
@@ -67,9 +69,22 @@ for r in resultados: print(r)
 con_equipo = db.atletas.count_documents({"participaciones.equipo": {"$ne": None}})
 print(f"Atletas con equipo: {con_equipo}")
 
-# Contar atletas cuyas participaciones son estrictamente individuales
-sin_equipo = db.atletas.count_documents({"participaciones.equipo": None})
+# Contar atletas sin ninguna participación de equipo
+sin_equipo = db.atletas.count_documents({
+    "participaciones": {"$not": {"$elemMatch": {"equipo": {"$ne": None}}}}
+})
 print(f"Atletas sin equipo: {sin_equipo}")
+```
+
+**Países no nulos y sin referencias huérfanas:**
+
+```python
+pipeline = [
+    {"$unwind": "$participaciones"},
+    {"$match": {"participaciones.pais_representado_id": None}},
+    {"$count": "total"}
+]
+print(list(db.atletas.aggregate(pipeline)))  # []: no hay participaciones sin país
 ```
 
 ## 3. Emulación de `sp_info_atleta`
@@ -134,7 +149,9 @@ for r in resultados: print(r)
 
 ## 5. Consultas Rápidas de Resumen (Analytics)
 
-### 5.1. Totales de Medallas Generales
+### 5.1. Registros de medallistas generales
+
+Esta consulta cuenta registros por atleta. En pruebas de equipo no equivale al número de medallas del país. Para el conteo correcto por país/equipo use `script_de_consultas.py pais CODIGO`, que agrupa por `equipo_id`.
 
 ```python
 pipeline = [
@@ -147,7 +164,7 @@ resultados = list(db.atletas.aggregate(pipeline))
 for r in resultados: print(r)
 ```
 
-### 5.2. Países con más Medallas en General
+### 5.2. Países con más registros de medallistas
 
 ```python
 pipeline = [
@@ -196,3 +213,37 @@ for sede in sedes: print(sede)
 ```
 
 ---
+## 6. Validaciones de la carga (resultados de la corrida final)
+
+| Validación | Esperado | Resultado |
+|---|---|---|
+| `paises` | 234 (tabla `pais`) | 234 |
+| `ediciones` | 64 (tabla `edicion`) | 64 |
+| `atletas` | ETL corregido | 244,540 |
+| Participaciones CSV → únicas | 693,398 → 534,950 | 158,448 duplicados entre fuentes unificados |
+| País representado nulo | 0 | 0 |
+| Referencias de país huérfanas | 0 | 0 |
+| Identidad reutilizada | Hala Fattouh separada de Mansour Al-Soraihi | documento propio con participación `LIB` |
+| Usain Bolt | 8 oros | 8 oros (100 m y 200 m en 2008, 2012, 2016 + relevos 2012 y 2016) |
+| Michael Phelps | 23 oros | 23 oros, 3 platas, 2 bronces |
+| Simone Biles (2016) | 4 oros, 1 bronce | 4 oros, 1 bronce |
+| Sedes de USA | 8 | 8 (1904, 1932 V/I, 1960, 1980, 1984, 1996, 2002) |
+
+La corrida final, iniciada desde `docker compose down`, se ejecutó el **2026-10-23 21:54:47–21:57:05 (UTC-6)**. La verificación ejecutó 26 pruebas: **26 correctas, 0 fallidas**. Evidencia: `fase3/logs/ejecucion_pipeline_completa.log` y `fase3/logs/verificacion_fase3.log`.
+
+Para repetirlas desde la raíz:
+
+```powershell
+python fase3\src\verificar_fase3.py
+```
+
+```python
+# Verificar que ningún atleta tenga dos participaciones con el mismo evento y edición
+pipeline = [
+    {"$unwind": "$participaciones"},
+    {"$group": {"_id": {"a": "$_id", "e": "$participaciones.edicion.edicion_id", "ev": "$participaciones.evento"}, "n": {"$sum": 1}}},
+    {"$match": {"n": {"$gt": 1}}},
+    {"$limit": 5}
+]
+print(list(db.atletas.aggregate(pipeline, allowDiskUse=True)))   # []
+```

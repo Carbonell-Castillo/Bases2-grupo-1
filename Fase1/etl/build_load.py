@@ -5,13 +5,15 @@ Junta todos los CSVs y los mete en las tablas del modelo (src/schema.sql).
 
 import csv
 import re
+import sys
 import unicodedata
 from datetime import date, datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATASETS = ROOT / "datasets"
-OUT = ROOT / "etl-csvs"
+PHASE3_MODE = len(sys.argv) == 3 and sys.argv[1] == "--fase3-output"
+OUT = Path(sys.argv[2]).resolve() if PHASE3_MODE else ROOT / "etl-csvs"
 OUT.mkdir(exist_ok=True)
 
 
@@ -119,6 +121,9 @@ def normalize_medal(raw):
 COUNTRY_ALIASES = {
     "SGP": "SIN",  # Singapur: ISO usa SGP, el catalogo IOC trae SIN
 }
+if PHASE3_MODE:
+    # Corrección requerida en Fase 3: Olympedia usa LBN y el catálogo IOC usa LIB.
+    COUNTRY_ALIASES["LBN"] = "LIB"
 
 # equipos raros que no son paises
 EXTRA_COUNTRIES = {
@@ -466,12 +471,16 @@ def process_flat_source(filename, colmap, has_height_weight):
             if not name:
                 continue
             sid = row.get(colmap["id"])
+            # olympics_dataset.csv concatena fuentes y reutiliza miles de IDs
+            # para atletas distintos. En Fase 3 se evita mezclar personas usando
+            # también el nombre normalizado como parte de la identidad local.
+            source_key = (sid, name_key(name)) if PHASE3_MODE else sid
             noc = resolve_country(row.get(colmap["noc"]))
             sexo = (row.get(colmap["sex"]) or "").strip().upper()[:1] or None
             if sexo not in ("M", "F"):
                 sexo = None
 
-            if sid not in local_atleta:
+            if source_key not in local_atleta:
                 extra = {}
                 if has_height_weight:
                     h = to_int(row.get(colmap["height"]))
@@ -481,8 +490,8 @@ def process_flat_source(filename, colmap, has_height_weight):
                     if w:
                         extra["peso_kg"] = w
                 rec = find_or_create_atleta(name, sexo=sexo, pais_id=noc, **extra)
-                local_atleta[sid] = rec["id"] if rec else None
-            atleta_id = local_atleta[sid]
+                local_atleta[source_key] = rec["id"] if rec else None
+            atleta_id = local_atleta[source_key]
 
             year = (row.get(colmap["year"]) or "").strip()
             season_en = (row.get(colmap["season"]) or "").strip()

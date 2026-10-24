@@ -4,6 +4,7 @@
 
 # CSVs regenerados por la migración de Fase 3
 /fase3/src/output_postgres/
+/fase3/src/output_fase1_corregido/
 
 # Los respaldos fisicos de PostgreSQL son artefactos locales regenerables
 # (cientos de MB y miles de archivos). Se conservan logs, capturas y scripts.

@@ -1,0 +1,227 @@
+[2026-10-23 21:54:47] Python seleccionado: python.exe
+==================================================
+[2026-10-23 21:54:47] 0. Eliminando los entornos anteriores con Docker Compose down
+==================================================
+ Container proyecto-bases-db Stopping 
+ Container proyecto-bases-db Stopped 
+ Container proyecto-bases-db Removing 
+ Container proyecto-bases-db Removed 
+ Network fase1_default Removing 
+ Network fase1_default Removed 
+ Container proyecto_fase3 Stopping 
+ Container proyecto_fase3 Stopped 
+ Container proyecto_fase3 Removing 
+ Container proyecto_fase3 Removed 
+ Network fase3_default Removing 
+ Network fase3_default Removed 
+[2026-10-23 21:54:50] Contenedores anteriores de Fase 1 y Fase 3 eliminados
+==================================================
+[2026-10-23 21:54:50] 1. Regenerando datos corregidos y ejecutando el pipeline de Fase 1
+==================================================
+=== resumen de carga ===
+pais:            234
+poblacion:       8896 (codigos de pais sin match: 127)
+atleta:          244540  (nombres con homonimos detectados: 18057)
+edicion:         64
+deporte:         147
+evento:          15416
+club:            36795
+atleta_club:     102922
+participacion:   693398
+CSVs escritos en: D:\bccas\USAC\ProyectoBases\Bases2-grupo-1\fase3\src\output_fase1_corregido
+Recreando el contenedor desde cero...
+ Network fase1_default Creating 
+ Network fase1_default Created 
+ Container proyecto-bases-db Creating 
+ Container proyecto-bases-db Created 
+ Container proyecto-bases-db Starting 
+ Container proyecto-bases-db Started 
+Esperando a que Postgres acepte conexiones...
+Aplicando esquema (src/schema.sql)...
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+Copiando CSVs al contenedor...
+Cargando datos (etl/load.sql)...
+BEGIN
+COPY 234
+COPY 8896
+COPY 244540
+COPY 64
+COPY 147
+COPY 15416
+COPY 0
+COPY 36795
+COPY 102922
+COPY 693398
+ setval 
+--------
+ 244540
+(1 row)
+
+ setval 
+--------
+     64
+(1 row)
+
+ setval 
+--------
+    147
+(1 row)
+
+ setval 
+--------
+  15416
+(1 row)
+
+ setval 
+--------
+      1
+(1 row)
+
+ setval 
+--------
+  36795
+(1 row)
+
+ setval 
+--------
+ 693398
+(1 row)
+
+COMMIT
+Derivando equipos de eventos de conjunto (etl/derivar_equipos.sql)...
+BEGIN
+UPDATE 0
+DELETE 0
+SELECT 30
+SELECT 3132
+SELECT 35880
+INSERT 0 35880
+UPDATE 220248
+psql:/derivar_equipos.sql:106: NOTICE:  Equipos creados: 35880
+psql:/derivar_equipos.sql:106: NOTICE:  Participaciones enlazadas a un equipo: 220248
+DO
+DROP TABLE
+DROP TABLE
+DROP TABLE
+COMMIT
+Creando stored procedures (src/stored_procedures.sql)...
+CREATE PROCEDURE
+CREATE PROCEDURE
+[2026-10-23 21:56:02] Prueba de PostgreSQL: conteos de las 10 tablas
+edicion=64
+deporte=147
+pais=234
+poblacion=8896
+evento=15416
+equipo=35880
+club=36795
+atleta_club=102922
+atleta=244540
+participacion=693398
+==================================================
+[2026-10-23 21:56:03] 2. Exportando tablas luego de derivar equipos
+==================================================
+  -> Exportando pais...
+  -> Exportando poblacion...
+  -> Exportando atleta...
+  -> Exportando edicion...
+  -> Exportando deporte...
+  -> Exportando evento...
+  -> Exportando equipo...
+  -> Exportando club...
+  -> Exportando atleta_club...
+  -> Exportando participacion...
+ Archivos CSV generados en ./output_postgres/
+[2026-10-23 21:56:19] Prueba de exportaciÃ³n: 10 de 10 CSV existen y no estÃ¡n vacÃ­os
+==================================================
+[2026-10-23 21:56:19] 3. Levantando MongoDB y cargando datos
+==================================================
+ Network fase3_default Creating 
+ Network fase3_default Created 
+ Container proyecto_fase3 Creating 
+ Container proyecto_fase3 Created 
+ Container proyecto_fase3 Starting 
+ Container proyecto_fase3 Started 
+Esperando a que MongoDB acepte conexiones...
+[2026-10-23 21:56:21] Creando colecciones, validadores e Ã­ndices (crear_colecciones_indices.js)...
+[2026-10-24T03:56:22.769Z] Creando colecciones e Ã­ndices en olimpiadas_fase3
+  paises: _id_, nombre_pais_1, nombre_busqueda_1
+  ediciones: _id_, pais_sede_id_1, anio_1_temporada_1
+  atletas: _id_, nombre_completo_1, nombre_usado_1, nombre_busqueda_1, pais_origen_id_1, part_pais_1, part_anio_1, part_deporte_1, part_medalla_1
+[2026-10-24T03:56:23.009Z] Colecciones e Ã­ndices listos
+[2026-10-23 21:56:23] Prueba de MongoDB: ping, colecciones e Ã­ndices creados correctamente
+Ejecutando script de carga en Python...
+[2026-10-23 21:56:23] INICIO migración a MongoDB (base olimpiadas_fase3)
+[2026-10-23 21:56:23] Colecciones vaciadas
+[2026-10-23 21:56:23] Leyendo catálogos desde CSV
+[2026-10-23 21:56:24] Construyendo colección 'paises' (con población anidada)
+[2026-10-23 21:56:24] paises insertados: 234
+[2026-10-23 21:56:24] Construyendo colección 'ediciones'
+[2026-10-23 21:56:24] ediciones insertadas: 64
+[2026-10-23 21:56:24] Leyendo participaciones y unificando duplicados entre fuentes
+[2026-10-23 21:56:32] participaciones: 693398 filas CSV -> 534950 únicas (158448 duplicados entre fuentes unificados)
+[2026-10-23 21:56:32] Construyendo colección 'atletas' con participaciones y clubes embebidos
+[2026-10-23 21:56:52] atletas insertados: 244540
+[2026-10-23 21:56:52] Asegurando índices
+[2026-10-23 21:56:53] Totales en MongoDB -> paises: 234, ediciones: 64, atletas: 244540
+[2026-10-23 21:56:53] FIN migración. Duración: 29.2 s. Bitácora: D:\bccas\USAC\ProyectoBases\Bases2-grupo-1\fase3\logs\carga_20261023_215623.log
+==================================================
+[2026-10-23 21:56:54] 4. Ejecutando verificaciÃ³n integral
+==================================================
+[2026-10-23 21:56:55] INICIO verificación de olimpiadas_fase3 en mongodb://localhost:27017/
+[2026-10-23 21:56:55] OK   conexión MongoDB
+[2026-10-23 21:56:55] OK   exactamente tres colecciones: ['atletas', 'ediciones', 'paises']
+[2026-10-23 21:56:55] OK   conteos de documentos: {'paises': 234, 'ediciones': 64, 'atletas': 244540}
+[2026-10-23 21:56:55] OK   validador JSON de paises
+[2026-10-23 21:56:55] OK   índices de paises: ['_id_', 'nombre_busqueda_1', 'nombre_pais_1']
+[2026-10-23 21:56:55] OK   validador JSON de ediciones
+[2026-10-23 21:56:55] OK   índices de ediciones: ['_id_', 'anio_1_temporada_1', 'pais_sede_id_1']
+[2026-10-23 21:56:55] OK   validador JSON de atletas
+[2026-10-23 21:56:55] OK   índices de atletas: ['_id_', 'nombre_busqueda_1', 'nombre_completo_1', 'nombre_usado_1', 'pais_origen_id_1', 'part_anio_1', 'part_deporte_1', 'part_medalla_1', 'part_pais_1']
+[2026-10-23 21:56:55] OK   participaciones consolidadas: 534950
+[2026-10-23 21:56:55] OK   atletas sin participación documentados
+[2026-10-23 21:57:00] OK   sin participaciones exactas duplicadas: []
+[2026-10-23 21:57:01] OK   países representados sin referencias huérfanas: []
+[2026-10-23 21:57:02] OK   todas las participaciones tienen país representado: 0
+[2026-10-23 21:57:02] OK   corrección LBN -> LIB conserva atleta y participación
+[2026-10-23 21:57:02] OK   Usain Bolt: 8 oros
+[2026-10-23 21:57:02] OK   Michael Phelps: 23/3/2
+[2026-10-23 21:57:02] OK   Simone Biles 2016: 4 oros y 1 bronce
+[2026-10-23 21:57:02] OK   Jamaica: historial 37/48/36
+[2026-10-23 21:57:02] OK   Guatemala 2024: 1 oro y 1 bronce
+[2026-10-23 21:57:02] OK   Estados Unidos: 8 ediciones sede: 8
+[2026-10-23 21:57:02] OK   correcciones de ciudad sede
+[2026-10-23 21:57:02] OK   búsqueda de atleta usa índice
+[2026-10-23 21:57:02] OK   búsqueda por país usa índice multikey
+[2026-10-23 21:57:03] OK   CLI atleta con filtros y JSON
+[2026-10-23 21:57:04] OK   CLI país con filtro y JSON
+[2026-10-23 21:57:04] FIN: 26 pruebas correctas, 0 fallidas, duración 9.3 s
+[2026-10-23 21:57:04] RESULTADO FINAL: APROBADO. Evidencia: D:\bccas\USAC\ProyectoBases\Bases2-grupo-1\fase3\logs\verificacion_fase3.log
+==================================================
+[2026-10-23 21:57:05] 5. Abriendo terminal interactiva de MongoDB
+==================================================
+Sin terminal interactiva; MongoDB sigue ejecutÃ¡ndose en segundo plano.
+ConÃ©ctate con: docker exec -it proyecto_fase3 mongosh olimpiadas_fase3
